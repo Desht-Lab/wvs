@@ -1,0 +1,988 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WVS Question Network</title>
+  <script src="https://cdn.jsdelivr.net/npm/d3plus@2"></script>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #d1d5db;
+      --accent: #376C8A;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .header {
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 0 16px;
+      border-bottom: 1px solid var(--border);
+      background: var(--panel);
+    }
+
+    .title { font-size: 16px; font-weight: 600; letter-spacing: 0.2px; }
+    .status { font-size: 13px; color: var(--muted); text-align: right; }
+
+    .viz-shell {
+      height: calc(100vh - 64px);
+      padding: 10px;
+      background: var(--bg);
+    }
+
+    .layout {
+      height: 100%;
+      display: grid;
+      grid-template-columns: 300px minmax(0, 1fr);
+      gap: 10px;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .filter-panel {
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    .filter-header {
+      padding: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .filter-title { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+
+    .filter-help,
+    .filter-summary {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+
+    .filter-summary { margin-top: 6px; }
+
+    .filter-controls {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+      display: grid;
+      gap: 10px;
+    }
+
+    .filter-search {
+      width: 100%;
+      padding: 9px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font: inherit;
+      color: var(--text);
+      background: #ffffff;
+    }
+
+    .filter-actions { display: flex; gap: 8px; }
+
+    .filter-inline {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .filter-button {
+      flex: 1;
+      padding: 8px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: #ffffff;
+      color: var(--text);
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .filter-button:hover { background: #f9fafb; }
+    .filter-button-small { min-width: 72px; }
+
+    /* ── cluster filter section ── */
+    .cluster-filter-section {
+      flex: 0 0 auto;
+      padding: 10px 14px 12px;
+      border-bottom: 1px solid var(--border);
+      background: #f9fafb;
+    }
+
+    .cluster-filter-title {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .cluster-filter-clear {
+      font-size: 11px;
+      font-weight: 400;
+      color: var(--accent);
+      cursor: pointer;
+      text-transform: none;
+      letter-spacing: 0;
+      border: none;
+      background: none;
+      padding: 0;
+      font-family: inherit;
+    }
+
+    .cluster-filter-clear:hover { text-decoration: underline; }
+
+    .cluster-chips {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .cluster-chip {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: 1.5px solid transparent;
+      cursor: pointer;
+      font-size: 12px;
+      line-height: 1.35;
+      color: var(--text);
+      background: #ffffff;
+      transition: background 0.1s;
+      user-select: none;
+    }
+
+    .cluster-chip:hover { background: #f3f4f6; }
+
+    .cluster-chip.active {
+      border-color: currentColor;
+      background: #ffffff;
+    }
+
+    .cluster-chip-swatch {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex: 0 0 auto;
+    }
+
+    .cluster-chip-name {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .cluster-chip-count {
+      flex: 0 0 auto;
+      font-size: 11px;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* ── node list ── */
+    .filter-list {
+      flex: 1;
+      min-height: 0;
+      overflow: auto;
+      padding: 8px;
+      display: grid;
+      gap: 6px;
+      align-content: start;
+    }
+
+    .filter-item {
+      display: grid;
+      grid-template-columns: 16px minmax(0, 1fr);
+      gap: 10px;
+      align-items: start;
+      padding: 8px 10px;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      background: #ffffff;
+      cursor: pointer;
+    }
+
+    .filter-item:hover { background: #f9fafb; }
+    .filter-item input { margin: 2px 0 0; }
+
+    .filter-item-id {
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 1.3;
+      color: var(--text);
+      word-break: break-word;
+    }
+
+    .filter-item-label {
+      margin-top: 2px;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.35;
+      word-break: break-word;
+    }
+
+    .filter-empty { padding: 10px; font-size: 12px; color: var(--muted); }
+
+    #viz {
+      width: 100%;
+      height: 100%;
+      background: var(--panel);
+      border: 0;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    @media (max-width: 900px) {
+      .layout {
+        grid-template-columns: 1fr;
+        grid-template-rows: 260px minmax(0, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="title">Index SDG Network</div>
+    <div id="status" class="status">Loading data...</div>
+  </div>
+  <div class="viz-shell">
+    <div class="layout">
+      <aside class="panel filter-panel">
+        <div class="filter-header">
+          <div class="filter-title">Фильтр</div>
+          <div class="filter-help"></div>
+          <div id="filter-summary" class="filter-summary">Загрузка...</div>
+        </div>
+
+        <div class="filter-controls">
+          <!-- Country filter -->
+          <div class="filter-inline">
+            <input id="country-filter" class="filter-search" type="search"
+                   list="country-filter-options" placeholder="Поиск страны">
+            <button id="clear-country-filter" class="filter-button filter-button-small"
+                    type="button">Очистить</button>
+          </div>
+          <datalist id="country-filter-options"></datalist>
+
+          <!-- Year filter (hidden: spec_df_base.csv has no time dimension) -->
+          <div class="filter-inline" id="year-filter-row" style="display:none">
+            <input id="year-filter" class="filter-search" type="search"
+                   list="year-filter-options" placeholder="Поиск года">
+            <button id="clear-year-filter" class="filter-button filter-button-small"
+                    type="button">Очистить</button>
+          </div>
+          <datalist id="year-filter-options"></datalist>
+
+          <!-- Node search -->
+          <input id="node-search" class="filter-search" type="search"
+                 placeholder="Поиск по индексу">
+
+          <div class="filter-actions">
+            <button id="select-visible" class="filter-button" type="button">Показать выбранные</button>
+            <button id="clear-selection" class="filter-button" type="button">Показать все</button>
+          </div>
+        </div>
+
+        <!-- Cluster filter chips -->
+        <div class="cluster-filter-section">
+          <div class="cluster-filter-title">
+            <span>Кластер</span>
+            <button id="clear-cluster-filter" class="cluster-filter-clear" type="button">Сбросить</button>
+          </div>
+          <div id="cluster-chips" class="cluster-chips"></div>
+        </div>
+
+        <div id="node-filter-list" class="filter-list"></div>
+      </aside>
+
+      <div id="viz" class="panel"></div>
+    </div>
+  </div>
+
+  <script>
+    const state = {
+      allNodes: [],
+      allLinks: [],
+      // Map: "countryId|year" → Set<indicatorId>
+      countryIndicatorMap: new Map(),
+      countryNameMap: new Map(),
+      countryLookup: new Map(),
+      // Map: indicatorId → clusterName (from spec_dynamics05052026.csv)
+      indicatorClusterMap: new Map(),
+      // Ordered list of unique clusters: [{ name, color }]
+      clusterList: [],
+      availableYears: [],
+      selectedCountryId: "",
+      selectedYear: null,
+      selectedNodeIds: new Set(),
+      selectedClusters: new Set(),   // set of cluster names
+      visibleNodeIds: []
+    };
+
+    const mutedNodeColor = "#c7cdd6";
+
+    /* ── helpers ── */
+    function num(value, fallback) {
+      const parsed = Number(value);
+      return Number.isFinite(parsed) ? parsed : fallback;
+    }
+
+    function formatTooltipText(value) {
+      return String(value || "").replace(/<br\s*\/?>/gi, " | ").replace(/\s+/g, " ").trim();
+    }
+
+    function getNodeSortNumber(nodeId) {
+      const sdgMatch = String(nodeId || "").match(/sdg(\d+)/i);
+      if (sdgMatch) return Number(sdgMatch[1]);
+      const anyNumberMatch = String(nodeId || "").match(/(\d+)/);
+      return anyNumberMatch ? Number(anyNumberMatch[1]) : Number.POSITIVE_INFINITY;
+    }
+
+    function compareNodesByIdNumber(a, b) {
+      const aNum = getNodeSortNumber(a.id);
+      const bNum = getNodeSortNumber(b.id);
+      if (aNum !== bNum) return aNum - bNum;
+      return a.id.localeCompare(b.id, undefined, { numeric: true });
+    }
+
+    function extractId(datum) {
+      if (!datum || typeof datum !== "object") return "";
+      if (typeof datum.id === "string") return datum.id;
+      if (datum.data && typeof datum.data.id === "string") return datum.data.id;
+      const meta = datum.__d3plus__;
+      if (!meta) return "";
+      if (typeof meta.id === "string") return meta.id;
+      if (meta.data && typeof meta.data.id === "string") return meta.data.id;
+      if (Array.isArray(meta.ids) && meta.ids.length) return String(meta.ids[0]);
+      return "";
+    }
+
+    /* ── SVG label / edge helpers ── */
+    function drawTopIdLabels() {
+      const svg = document.querySelector("#viz svg");
+      if (!svg) return;
+      svg.querySelectorAll("text.force-id-label").forEach((n) => n.remove());
+      svg.querySelectorAll("circle").forEach((circle) => {
+        const parent = circle.parentNode;
+        if (!parent || parent.nodeName.toLowerCase() !== "g") return;
+        const id = extractId(circle.__data__) || extractId(parent.__data__);
+        if (!id) return;
+        const cx = Number(circle.getAttribute("cx") || 0);
+        const cy = Number(circle.getAttribute("cy") || 0);
+        const r  = Number(circle.getAttribute("r")  || 0);
+        const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+        label.setAttribute("class", "force-id-label");
+        label.setAttribute("x", String(cx));
+        label.setAttribute("y", String(cy - r - 4));
+        label.setAttribute("text-anchor", "middle");
+        label.setAttribute("dominant-baseline", "alphabetic");
+        label.setAttribute("font-family", "Segoe UI, Tahoma, sans-serif");
+        label.setAttribute("font-size", "9");
+        label.setAttribute("fill", "#1f2937");
+        label.setAttribute("stroke", "#ffffff");
+        label.setAttribute("stroke-width", "2");
+        label.setAttribute("paint-order", "stroke");
+        label.style.pointerEvents = "none";
+        label.textContent = id;
+        parent.appendChild(label);
+      });
+    }
+
+    function thickenEdges() {
+      const svg = document.querySelector("#viz svg");
+      if (!svg) return;
+      svg.querySelectorAll("path, line").forEach((edge) => {
+        edge.style.stroke = "#BFBFBF";
+        edge.style.strokeWidth = "3.5px";
+        edge.style.opacity = "0.95";
+      });
+    }
+
+    function scheduleLabelRedraw() {
+      setTimeout(() => { thickenEdges(); drawTopIdLabels(); }, 80);
+      setTimeout(() => { thickenEdges(); drawTopIdLabels(); }, 300);
+    }
+
+    /* ── CSV parsers ── */
+    function parseEdgesCsv(csvText, validNodeIds) {
+      const rows = csvText.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+      if (!rows.length) return [];
+      const headers = rows[0].split(",").map((h) => h.trim());
+      const uIdx   = headers.indexOf("u");
+      const vIdx   = headers.indexOf("v");
+      const simIdx = headers.indexOf("sim");
+      if (uIdx < 0 || vIdx < 0) throw new Error("edges.csv must include u and v columns");
+      const links = [];
+      const seen  = new Set();
+      for (let i = 1; i < rows.length; i++) {
+        const cols  = rows[i].split(",");
+        const rawU  = (cols[uIdx]  || "").trim();
+        const rawV  = (cols[vIdx]  || "").trim();
+        const sim   = simIdx >= 0 ? num(cols[simIdx], 0) : 0;
+        if (!rawU || !rawV || rawU === rawV) continue;
+        if (!validNodeIds.has(rawU) || !validNodeIds.has(rawV)) continue;
+        const source = rawU < rawV ? rawU : rawV;
+        const target = rawU < rawV ? rawV : rawU;
+        const key    = source + "|" + target;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        links.push({ source, target, sim, weight: sim });
+      }
+      return links;
+    }
+
+    // Synthetic single-snapshot "year": spec_df_base.csv has no time dimension,
+    // so there are no dynamics. We key on this constant to keep the existing
+    // "countryId|year" highlight machinery working unchanged.
+    const SNAPSHOT_YEAR = 2022;
+
+    // spec_df_base.csv is a WIDE country×indicator binary matrix:
+    //   col 0 = B_COUNTRY_ALPHA (country id), cols 1..N = indicator ids,
+    //   cell = m_cp (1 = country specialized in that indicator).
+    // There is no year/cluster/RU-name data in this file.
+    function parseSpecCsv(csvText) {
+      const empty = {
+        countryIndicatorMap: new Map(),
+        countryNameMap: new Map(),
+        indicatorClusterMap: new Map(),
+        availableYears: []
+      };
+      const rows = csvText.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+      if (rows.length < 2) return empty;
+
+      const headers = rows[0].split(",").map((h) => h.trim());
+      if (headers.length < 2) {
+        throw new Error("spec_df_base.csv must have a country column followed by indicator columns");
+      }
+      const indicatorIds = headers.slice(1); // header cols 1..N are indicator ids
+
+      const countryMap        = new Map();  // "countryId|year" → Set<indicatorId>
+      const countryNameMap    = new Map();  // no RU names in this file
+      const indicatorClusterMap = new Map(); // no cluster data in this file
+
+      for (let i = 1; i < rows.length; i++) {
+        const cols      = rows[i].split(",");
+        const countryId = (cols[0] || "").trim();
+        if (!countryId) continue;
+
+        const key = countryId + "|" + SNAPSHOT_YEAR;
+        const set = countryMap.get(key) || new Set();
+        for (let c = 0; c < indicatorIds.length; c++) {
+          if ((cols[c + 1] || "").trim() === "1") set.add(indicatorIds[c]);
+        }
+        countryMap.set(key, set);
+      }
+
+      return {
+        countryIndicatorMap: countryMap,
+        countryNameMap,
+        indicatorClusterMap,
+        availableYears: [SNAPSHOT_YEAR]
+      };
+    }
+
+    /* ── derive clusterList from nodes + indicatorClusterMap ── */
+    function buildClusterList() {
+      // map clusterName → color (from node colors)
+      const clusterColorMap = new Map();
+      state.allNodes.forEach((node) => {
+        const cluster = state.indicatorClusterMap.get(node.id);
+        if (cluster && !clusterColorMap.has(cluster)) {
+          clusterColorMap.set(cluster, node.color);
+        }
+      });
+      // sort clusters alphabetically by name
+      state.clusterList = Array.from(clusterColorMap.entries())
+        .map(([name, color]) => ({ name, color }))
+        .sort((a, b) => a.name.localeCompare(b.name, "ru"));
+    }
+
+    function getClusterFillByCountry() {
+      if (!state.selectedCountryId || state.selectedYear === null) return null;
+
+      const key = state.selectedCountryId + "|" + state.selectedYear;
+      const activeIndicators = state.countryIndicatorMap.get(key) || new Set();
+      const result = {};
+
+      state.clusterList.forEach(({ name }) => {
+        const clusterIndicators = state.allNodes
+          .filter((n) => state.indicatorClusterMap.get(n.id) === name)
+          .map((n) => n.id);
+
+        const total = clusterIndicators.length;
+        const active = clusterIndicators.filter((id) => activeIndicators.has(id)).length;
+
+        result[name] = {
+          active,
+          total,
+          fill: total ? active / total : 0
+        };
+      });
+
+      return result;
+    }
+
+    /* ── cluster filter UI ── */
+    function renderClusterChips() {
+      const container = document.getElementById("cluster-chips");
+      container.innerHTML = "";
+
+      if (!state.clusterList.length) {
+        container.innerHTML = '<div style="font-size:12px;color:var(--muted)">Нет данных о кластерах</div>';
+        return;
+      }
+
+      const fillData = getClusterFillByCountry();
+
+      state.clusterList.forEach(({ name, color }) => {
+        const isActive = state.selectedClusters.has(name);
+
+        const total = state.allNodes.filter(
+          (n) => state.indicatorClusterMap.get(n.id) === name
+        ).length;
+
+        let labelRight = String(total);
+        if (fillData && fillData[name]) {
+          const { active, total: clusterTotal, fill } = fillData[name];
+          labelRight = `${active}/${clusterTotal} (${(fill * 100).toFixed(0)}%)`;
+        }
+
+        const chip = document.createElement("div");
+        chip.className = "cluster-chip" + (isActive ? " active" : "");
+        chip.style.color = color;
+        chip.title = name;
+
+        chip.innerHTML = `
+          <span class="cluster-chip-swatch" style="background:${color}"></span>
+          <span class="cluster-chip-name">${name}</span>
+          <span class="cluster-chip-count">${labelRight}</span>
+        `;
+
+        chip.addEventListener("click", () => {
+          if (state.selectedClusters.has(name)) {
+            state.selectedClusters.delete(name);
+          } else {
+            state.selectedClusters.add(name);
+          }
+          renderClusterChips();
+          renderFilterList();
+          applySelectionColoring();
+        });
+
+        container.appendChild(chip);
+      });
+    }
+
+    /* ── year filter ── */
+    function syncYearFilterInput() {
+      document.getElementById("year-filter").value =
+        state.selectedYear !== null ? String(state.selectedYear) : "";
+    }
+
+    function initYearFilter() {
+      const years = state.availableYears;
+      if (!years.length) return;
+
+      state.selectedYear = years[years.length - 1];
+      syncYearFilterInput();
+
+      const datalist = document.getElementById("year-filter-options");
+      datalist.innerHTML = "";
+      years.forEach((y) => {
+        const option = document.createElement("option");
+        option.value = String(y);
+        datalist.appendChild(option);
+      });
+
+      const yearInput = document.getElementById("year-filter");
+
+      const applyYearFilter = () => {
+        const raw = yearInput.value.trim();
+        if (!raw) { state.selectedYear = null; applySelectionColoring(); return; }
+        const parsed = Number(raw);
+        if (!Number.isFinite(parsed) || !years.includes(parsed)) return;
+        state.selectedYear = parsed;
+        syncYearFilterInput();
+        applySelectionColoring();
+      };
+
+      yearInput.addEventListener("change", applyYearFilter);
+      yearInput.addEventListener("input", () => {
+        if (!yearInput.value.trim()) { state.selectedYear = null; applySelectionColoring(); }
+      });
+
+      document.getElementById("clear-year-filter").addEventListener("click", () => {
+        state.selectedYear = null;
+        syncYearFilterInput();
+        applySelectionColoring();
+      });
+    }
+
+    /* ── highlight logic ── */
+    function getCountryHighlightedIds() {
+      if (!state.selectedCountryId || state.selectedYear === null) return new Set();
+      const key     = state.selectedCountryId + "|" + state.selectedYear;
+      const matched = state.countryIndicatorMap.get(key);
+      return matched ? new Set(matched) : new Set();
+    }
+
+    function getClusterNodeIds() {
+      if (!state.selectedClusters.size) return null; // null = no cluster filter active
+      const ids = new Set();
+      state.allNodes.forEach((n) => {
+        const cluster = state.indicatorClusterMap.get(n.id);
+        if (cluster && state.selectedClusters.has(cluster)) ids.add(n.id);
+      });
+      return ids;
+    }
+
+    function getCombinedHighlightedIds() {
+      const countryIds  = getCountryHighlightedIds();
+      const clusterIds  = getClusterNodeIds(); // null if no cluster selected
+      const manualIds   = state.selectedNodeIds;
+
+      // If nothing is active at all, return empty (show all)
+      if (!countryIds.size && !clusterIds && !manualIds.size) return new Set();
+
+      // Start from country highlights + manual
+      const highlighted = new Set(countryIds);
+      manualIds.forEach((id) => highlighted.add(id));
+
+      // If cluster filter is active, intersect:
+      // keep only nodes that are also in the selected clusters
+      if (clusterIds) {
+        if (highlighted.size) {
+          // intersection: country/manual ∩ cluster
+          highlighted.forEach((id) => {
+            if (!clusterIds.has(id)) highlighted.delete(id);
+          });
+        } else {
+          // no country/manual selected — show all nodes in selected clusters
+          clusterIds.forEach((id) => highlighted.add(id));
+        }
+      }
+
+      return highlighted;
+    }
+
+    /* ── country filter UI ── */
+    function getCountryDisplayLabel(countryId) {
+      const nameRu = state.countryNameMap.get(countryId);
+      return nameRu ? nameRu + " (" + countryId + ")" : countryId;
+    }
+
+    function syncCountryFilterInput() {
+      document.getElementById("country-filter").value =
+        state.selectedCountryId ? getCountryDisplayLabel(state.selectedCountryId) : "";
+    }
+
+    function populateCountryFilter() {
+      const datalist = document.getElementById("country-filter-options");
+      const countryIds = new Set();
+      state.countryIndicatorMap.forEach((_, key) => {
+        countryIds.add(key.split("|")[0]);
+      });
+      const countries = Array.from(countryIds).sort((a, b) =>
+        getCountryDisplayLabel(a).localeCompare(getCountryDisplayLabel(b), "ru")
+      );
+      datalist.innerHTML = "";
+      state.countryLookup.clear();
+      countries.forEach((countryId) => {
+        const option = document.createElement("option");
+        const label  = getCountryDisplayLabel(countryId);
+        option.value = label;
+        datalist.appendChild(option);
+        state.countryLookup.set(label, countryId);
+        state.countryLookup.set(countryId, countryId);
+      });
+      syncCountryFilterInput();
+    }
+
+    /* ── status / summary ── */
+    function updateStatus() {
+      const countryText        = state.selectedCountryId ? getCountryDisplayLabel(state.selectedCountryId) : "none";
+      const countryHighlighted = getCountryHighlightedIds().size;
+      const clusterText        = state.selectedClusters.size
+        ? Array.from(state.selectedClusters).join(", ")
+        : "none";
+      document.getElementById("status").textContent =
+        "Nodes: " + state.allNodes.length +
+        " | Edges: " + state.allLinks.length +
+        " | Country: " + countryText +
+        " | Year: " + (state.selectedYear ?? "—") +
+        " | m_cp=1: " + countryHighlighted +
+        " | Cluster: " + (state.selectedClusters.size || "none") +
+        " | Manual: " + (state.selectedNodeIds.size || "none");
+    }
+
+    function updateFilterSummary() {
+      const summary            = document.getElementById("filter-summary");
+      const countryText        = state.selectedCountryId ? getCountryDisplayLabel(state.selectedCountryId) : "—";
+      const countryHighlighted = getCountryHighlightedIds().size;
+      const highlighted        = getCombinedHighlightedIds();
+      if (!state.allNodes.length) { summary.textContent = "Loading nodes..."; return; }
+
+      const parts = [];
+      if (state.selectedCountryId) parts.push("Страна: " + countryText + " | m_cp=1: " + countryHighlighted);
+      if (state.selectedYear !== null && state.selectedCountryId) parts.push("Год: " + state.selectedYear);
+      if (state.selectedClusters.size) parts.push("Кластеры: " + state.selectedClusters.size);
+      if (state.selectedNodeIds.size) parts.push("Выбрано вручную: " + state.selectedNodeIds.size);
+      if (!parts.length) {
+        summary.textContent = "Ничего не выбрано. " + state.visibleNodeIds.length + " узлов в списке.";
+      } else {
+        summary.textContent = parts.join(" | ") + " → подсвечено: " + highlighted.size;
+      }
+    }
+
+    /* ── network render ── */
+    function getDisplayNodes() {
+      const highlightedIds = getCombinedHighlightedIds();
+      if (!highlightedIds.size) return state.allNodes.map((n) => ({ ...n, displayColor: n.color }));
+      return state.allNodes.map((n) => ({
+        ...n,
+        displayColor: highlightedIds.has(n.id) ? n.color : mutedNodeColor
+      }));
+    }
+
+    function renderNetwork(nodes, links) {
+      const viz = document.getElementById("viz");
+      viz.innerHTML = "";
+      new d3plus.Network()
+        .select("#viz")
+        .nodes(nodes)
+        .links(links)
+        .x("x")
+        .y("y")
+        .size((d) => (d.size ? +d.size * 1.05 : 5))
+        .sizeMin(2)
+        .sizeMax(14)
+        .label(() => "")
+        .shapeConfig({
+          fill: (d) => d.displayColor || d.color,
+          stroke: "#ffffff",
+          strokeWidth: 1,
+          labelConfig: { fontResize: true, fontSize: 11, padding: 0 }
+        })
+        .tooltipConfig({
+          width: 520,
+          title: (d) => d.label || d.id,
+          titleStyle: { "max-width": "100%", "white-space": "normal", "word-break": "break-word", "line-height": "1.35" },
+          body: (d) => formatTooltipText(d.title),
+          bodyStyle: { "max-width": "100%", "white-space": "normal", "word-break": "break-word", "line-height": "1.4", "margin-top": "8px" },
+          tableStyle: { width: "100%", "table-layout": "auto" },
+          tdStyle: { "white-space": "normal", "word-break": "break-word", "vertical-align": "top", "line-height": "1.35" },
+          tbody: [["ID", (d) => d.id]]
+        })
+        .render();
+      updateStatus();
+      scheduleLabelRedraw();
+    }
+
+    function applySelectionColoring() {
+      renderNetwork(getDisplayNodes(), state.allLinks);
+      renderClusterChips();
+      updateFilterSummary();
+    }
+
+    /* ── filter list (respects cluster filter) ── */
+    function createFilterItem(node) {
+      const item  = document.createElement("label");
+      item.className = "filter-item";
+      item.title     = node.label || node.id;
+
+      const input = document.createElement("input");
+      input.type    = "checkbox";
+      input.value   = node.id;
+      input.checked = state.selectedNodeIds.has(node.id);
+      input.addEventListener("change", () => {
+        if (input.checked) state.selectedNodeIds.add(node.id);
+        else state.selectedNodeIds.delete(node.id);
+        applySelectionColoring();
+      });
+
+      const textWrap = document.createElement("div");
+      const idText   = document.createElement("div");
+      idText.className   = "filter-item-id";
+      idText.textContent = node.id;
+      textWrap.appendChild(idText);
+
+      if (node.label && node.label !== node.id) {
+        const labelText   = document.createElement("div");
+        labelText.className   = "filter-item-label";
+        labelText.textContent = node.label;
+        textWrap.appendChild(labelText);
+      }
+
+      item.appendChild(input);
+      item.appendChild(textWrap);
+      return item;
+    }
+
+    function renderFilterList() {
+      const list  = document.getElementById("node-filter-list");
+      const query = document.getElementById("node-search").value.trim().toLowerCase();
+      list.innerHTML = "";
+
+      const matchingNodes = state.allNodes.filter((node) => {
+        // text search
+        if (query) {
+          const matchesText = node.id.toLowerCase().includes(query) ||
+                              (node.label || "").toLowerCase().includes(query);
+          if (!matchesText) return false;
+        }
+        // cluster filter: if clusters selected, only show nodes in those clusters
+        if (state.selectedClusters.size) {
+          const cluster = state.indicatorClusterMap.get(node.id);
+          if (!cluster || !state.selectedClusters.has(cluster)) return false;
+        }
+        return true;
+      });
+
+      state.visibleNodeIds = matchingNodes.map((n) => n.id);
+
+      if (!matchingNodes.length) {
+        const empty = document.createElement("div");
+        empty.className   = "filter-empty";
+        empty.textContent = "Нет узлов, соответствующих фильтру.";
+        list.appendChild(empty);
+        updateFilterSummary();
+        return;
+      }
+
+      matchingNodes.forEach((node) => list.appendChild(createFilterItem(node)));
+      updateFilterSummary();
+    }
+
+    /* ── main ── */
+    async function main() {
+      document.getElementById("status").textContent = "Loading nodes.json, edges.csv, and spec_dynamics05052026.csv...";
+
+      const [nodesRes, edgesRes, specRes] = await Promise.all([
+        fetch("nodes_maxprox06.json",   { cache: "no-store" }),
+        fetch("edges__maxprox06.csv",   { cache: "no-store" }),
+        fetch("spec_df_base.csv",          { cache: "no-store" })
+      ]);
+
+      if (!nodesRes.ok) throw new Error("Could not load nodes_07_3_wdeleted.json");
+      if (!edgesRes.ok) throw new Error("Could not load edges_07_33_wdeleted.csv");
+      if (!specRes.ok)  throw new Error("Could not load spec_dynamics05052026.csv");
+
+      const rawNodes = await nodesRes.json();
+      const edgesCsv = await edgesRes.text();
+      const specCsv  = await specRes.text();
+
+      const nodes = rawNodes.filter((d) => d && d.id).map((d) => ({
+        id:    d.id,
+        label: d.label || d.id,
+        title: d.title || "",
+        x:     num(d.x, 0),
+        y:     num(d.y, 0),
+        size:  num(d.size, 5),
+        color: d.color || "#4e79a7",
+        value: num(d.value, 0)
+      }));
+
+      const validNodeIds = new Set(nodes.map((n) => n.id));
+      const links        = parseEdgesCsv(edgesCsv, validNodeIds);
+      const specData     = parseSpecCsv(specCsv);
+
+      state.allNodes            = nodes.slice().sort(compareNodesByIdNumber);
+      state.allLinks            = links;
+      state.countryIndicatorMap = specData.countryIndicatorMap;
+      state.countryNameMap      = specData.countryNameMap;
+      state.indicatorClusterMap = specData.indicatorClusterMap;
+      state.availableYears      = specData.availableYears;
+
+      buildClusterList();
+      populateCountryFilter();
+      initYearFilter();
+      renderClusterChips();
+
+      // Cluster clear button
+      document.getElementById("clear-cluster-filter").addEventListener("click", () => {
+        state.selectedClusters.clear();
+        renderClusterChips();
+        renderFilterList();
+        applySelectionColoring();
+      });
+
+      // Country filter events
+      const countryFilter = document.getElementById("country-filter");
+      const applyCountryFilter = () => {
+        const rawValue = countryFilter.value.trim();
+        if (!rawValue) { state.selectedCountryId = ""; applySelectionColoring(); return; }
+        const matched = state.countryLookup.get(rawValue);
+        if (!matched) return;
+        state.selectedCountryId = matched;
+        syncCountryFilterInput();
+        applySelectionColoring();
+      };
+
+      countryFilter.addEventListener("change", applyCountryFilter);
+      countryFilter.addEventListener("input", () => {
+        if (!countryFilter.value.trim()) { state.selectedCountryId = ""; applySelectionColoring(); }
+      });
+      document.getElementById("clear-country-filter").addEventListener("click", () => {
+        state.selectedCountryId = "";
+        syncCountryFilterInput();
+        applySelectionColoring();
+      });
+
+      document.getElementById("node-search").addEventListener("input", renderFilterList);
+
+      document.getElementById("select-visible").addEventListener("click", () => {
+        state.visibleNodeIds.forEach((id) => state.selectedNodeIds.add(id));
+        renderFilterList();
+        applySelectionColoring();
+      });
+
+      document.getElementById("clear-selection").addEventListener("click", () => {
+        state.selectedCountryId = "";
+        state.selectedNodeIds.clear();
+        state.selectedClusters.clear();
+        syncCountryFilterInput();
+        renderClusterChips();
+        renderFilterList();
+        applySelectionColoring();
+      });
+
+      renderFilterList();
+      applySelectionColoring();
+
+      window.addEventListener("resize", () => setTimeout(drawTopIdLabels, 120));
+      document.getElementById("viz").addEventListener("mouseup",  () => setTimeout(drawTopIdLabels, 90));
+      document.getElementById("viz").addEventListener("wheel",    () => setTimeout(drawTopIdLabels, 90), { passive: true });
+    }
+
+    main().catch((err) => {
+      document.getElementById("status").textContent = "Error: " + err.message;
+      console.error(err);
+    });
+  </script>
+</body>
+</html>

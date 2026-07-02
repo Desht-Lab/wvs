@@ -267,7 +267,7 @@
 </head>
 <body>
   <div class="header">
-    <div class="title">WVS trait network</div>
+    <div class="title">Index SDG Network</div>
     <div id="status" class="status">Loading data...</div>
   </div>
   <div class="viz-shell">
@@ -459,9 +459,11 @@
     // "countryId|year" highlight machinery working unchanged.
     const SNAPSHOT_YEAR = 2022;
 
-    // spec_df_base.csv is a WIDE country×indicator binary matrix:
-    //   col 0 = B_COUNTRY_ALPHA (country id), cols 1..N = indicator ids,
-    //   cell = m_cp (1 = country specialized in that indicator).
+    // spec_df_base.csv is a WIDE country×trait binary matrix:
+    //   col 0 = B_COUNTRY_ALPHA (country id), cols 1..N = trait ids (may be
+    //   wider than the network: e.g. 688 traits while only 266 are nodes —
+    //   extra traits are simply never matched against network nodes).
+    //   cell = m_cp; treated as 1 if "1", "1.0", "true" or any number > 0.
     // There is no year/cluster/RU-name data in this file.
     function parseSpecCsv(csvText) {
       const empty = {
@@ -470,14 +472,24 @@
         indicatorClusterMap: new Map(),
         availableYears: []
       };
+      const stripCell = (s) =>
+        (s || "").replace(/^\uFEFF/, "").trim().replace(/^"(.*)"$/, "$1").trim();
+      const isOne = (s) => {
+        const v = stripCell(s);
+        if (!v) return false;
+        if (v === "1" || v.toLowerCase() === "true") return true;
+        const n = Number(v);
+        return Number.isFinite(n) && n > 0;
+      };
+
       const rows = csvText.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
       if (rows.length < 2) return empty;
 
-      const headers = rows[0].split(",").map((h) => h.trim());
+      const headers = rows[0].split(",").map(stripCell);
       if (headers.length < 2) {
-        throw new Error("spec_df_base.csv must have a country column followed by indicator columns");
+        throw new Error("spec_df_base.csv must have a country column followed by trait columns");
       }
-      const indicatorIds = headers.slice(1); // header cols 1..N are indicator ids
+      const indicatorIds = headers.slice(1); // header cols 1..N are trait ids
 
       const countryMap        = new Map();  // "countryId|year" → Set<indicatorId>
       const countryNameMap    = new Map();  // no RU names in this file
@@ -485,13 +497,13 @@
 
       for (let i = 1; i < rows.length; i++) {
         const cols      = rows[i].split(",");
-        const countryId = (cols[0] || "").trim();
+        const countryId = stripCell(cols[0]);
         if (!countryId) continue;
 
         const key = countryId + "|" + SNAPSHOT_YEAR;
         const set = countryMap.get(key) || new Set();
         for (let c = 0; c < indicatorIds.length; c++) {
-          if ((cols[c + 1] || "").trim() === "1") set.add(indicatorIds[c]);
+          if (isOne(cols[c + 1])) set.add(indicatorIds[c]);
         }
         countryMap.set(key, set);
       }
@@ -573,7 +585,9 @@
         const chip = document.createElement("div");
         chip.className = "cluster-chip" + (isActive ? " active" : "");
         chip.style.color = color;
-        chip.title = name;
+        chip.title = fillData && fillData[name]
+          ? `${name}: у страны m_cp=1 по ${fillData[name].active} из ${fillData[name].total} узлов кластера на сети`
+          : name;
 
         chip.innerHTML = `
           <span class="cluster-chip-swatch" style="background:${color}"></span>

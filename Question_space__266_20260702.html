@@ -519,7 +519,7 @@
       // sort clusters alphabetically by name
       state.clusterList = Array.from(clusterColorMap.entries())
         .map(([name, color]) => ({ name, color }))
-        .sort((a, b) => a.name.localeCompare(b.name, "ru"));
+        .sort((a, b) => a.name.localeCompare(b.name, "ru", { numeric: true }));
     }
 
     function getClusterFillByCountry() {
@@ -897,14 +897,15 @@
       const specCsv  = await specRes.text();
 
       const nodes = rawNodes.filter((d) => d && d.id).map((d) => ({
-        id:    d.id,
-        label: d.label || d.id,
-        title: d.title || "",
-        x:     num(d.x, 0),
-        y:     num(d.y, 0),
-        size:  num(d.size, 5),
-        color: d.color || "#4e79a7",
-        value: num(d.value, 0)
+        id:      d.id,
+        label:   d.label || d.id,
+        title:   d.title || "",
+        x:       num(d.x, 0),
+        y:       num(d.y, 0),
+        size:    num(d.size, 5),
+        color:   d.color || "#4e79a7",
+        value:   num(d.value, 0),
+        cluster: String(d.cluster || "").trim()   // читается напрямую из nodes JSON
       }));
 
       const validNodeIds = new Set(nodes.map((n) => n.id));
@@ -916,6 +917,12 @@
       state.countryIndicatorMap = specData.countryIndicatorMap;
       state.countryNameMap      = specData.countryNameMap;
       state.indicatorClusterMap = specData.indicatorClusterMap;
+      // spec_df_base.csv carries no cluster column — derive clusters from the nodes themselves
+      if (!state.indicatorClusterMap.size) {
+        const fromNodes = new Map();
+        nodes.forEach((n) => { if (n.cluster) fromNodes.set(n.id, n.cluster); });
+        state.indicatorClusterMap = fromNodes;
+      }
       state.availableYears      = specData.availableYears;
 
       buildClusterList();

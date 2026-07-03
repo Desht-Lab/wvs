@@ -123,13 +123,18 @@
 
     /* ── cluster filter section ── */
     .cluster-filter-section {
-      flex: 0 0 auto;
+      flex: 1 1 auto;               /* займёт всё оставшееся место панели */
+      min-height: 0;                /* критично: разрешает сжатие внутри flex */
+      display: flex;
+      flex-direction: column;
       padding: 10px 14px 12px;
       border-bottom: 1px solid var(--border);
       background: #f9fafb;
+      overflow: hidden;             /* заголовок фиксирован, скроллит внутренний список */
     }
 
     .cluster-filter-title {
+      flex: 0 0 auto;
       font-size: 12px;
       font-weight: 600;
       color: var(--muted);
@@ -160,6 +165,10 @@
       display: flex;
       flex-direction: column;
       gap: 5px;
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow-y: auto;             /* ← вот здесь и появляется прокрутка */
+      padding-right: 4px;           /* чтобы скроллбар не наезжал на чипы */
     }
 
     .cluster-chip {
@@ -473,7 +482,7 @@
         availableYears: []
       };
       const stripCell = (s) =>
-        (s || "").replace(/^\uFEFF/, "").trim().replace(/^"(.*)"$/, "$1").trim();
+        (s || "").replace(/^﻿/, "").trim().replace(/^"(.*)"$/, "$1").trim();
       const isOne = (s) => {
         const v = stripCell(s);
         if (!v) return false;

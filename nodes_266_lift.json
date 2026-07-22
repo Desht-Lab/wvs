@@ -1,7 +1,7 @@
 [
   {
     "id": "Q106__middle",
-    "label": "Income equality vs larger income differences_4-7",
+    "label": "Q106__middle",
     "color": "#CE8FB4",
     "shape": "dot",
     "size": 6.0,
@@ -13,7 +13,7 @@
   },
   {
     "id": "Q107__middle",
-    "label": "Private vs state ownership of business_4-7",
+    "label": "Q107__middle",
     "color": "#CE8FB4",
     "shape": "dot",
     "size": 6.0,
@@ -25,7 +25,7 @@
   },
   {
     "id": "Q108__middle",
-    "label": "Government´s vs individual´s responsibility_4-7",
+    "label": "Q108__middle",
     "color": "#CE8FB4",
     "shape": "dot",
     "size": 6.0,
@@ -37,7 +37,7 @@
   },
   {
     "id": "Q90__middle",
-    "label": "Should international organizations prioritize, being effective or being democratic_4-7",
+    "label": "Q90__middle",
     "color": "#CE8FB4",
     "shape": "dot",
     "size": 6.0,
@@ -49,7 +49,7 @@
   },
   {
     "id": "Q161__middle",
-    "label": "One of the bad effects of science is that it breaks down people’s ideas of right and wrong_4-7",
+    "label": "Q161__middle",
     "color": "#CE8FB4",
     "shape": "dot",
     "size": 6.0,
@@ -61,7 +61,7 @@
   },
   {
     "id": "Q251__middle",
-    "label": "Democraticness in own country_4-7",
+    "label": "Q251__middle",
     "color": "#CE8FB4",
     "shape": "dot",
     "size": 6.0,
@@ -73,7 +73,7 @@
   },
   {
     "id": "Q48__middle",
-    "label": "How much freedom of choice and control_6-8",
+    "label": "Q48__middle",
     "color": "#CE8FB4",
     "shape": "dot",
     "size": 6.0,
@@ -85,7 +85,7 @@
   },
   {
     "id": "Q49__middle",
-    "label": "Satisfaction with your life_5-7",
+    "label": "Q49__middle",
     "color": "#CE8FB4",
     "shape": "dot",
     "size": 6.0,
@@ -97,7 +97,7 @@
   },
   {
     "id": "Q50__middle",
-    "label": "Satisfaction with financial situation of household_5-7",
+    "label": "Q50__middle",
     "color": "#CE8FB4",
     "shape": "dot",
     "size": 6.0,
@@ -109,7 +109,7 @@
   },
   {
     "id": "Q109__bottom",
-    "label": "Competition good or harmful_1-3",
+    "label": "Q109__bottom",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -121,7 +121,7 @@
   },
   {
     "id": "Q110__bottom",
-    "label": "Hard work brings success_1-3",
+    "label": "Q110__bottom",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -133,7 +133,7 @@
   },
   {
     "id": "Q163__top",
-    "label": "The world is better off, or worse off, because of science and technology_8-10",
+    "label": "Q163__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -145,7 +145,7 @@
   },
   {
     "id": "Q177__bottom",
-    "label": "Justifiable: Claiming government benefits to which you are not entitled_1-2",
+    "label": "Q177__bottom",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -157,7 +157,7 @@
   },
   {
     "id": "Q178__bottom",
-    "label": "Justifiable: Avoiding a fare on public transport_1-2",
+    "label": "Q178__bottom",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -169,7 +169,7 @@
   },
   {
     "id": "Q238P__top",
-    "label": "Political system: Having a democratic political system_4",
+    "label": "Q238P__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -181,7 +181,7 @@
   },
   {
     "id": "Q242__bottom",
-    "label": "Democracy: Religious authorities interpret the laws._0-3",
+    "label": "Q242__bottom",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -193,7 +193,7 @@
   },
   {
     "id": "Q243__top",
-    "label": "Democracy: People choose their leaders in free elections._8-10",
+    "label": "Q243__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -205,7 +205,7 @@
   },
   {
     "id": "Q244__top",
-    "label": "Democracy: People receive state aid for unemployment._8-10",
+    "label": "Q244__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -217,7 +217,7 @@
   },
   {
     "id": "Q246__top",
-    "label": "Democracy: Civil rights protect people’s liberty against oppression._8-10",
+    "label": "Q246__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -229,7 +229,7 @@
   },
   {
     "id": "Q249__top",
-    "label": "Democracy: Women have the same rights as men._8-10",
+    "label": "Q249__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -241,7 +241,7 @@
   },
   {
     "id": "Q250__top",
-    "label": "Importance of democracy_9-10",
+    "label": "Q250__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -253,7 +253,7 @@
   },
   {
     "id": "Q43P__bottom",
-    "label": "Future changes: Less importance placed on work_1",
+    "label": "Q43P__bottom",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -265,7 +265,7 @@
   },
   {
     "id": "Q111__c1",
-    "label": "Protecting environment vs. Economic growth_Protect environment",
+    "label": "Q111__c1",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -277,7 +277,7 @@
   },
   {
     "id": "Q33P__bottom",
-    "label": "Jobs scarce: Men should have more right to a job than women (5 categories)_1-2",
+    "label": "Q33P__bottom",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -289,7 +289,7 @@
   },
   {
     "id": "Q112__top",
-    "label": "Scale corruption in [my country] - pay a bribe, give a gift, do a favor to other to get things_9-10",
+    "label": "Q112__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -301,7 +301,7 @@
   },
   {
     "id": "Q116__top",
-    "label": "Groups of people involved in corruption: Civil service providers (police, judiciary, civil servants, doctors, teachers)_3-4",
+    "label": "Q116__top",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -313,7 +313,7 @@
   },
   {
     "id": "Q124__top",
-    "label": "Effects of immigrants on the development of [your country]: Increase the crime rate_2",
+    "label": "Q124__top",
     "color": "#A8A94E",
     "shape": "dot",
     "size": 6.0,
@@ -325,7 +325,7 @@
   },
   {
     "id": "Q126__top",
-    "label": "Effects of immigrants on the development of [your country]: Increase the risks of terrorism_2",
+    "label": "Q126__top",
     "color": "#A8A94E",
     "shape": "dot",
     "size": 6.0,
@@ -337,7 +337,7 @@
   },
   {
     "id": "Q128__top",
-    "label": "Effects of immigrants on the development of [your country]: Increase unemployment_2",
+    "label": "Q128__top",
     "color": "#A8A94E",
     "shape": "dot",
     "size": 6.0,
@@ -349,7 +349,7 @@
   },
   {
     "id": "Q140P",
-    "label": "Things done for reasons of security: Preferred not to go out at night",
+    "label": "Q140P",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -361,7 +361,7 @@
   },
   {
     "id": "Q143P__top",
-    "label": "Worries: Not being able to give one's children a good education_4",
+    "label": "Q143P__top",
     "color": "#3E7D52",
     "shape": "dot",
     "size": 6.0,
@@ -373,7 +373,7 @@
   },
   {
     "id": "Q164__top",
-    "label": "How important is God in your life_8-10",
+    "label": "Q164__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -385,7 +385,7 @@
   },
   {
     "id": "Q169P__top",
-    "label": "Whenever science and religion conflict,  religion is always right_3-4",
+    "label": "Q169P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -397,7 +397,7 @@
   },
   {
     "id": "Q172P__top",
-    "label": "How often to you pray_7-8",
+    "label": "Q172P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -409,7 +409,7 @@
   },
   {
     "id": "Q173P__top",
-    "label": "Religious person_3",
+    "label": "Q173P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -421,7 +421,7 @@
   },
   {
     "id": "Q182__bottom",
-    "label": "Justifiable: Homosexuality_1-3",
+    "label": "Q182__bottom",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -433,7 +433,7 @@
   },
   {
     "id": "Q184__bottom",
-    "label": "Justifiable: Abortion_1-3",
+    "label": "Q184__bottom",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -445,7 +445,7 @@
   },
   {
     "id": "Q187__bottom",
-    "label": "Justifiable: Suicide_1-2",
+    "label": "Q187__bottom",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -457,7 +457,7 @@
   },
   {
     "id": "Q188__bottom",
-    "label": "Justifiable: Euthanasia_1-3",
+    "label": "Q188__bottom",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -469,7 +469,7 @@
   },
   {
     "id": "Q253P__bottom",
-    "label": "Respect for individual human rights nowadays_1-2",
+    "label": "Q253P__bottom",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -481,7 +481,7 @@
   },
   {
     "id": "Q27P__top",
-    "label": "One of main goals in life has been to make my parents proud_4",
+    "label": "Q27P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -493,7 +493,7 @@
   },
   {
     "id": "Q5P__top",
-    "label": "Important in life: Work_4",
+    "label": "Q5P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -505,7 +505,7 @@
   },
   {
     "id": "Q69P__bottom",
-    "label": "Confidence: The Police_1-2",
+    "label": "Q69P__bottom",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -517,7 +517,7 @@
   },
   {
     "id": "Q6P__top",
-    "label": "Important in life: Religion_4",
+    "label": "Q6P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -529,7 +529,7 @@
   },
   {
     "id": "Q70P__bottom",
-    "label": "Confidence: Justice System/Courts_1-2",
+    "label": "Q70P__bottom",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -541,7 +541,7 @@
   },
   {
     "id": "Q113__bottom",
-    "label": "Groups of people involved in corruption: State authorities_1-2",
+    "label": "Q113__bottom",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -553,7 +553,7 @@
   },
   {
     "id": "Q114__bottom",
-    "label": "Groups of people involved in corruption: Business executives_1-2",
+    "label": "Q114__bottom",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -565,7 +565,7 @@
   },
   {
     "id": "Q115__bottom",
-    "label": "Groups of people involved in corruption: Local authorities_1-2",
+    "label": "Q115__bottom",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -577,7 +577,7 @@
   },
   {
     "id": "Q116__middle",
-    "label": "Groups of people involved in corruption: Civil service providers (police, judiciary, civil servants, doctors, teachers)_2",
+    "label": "Q116__middle",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -589,7 +589,7 @@
   },
   {
     "id": "Q117__middle",
-    "label": "Groups of people involved in corruption: Journalists and media_2",
+    "label": "Q117__middle",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -601,7 +601,7 @@
   },
   {
     "id": "Q123__top",
-    "label": "Effects of immigrants on the development of [your country]: Strengthen cultural diversity_2",
+    "label": "Q123__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -613,7 +613,7 @@
   },
   {
     "id": "Q131P__middle",
-    "label": "Secure in neighborhood_3",
+    "label": "Q131P__middle",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -625,7 +625,7 @@
   },
   {
     "id": "Q199P__top",
-    "label": "Interest in politics_3-4",
+    "label": "Q199P__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -637,7 +637,7 @@
   },
   {
     "id": "Q227P__bottom",
-    "label": "How often in country's elections: Voters are bribed_1-2",
+    "label": "Q227P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -649,7 +649,7 @@
   },
   {
     "id": "Q253P__middle",
-    "label": "Respect for individual human rights nowadays_3",
+    "label": "Q253P__middle",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -661,7 +661,7 @@
   },
   {
     "id": "Q4P__top",
-    "label": "Important in life: Politics_3-4",
+    "label": "Q4P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -673,7 +673,7 @@
   },
   {
     "id": "Q54P__bottom",
-    "label": "Frequency you/family (last 12 month): Gone without a cash income_1",
+    "label": "Q54P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -685,7 +685,7 @@
   },
   {
     "id": "Q59P__middle",
-    "label": "Trust: Your neighborhood (B)_3",
+    "label": "Q59P__middle",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -697,7 +697,7 @@
   },
   {
     "id": "Q71P__top",
-    "label": "Confidence: The Government_3-4",
+    "label": "Q71P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -709,7 +709,7 @@
   },
   {
     "id": "Q74P__top",
-    "label": "Confidence: The Civil Services_3-4",
+    "label": "Q74P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -721,7 +721,7 @@
   },
   {
     "id": "Q75P__middle",
-    "label": "Confidence: Universities_3",
+    "label": "Q75P__middle",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -733,7 +733,7 @@
   },
   {
     "id": "Q76P__top",
-    "label": "Confidence: Elections_3-4",
+    "label": "Q76P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -745,7 +745,7 @@
   },
   {
     "id": "Q77P__top",
-    "label": "Confidence: Major Companies_3-4",
+    "label": "Q77P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -757,7 +757,7 @@
   },
   {
     "id": "Q83P__top",
-    "label": "Confidence: The United Nations_3-4",
+    "label": "Q83P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -769,7 +769,7 @@
   },
   {
     "id": "Q113__middle",
-    "label": "Groups of people involved in corruption: State authorities_3",
+    "label": "Q113__middle",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -781,7 +781,7 @@
   },
   {
     "id": "Q114__middle",
-    "label": "Groups of people involved in corruption: Business executives_3",
+    "label": "Q114__middle",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -793,7 +793,7 @@
   },
   {
     "id": "Q115__middle",
-    "label": "Groups of people involved in corruption: Local authorities_3",
+    "label": "Q115__middle",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -805,7 +805,7 @@
   },
   {
     "id": "Q117__top",
-    "label": "Groups of people involved in corruption: Journalists and media_3-4",
+    "label": "Q117__top",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -817,7 +817,7 @@
   },
   {
     "id": "Q235P__bottom",
-    "label": "Political system: Having a strong leader_1-2",
+    "label": "Q235P__bottom",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -829,7 +829,7 @@
   },
   {
     "id": "Q93",
-    "label": "Which of the following problems does the organization Amnesty International deal with?_Correct",
+    "label": "Q93",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -841,7 +841,7 @@
   },
   {
     "id": "Q122__top",
-    "label": "Effects of immigrants on the development of [your country]: Fill useful jobs in the workforce_2",
+    "label": "Q122__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -853,7 +853,7 @@
   },
   {
     "id": "Q125__top",
-    "label": "Effects of immigrants on the development of [your country]: Give asylum to political refugees_2",
+    "label": "Q125__top",
     "color": "#A8A94E",
     "shape": "dot",
     "size": 6.0,
@@ -865,7 +865,7 @@
   },
   {
     "id": "Q127__top",
-    "label": "Effects of immigrants on the development of [your country]: Help poor people establish new lives_2",
+    "label": "Q127__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -877,7 +877,7 @@
   },
   {
     "id": "Q129__top",
-    "label": "Effects of immigrants on the development of [your country]: Lead to social conflict_2",
+    "label": "Q129__top",
     "color": "#A8A94E",
     "shape": "dot",
     "size": 6.0,
@@ -889,7 +889,7 @@
   },
   {
     "id": "Q130P__middle",
-    "label": "Immigrant policy_2",
+    "label": "Q130P__middle",
     "color": "#A8A94E",
     "shape": "dot",
     "size": 6.0,
@@ -901,7 +901,7 @@
   },
   {
     "id": "Q167P",
-    "label": "Believe in: hell",
+    "label": "Q167P",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -913,7 +913,7 @@
   },
   {
     "id": "Q218P__bottom",
-    "label": "Political actions using Internet: Signing an electronic petition_1",
+    "label": "Q218P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -925,7 +925,7 @@
   },
   {
     "id": "Q28P__top",
-    "label": "Pre-school child suffers with working mother_3-4",
+    "label": "Q28P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -937,7 +937,7 @@
   },
   {
     "id": "Q12P",
-    "label": "Important child qualities: tolerance and respect for other people",
+    "label": "Q12P",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -949,7 +949,7 @@
   },
   {
     "id": "Q46P__middle",
-    "label": "Feeling of happiness_3",
+    "label": "Q46P__middle",
     "color": "#CE8FB4",
     "shape": "dot",
     "size": 6.0,
@@ -961,7 +961,7 @@
   },
   {
     "id": "Q132P__bottom",
-    "label": "Frequency in your neighborhood: Robberies_1",
+    "label": "Q132P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -973,7 +973,7 @@
   },
   {
     "id": "Q133P__bottom",
-    "label": "Frequency in your neighborhood: Alcohol consumed in the streets_1",
+    "label": "Q133P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -985,7 +985,7 @@
   },
   {
     "id": "Q134P__bottom",
-    "label": "Frequency in your neighborhood: Police or military interfere with people’s private life_1",
+    "label": "Q134P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -997,7 +997,7 @@
   },
   {
     "id": "Q135P__bottom",
-    "label": "Frequency in your neighborhood: Racist behavior_1",
+    "label": "Q135P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "Q136P__bottom",
-    "label": "Frequency in your neighborhood: Drug sale in streets_1",
+    "label": "Q136P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -1021,7 +1021,7 @@
   },
   {
     "id": "Q137P__bottom",
-    "label": "How frequently do the following things occur in your neighborhood: Street violence and fights_1",
+    "label": "Q137P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -1033,7 +1033,7 @@
   },
   {
     "id": "Q138P__bottom",
-    "label": "How frequently do the following things occur in your neighborhood: Sexual harassment_1",
+    "label": "Q138P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -1045,7 +1045,7 @@
   },
   {
     "id": "Q222P__top",
-    "label": "Vote in elections: National level_4",
+    "label": "Q222P__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -1057,7 +1057,7 @@
   },
   {
     "id": "Q231P__bottom",
-    "label": "How often in country's elections: Voters are threatened with  violence at the polls_1",
+    "label": "Q231P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -1069,7 +1069,7 @@
   },
   {
     "id": "Q51P__bottom",
-    "label": "Frequency you/family (last 12 month): Gone without enough food to eat_1",
+    "label": "Q51P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -1081,7 +1081,7 @@
   },
   {
     "id": "Q52P__bottom",
-    "label": "Frequency you/family (last 12 month): Felt unsafe from crime in your own home_1",
+    "label": "Q52P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -1093,7 +1093,7 @@
   },
   {
     "id": "Q53P__bottom",
-    "label": "Frequency you/family (last 12 month): Gone without needed medicine or treatment that you needed_1",
+    "label": "Q53P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -1105,7 +1105,7 @@
   },
   {
     "id": "Q205P__bottom",
-    "label": "Information source: Email (B)_1",
+    "label": "Q205P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -1117,7 +1117,7 @@
   },
   {
     "id": "Q210P__bottom",
-    "label": "Political action: joining in boycotts_1",
+    "label": "Q210P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -1129,7 +1129,7 @@
   },
   {
     "id": "Q211P__bottom",
-    "label": "Political action: attending lawful/peaceful demonstrations_1",
+    "label": "Q211P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -1141,7 +1141,7 @@
   },
   {
     "id": "Q212P__bottom",
-    "label": "Political action: joining unofficial strikes_1",
+    "label": "Q212P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -1153,7 +1153,7 @@
   },
   {
     "id": "Q214P__bottom",
-    "label": "Social activism: Contacting a government official_1",
+    "label": "Q214P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -1165,7 +1165,7 @@
   },
   {
     "id": "Q215P__bottom",
-    "label": "Social activism: Encouraging others to take action about political issues_1",
+    "label": "Q215P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -1177,7 +1177,7 @@
   },
   {
     "id": "Q254P__top",
-    "label": "How proud of nationality_4",
+    "label": "Q254P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1189,7 +1189,7 @@
   },
   {
     "id": "Q255P__top",
-    "label": "How close you feel: Your [village, town or city]_4",
+    "label": "Q255P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1201,7 +1201,7 @@
   },
   {
     "id": "Q139P",
-    "label": "Things done for reasons of security: Didn’t carry much money",
+    "label": "Q139P",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1213,7 +1213,7 @@
   },
   {
     "id": "Q142P__top",
-    "label": "Worries: Losing my job or not finding a job_4",
+    "label": "Q142P__top",
     "color": "#3E7D52",
     "shape": "dot",
     "size": 6.0,
@@ -1225,7 +1225,7 @@
   },
   {
     "id": "Q146P__top",
-    "label": "Worries: A war involving my country_4",
+    "label": "Q146P__top",
     "color": "#3E7D52",
     "shape": "dot",
     "size": 6.0,
@@ -1237,7 +1237,7 @@
   },
   {
     "id": "Q147P__top",
-    "label": "Worries: A terrorist attack_4",
+    "label": "Q147P__top",
     "color": "#3E7D52",
     "shape": "dot",
     "size": 6.0,
@@ -1249,7 +1249,7 @@
   },
   {
     "id": "Q148P__top",
-    "label": "Worries: A civil war_4",
+    "label": "Q148P__top",
     "color": "#3E7D52",
     "shape": "dot",
     "size": 6.0,
@@ -1261,7 +1261,7 @@
   },
   {
     "id": "Q186__bottom",
-    "label": "Justifiable: Sex before marriage_1-3",
+    "label": "Q186__bottom",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1273,7 +1273,7 @@
   },
   {
     "id": "Q151P",
-    "label": "Willingness to fight for country",
+    "label": "Q151P",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1285,7 +1285,7 @@
   },
   {
     "id": "Q193__bottom",
-    "label": "Justifiable: Having casual sex_1-3",
+    "label": "Q193__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -1297,7 +1297,7 @@
   },
   {
     "id": "Q257P__top",
-    "label": "Feel close to your country_4",
+    "label": "Q257P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1309,7 +1309,7 @@
   },
   {
     "id": "Q152__c1",
-    "label": "Aims of country: first choice_A high level of economic growth",
+    "label": "Q152__c1",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -1321,7 +1321,7 @@
   },
   {
     "id": "Q156__c1",
-    "label": "Most important: first choice_A stable economy",
+    "label": "Q156__c1",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -1333,7 +1333,7 @@
   },
   {
     "id": "Q158__top",
-    "label": "Science and technology are making our lives healthier, easier, and more comfortable_9-10",
+    "label": "Q158__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -1345,7 +1345,7 @@
   },
   {
     "id": "Q159__top",
-    "label": "Because of science and technology, there will be more opportunities for the next generation_9-10",
+    "label": "Q159__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -1357,7 +1357,7 @@
   },
   {
     "id": "Q162__bottom",
-    "label": "It is not important for me to know about science in my daily life_1-3",
+    "label": "Q162__bottom",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -1369,7 +1369,7 @@
   },
   {
     "id": "Q15P",
-    "label": "Important child qualities: religious faith",
+    "label": "Q15P",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1381,7 +1381,7 @@
   },
   {
     "id": "Q170P__top",
-    "label": "The only acceptable religion  is my religion_3-4",
+    "label": "Q170P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1393,7 +1393,7 @@
   },
   {
     "id": "Q171P__top",
-    "label": "How often do you attend religious services_6-7",
+    "label": "Q171P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1405,7 +1405,7 @@
   },
   {
     "id": "Q160__middle",
-    "label": "We depend too much on science and not enough on faith_4-7",
+    "label": "Q160__middle",
     "color": "#CE8FB4",
     "shape": "dot",
     "size": 6.0,
@@ -1417,7 +1417,7 @@
   },
   {
     "id": "Q44P__top",
-    "label": "Future changes: More emphasis on technology_3",
+    "label": "Q44P__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -1429,7 +1429,7 @@
   },
   {
     "id": "Q56P__top",
-    "label": "Standard of living comparing with your parents_3",
+    "label": "Q56P__top",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -1441,7 +1441,7 @@
   },
   {
     "id": "Q165P",
-    "label": "Believe in: God",
+    "label": "Q165P",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1453,7 +1453,7 @@
   },
   {
     "id": "Q166P",
-    "label": "Believe in: life after death",
+    "label": "Q166P",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1465,7 +1465,7 @@
   },
   {
     "id": "Q168P",
-    "label": "Believe in: heaven",
+    "label": "Q168P",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1477,7 +1477,7 @@
   },
   {
     "id": "Q183__bottom",
-    "label": "Justifiable: Prostitution_1-2",
+    "label": "Q183__bottom",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -1489,7 +1489,7 @@
   },
   {
     "id": "Q195__bottom",
-    "label": "Justifiable: Death penalty_1-3",
+    "label": "Q195__bottom",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -1501,7 +1501,7 @@
   },
   {
     "id": "Q209P__bottom",
-    "label": "Political action: Signing a petition_1",
+    "label": "Q209P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -1513,7 +1513,7 @@
   },
   {
     "id": "Q234P__top",
-    "label": "Some people think that having honest elections makes a lot of difference in their lives;  other people think that it doesn’t matter much_4",
+    "label": "Q234P__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -1525,7 +1525,7 @@
   },
   {
     "id": "Q45P__top",
-    "label": "Future changes: Greater respect for authority_3",
+    "label": "Q45P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1537,7 +1537,7 @@
   },
   {
     "id": "Q57P__c1",
-    "label": "Most people can be trusted_Need to be very careful",
+    "label": "Q57P__c1",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1549,7 +1549,7 @@
   },
   {
     "id": "Q185__bottom",
-    "label": "Justifiable: Divorce_1-3",
+    "label": "Q185__bottom",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1561,7 +1561,7 @@
   },
   {
     "id": "Q22P",
-    "label": "Neighbours: Homosexuals",
+    "label": "Q22P",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1573,7 +1573,7 @@
   },
   {
     "id": "Q256P__top",
-    "label": "Feel close to your district, region_4",
+    "label": "Q256P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1585,7 +1585,7 @@
   },
   {
     "id": "Q29P__top",
-    "label": "Men make better political leaders than women do_3-4",
+    "label": "Q29P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1597,7 +1597,7 @@
   },
   {
     "id": "Q20P",
-    "label": "Neighbours: People who have AIDS",
+    "label": "Q20P",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1609,7 +1609,7 @@
   },
   {
     "id": "Q171P__bottom",
-    "label": "How often do you attend religious services_1-2",
+    "label": "Q171P__bottom",
     "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
@@ -1621,7 +1621,7 @@
   },
   {
     "id": "Q172P__bottom",
-    "label": "How often to you pray_1-3",
+    "label": "Q172P__bottom",
     "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
@@ -1633,7 +1633,7 @@
   },
   {
     "id": "Q64P__bottom",
-    "label": "Confidence: Churches_1-2",
+    "label": "Q64P__bottom",
     "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
@@ -1645,7 +1645,7 @@
   },
   {
     "id": "Q6P__bottom",
-    "label": "Important in life: Religion_1-2",
+    "label": "Q6P__bottom",
     "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
@@ -1657,7 +1657,7 @@
   },
   {
     "id": "Q64P__top",
-    "label": "Confidence: Churches_4",
+    "label": "Q64P__top",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1669,7 +1669,7 @@
   },
   {
     "id": "Q94R",
-    "label": "Active/Inactive membership of church or religious organization",
+    "label": "Q94R",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1681,7 +1681,7 @@
   },
   {
     "id": "Q221P__top",
-    "label": "Vote in elections: local level_4",
+    "label": "Q221P__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -1693,7 +1693,7 @@
   },
   {
     "id": "Q174__c2",
-    "label": "Meaning of religion: To follow religious norms and ceremonies vs To do good to other people_Do good to other people",
+    "label": "Q174__c2",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -1705,7 +1705,7 @@
   },
   {
     "id": "Q175__c2",
-    "label": "Meaning of religion: To make sense of life after death vs To make sense of life in this world_Make sense of life in this world",
+    "label": "Q175__c2",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -1717,7 +1717,7 @@
   },
   {
     "id": "Q179__bottom",
-    "label": "Justifiable: Stealing property_1-2",
+    "label": "Q179__bottom",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -1729,7 +1729,7 @@
   },
   {
     "id": "Q180__bottom",
-    "label": "Justifiable: Cheating on taxes_1-2",
+    "label": "Q180__bottom",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -1741,7 +1741,7 @@
   },
   {
     "id": "Q181__bottom",
-    "label": "Justifiable: Someone accepting a bribe_1-2",
+    "label": "Q181__bottom",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -1753,7 +1753,7 @@
   },
   {
     "id": "Q189__bottom",
-    "label": "Justifiable: For a man to beat his wife_1-2",
+    "label": "Q189__bottom",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -1765,7 +1765,7 @@
   },
   {
     "id": "Q190__bottom",
-    "label": "Justifiable: Parents beating children_1-2",
+    "label": "Q190__bottom",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -1777,7 +1777,7 @@
   },
   {
     "id": "Q191__bottom",
-    "label": "Justifiable: Violence against other people_1-2",
+    "label": "Q191__bottom",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -1789,7 +1789,7 @@
   },
   {
     "id": "Q192__bottom",
-    "label": "Justifiable: Terrorism as a political, ideological or religious mean_1-2",
+    "label": "Q192__bottom",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -1801,7 +1801,7 @@
   },
   {
     "id": "Q194__bottom",
-    "label": "Justifiable: Political violence_1-2",
+    "label": "Q194__bottom",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -1813,7 +1813,7 @@
   },
   {
     "id": "Q203P__bottom",
-    "label": "Information source: Radio news (B)_1-2",
+    "label": "Q203P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -1825,7 +1825,7 @@
   },
   {
     "id": "Q216P__bottom",
-    "label": "Social activism: Encouraging others to vote_1",
+    "label": "Q216P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -1837,7 +1837,7 @@
   },
   {
     "id": "Q219P__bottom",
-    "label": "Political actions using Internet: Encouraging other people to take any form of political action_1",
+    "label": "Q219P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -1849,7 +1849,7 @@
   },
   {
     "id": "Q36P__bottom",
-    "label": "Homosexual couples are as good parents as other couples_1-2",
+    "label": "Q36P__bottom",
     "color": "#D2935A",
     "shape": "dot",
     "size": 6.0,
@@ -1861,7 +1861,7 @@
   },
   {
     "id": "Q18P",
-    "label": "Neighbours: Drug addicts",
+    "label": "Q18P",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -1873,7 +1873,7 @@
   },
   {
     "id": "Q24P",
-    "label": "Neighbours: Heavy drinkers",
+    "label": "Q24P",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -1885,7 +1885,7 @@
   },
   {
     "id": "Q200P__middle",
-    "label": "How often discusses political matters with friends_2",
+    "label": "Q200P__middle",
     "color": "#CE8FB4",
     "shape": "dot",
     "size": 6.0,
@@ -1897,7 +1897,7 @@
   },
   {
     "id": "Q206P__top",
-    "label": "Information source: Internet (B)_5",
+    "label": "Q206P__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -1909,7 +1909,7 @@
   },
   {
     "id": "Q201P__bottom",
-    "label": "Information source: Daily newspaper (B)_1",
+    "label": "Q201P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -1921,7 +1921,7 @@
   },
   {
     "id": "Q202P__top",
-    "label": "Information source: TV news (B)_5",
+    "label": "Q202P__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -1933,7 +1933,7 @@
   },
   {
     "id": "Q204P__bottom",
-    "label": "Information source: Mobile phone (B)_1-2",
+    "label": "Q204P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -1945,7 +1945,7 @@
   },
   {
     "id": "Q206P__bottom",
-    "label": "Information source: Internet (B)_1-2",
+    "label": "Q206P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -1957,7 +1957,7 @@
   },
   {
     "id": "Q207P__bottom",
-    "label": "Information source: Social media (Facebook, Twitter, etc.)_1-2",
+    "label": "Q207P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -1969,7 +1969,7 @@
   },
   {
     "id": "Q204P__top",
-    "label": "Information source: Mobile phone (B)_5",
+    "label": "Q204P__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -1981,7 +1981,7 @@
   },
   {
     "id": "Q205P__top",
-    "label": "Information source: Email (B)_4-5",
+    "label": "Q205P__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -1993,7 +1993,7 @@
   },
   {
     "id": "Q207P__top",
-    "label": "Information source: Social media (Facebook, Twitter, etc.)_5",
+    "label": "Q207P__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -2005,7 +2005,7 @@
   },
   {
     "id": "Q208P__top",
-    "label": "Information source: Talk with friends or colleagues (B)_5",
+    "label": "Q208P__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -2017,7 +2017,7 @@
   },
   {
     "id": "Q217P__bottom",
-    "label": "Political actions using Internet: Searching information about politics and political events_1",
+    "label": "Q217P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -2029,7 +2029,7 @@
   },
   {
     "id": "Q213P__bottom",
-    "label": "Social activism: Donating to a group or campaign_1",
+    "label": "Q213P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -2041,7 +2041,7 @@
   },
   {
     "id": "Q220P__bottom",
-    "label": "Political actions using Internet: Organizing political activities, events, protests_1",
+    "label": "Q220P__bottom",
     "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
@@ -2053,7 +2053,7 @@
   },
   {
     "id": "Q224P__bottom",
-    "label": "How often in country's elections: Votes are counted fairly_1-2",
+    "label": "Q224P__bottom",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -2065,7 +2065,7 @@
   },
   {
     "id": "Q229P__bottom",
-    "label": "How often in country's elections: Election officials are fair_1-2",
+    "label": "Q229P__bottom",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -2077,7 +2077,7 @@
   },
   {
     "id": "Q226P__bottom",
-    "label": "How often in country's elections: TV news favors the governing party_1-2",
+    "label": "Q226P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -2089,7 +2089,7 @@
   },
   {
     "id": "Q230P__bottom",
-    "label": "How often in country's elections: Rich people buy elections_1-2",
+    "label": "Q230P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -2101,7 +2101,7 @@
   },
   {
     "id": "Q228P__bottom",
-    "label": "How often in country's elections: Journalists provide fair coverage of elections_1-2",
+    "label": "Q228P__bottom",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -2113,7 +2113,7 @@
   },
   {
     "id": "Q236P__bottom",
-    "label": "Political system: Having experts make decisions_1-2",
+    "label": "Q236P__bottom",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -2125,7 +2125,7 @@
   },
   {
     "id": "Q237P__bottom",
-    "label": "Political system: Having the army rule_1",
+    "label": "Q237P__bottom",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -2137,7 +2137,7 @@
   },
   {
     "id": "Q239P__bottom",
-    "label": "Political system: Having a system governed by religious law in which there are no political parties or elections_1",
+    "label": "Q239P__bottom",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -2149,7 +2149,7 @@
   },
   {
     "id": "Q245__bottom",
-    "label": "Democracy: The army takes over when government is incompetent._0-3",
+    "label": "Q245__bottom",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -2161,7 +2161,7 @@
   },
   {
     "id": "Q241__top",
-    "label": "Democracy: Governments tax the rich and subsidize the poor._8-10",
+    "label": "Q241__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -2173,7 +2173,7 @@
   },
   {
     "id": "Q247__top",
-    "label": "Democracy: The state makes people's incomes equal_8-10",
+    "label": "Q247__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -2185,7 +2185,7 @@
   },
   {
     "id": "Q35P__bottom",
-    "label": "Problem if women have more income than husband (5 categories)_1-2",
+    "label": "Q35P__bottom",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -2197,7 +2197,7 @@
   },
   {
     "id": "Q248__top",
-    "label": "Democracy: People obey their rulers_8-10",
+    "label": "Q248__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -2209,7 +2209,7 @@
   },
   {
     "id": "Q252__middle",
-    "label": "Satisfaction with the political system performance_4-6",
+    "label": "Q252__middle",
     "color": "#CE8FB4",
     "shape": "dot",
     "size": 6.0,
@@ -2221,7 +2221,7 @@
   },
   {
     "id": "Q251__top",
-    "label": "Democraticness in own country_8-10",
+    "label": "Q251__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2233,7 +2233,7 @@
   },
   {
     "id": "Q252__top",
-    "label": "Satisfaction with the political system performance_7-10",
+    "label": "Q252__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2245,7 +2245,7 @@
   },
   {
     "id": "Q73P__top",
-    "label": "Confidence: Parliament_3-4",
+    "label": "Q73P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2257,7 +2257,7 @@
   },
   {
     "id": "Q258P__bottom",
-    "label": "How close you feel: Continent; e.g. Europe, Asia etc._1-2",
+    "label": "Q258P__bottom",
     "color": "#8FC9B4",
     "shape": "dot",
     "size": 6.0,
@@ -2269,7 +2269,7 @@
   },
   {
     "id": "Q259P__bottom",
-    "label": "How close you feel: World_1-2",
+    "label": "Q259P__bottom",
     "color": "#8FC9B4",
     "shape": "dot",
     "size": 6.0,
@@ -2281,7 +2281,7 @@
   },
   {
     "id": "Q38P__top",
-    "label": "It is childs duty to take care of ill parent_5",
+    "label": "Q38P__top",
     "color": "#A34A73",
     "shape": "dot",
     "size": 6.0,
@@ -2293,7 +2293,7 @@
   },
   {
     "id": "Q29P__middle",
-    "label": "Men make better political leaders than women do_2",
+    "label": "Q29P__middle",
     "color": "#8FC9B4",
     "shape": "dot",
     "size": 6.0,
@@ -2305,7 +2305,7 @@
   },
   {
     "id": "Q30P__middle",
-    "label": "University is more important for a boy than for a girl_2",
+    "label": "Q30P__middle",
     "color": "#8FC9B4",
     "shape": "dot",
     "size": 6.0,
@@ -2317,7 +2317,7 @@
   },
   {
     "id": "Q31P__middle",
-    "label": "Men make better business executives than women do_2",
+    "label": "Q31P__middle",
     "color": "#8FC9B4",
     "shape": "dot",
     "size": 6.0,
@@ -2329,7 +2329,7 @@
   },
   {
     "id": "Q31P__top",
-    "label": "Men make better business executives than women do_3-4",
+    "label": "Q31P__top",
     "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
@@ -2341,7 +2341,7 @@
   },
   {
     "id": "Q2P__top",
-    "label": "Important in life: Friends_4",
+    "label": "Q2P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2353,7 +2353,7 @@
   },
   {
     "id": "Q3P__top",
-    "label": "Important in life: Leisure time_4",
+    "label": "Q3P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2365,7 +2365,7 @@
   },
   {
     "id": "Q34P__middle",
-    "label": "Jobs scarce: Employers should give priority to (nation) people than immigrants (5 categories)_3-4",
+    "label": "Q34P__middle",
     "color": "#8FC9B4",
     "shape": "dot",
     "size": 6.0,
@@ -2377,7 +2377,7 @@
   },
   {
     "id": "Q35P__top",
-    "label": "Problem if women have more income than husband (5 categories)_4-5",
+    "label": "Q35P__top",
     "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
@@ -2389,7 +2389,7 @@
   },
   {
     "id": "Q37P__bottom",
-    "label": "Duty towards society to have children_1-2",
+    "label": "Q37P__bottom",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -2401,7 +2401,7 @@
   },
   {
     "id": "Q62P__top",
-    "label": "Trust: People of another religion (B)_3-4",
+    "label": "Q62P__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -2413,7 +2413,7 @@
   },
   {
     "id": "Q37P__middle",
-    "label": "Duty towards society to have children_3-4",
+    "label": "Q37P__middle",
     "color": "#8FC9B4",
     "shape": "dot",
     "size": 6.0,
@@ -2425,7 +2425,7 @@
   },
   {
     "id": "Q39P__middle",
-    "label": "People who don´t work turn lazy_3-4",
+    "label": "Q39P__middle",
     "color": "#8FC9B4",
     "shape": "dot",
     "size": 6.0,
@@ -2437,7 +2437,7 @@
   },
   {
     "id": "Q40P__middle",
-    "label": "Work is a duty towards society_4",
+    "label": "Q40P__middle",
     "color": "#8FC9B4",
     "shape": "dot",
     "size": 6.0,
@@ -2449,7 +2449,7 @@
   },
   {
     "id": "Q41P__middle",
-    "label": "Work should come first even if it means less spare time_3-4",
+    "label": "Q41P__middle",
     "color": "#8FC9B4",
     "shape": "dot",
     "size": 6.0,
@@ -2461,7 +2461,7 @@
   },
   {
     "id": "Q34P__top",
-    "label": "Jobs scarce: Employers should give priority to (nation) people than immigrants (5 categories)_5",
+    "label": "Q34P__top",
     "color": "#A34A73",
     "shape": "dot",
     "size": 6.0,
@@ -2473,7 +2473,7 @@
   },
   {
     "id": "Q39P__top",
-    "label": "People who don´t work turn lazy_5",
+    "label": "Q39P__top",
     "color": "#A34A73",
     "shape": "dot",
     "size": 6.0,
@@ -2485,7 +2485,7 @@
   },
   {
     "id": "Q38P__middle",
-    "label": "It is childs duty to take care of ill parent_4",
+    "label": "Q38P__middle",
     "color": "#8FC9B4",
     "shape": "dot",
     "size": 6.0,
@@ -2497,7 +2497,7 @@
   },
   {
     "id": "Q40P__top",
-    "label": "Work is a duty towards society_5",
+    "label": "Q40P__top",
     "color": "#A34A73",
     "shape": "dot",
     "size": 6.0,
@@ -2509,7 +2509,7 @@
   },
   {
     "id": "Q41P__top",
-    "label": "Work should come first even if it means less spare time_5",
+    "label": "Q41P__top",
     "color": "#A34A73",
     "shape": "dot",
     "size": 6.0,
@@ -2521,7 +2521,7 @@
   },
   {
     "id": "Q47P__middle",
-    "label": "State of health (subjective)_4",
+    "label": "Q47P__middle",
     "color": "#CE8FB4",
     "shape": "dot",
     "size": 6.0,
@@ -2533,7 +2533,7 @@
   },
   {
     "id": "Q55P__bottom",
-    "label": "In the last 12 month, how often have you or your family: Gone without a safe shelter over your head_1",
+    "label": "Q55P__bottom",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -2545,7 +2545,7 @@
   },
   {
     "id": "Q60P__middle",
-    "label": "Trust: People you know personally (B)_3",
+    "label": "Q60P__middle",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2557,7 +2557,7 @@
   },
   {
     "id": "Q61P__top",
-    "label": "Trust: People you meet for the first time (B)_3-4",
+    "label": "Q61P__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -2569,7 +2569,7 @@
   },
   {
     "id": "Q63P__top",
-    "label": "Trust: People of another nationality (B)_3-4",
+    "label": "Q63P__top",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -2581,7 +2581,7 @@
   },
   {
     "id": "Q65P__bottom",
-    "label": "Confidence: Armed Forces_1-2",
+    "label": "Q65P__bottom",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -2593,7 +2593,7 @@
   },
   {
     "id": "Q65P__middle",
-    "label": "Confidence: Armed Forces_3",
+    "label": "Q65P__middle",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2605,7 +2605,7 @@
   },
   {
     "id": "Q69P__middle",
-    "label": "Confidence: The Police_3",
+    "label": "Q69P__middle",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2617,7 +2617,7 @@
   },
   {
     "id": "Q70P__middle",
-    "label": "Confidence: Justice System/Courts_3",
+    "label": "Q70P__middle",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2629,7 +2629,7 @@
   },
   {
     "id": "Q66P__middle",
-    "label": "Confidence: The Press_2",
+    "label": "Q66P__middle",
     "color": "#5E9E5E",
     "shape": "dot",
     "size": 6.0,
@@ -2641,7 +2641,7 @@
   },
   {
     "id": "Q67P__middle",
-    "label": "Confidence: Television_2",
+    "label": "Q67P__middle",
     "color": "#5E9E5E",
     "shape": "dot",
     "size": 6.0,
@@ -2653,7 +2653,7 @@
   },
   {
     "id": "Q68P__middle",
-    "label": "Confidence: Labour Unions_2",
+    "label": "Q68P__middle",
     "color": "#5E9E5E",
     "shape": "dot",
     "size": 6.0,
@@ -2665,7 +2665,7 @@
   },
   {
     "id": "Q72P__middle",
-    "label": "Confidence: The Political Parties_2",
+    "label": "Q72P__middle",
     "color": "#5E9E5E",
     "shape": "dot",
     "size": 6.0,
@@ -2677,7 +2677,7 @@
   },
   {
     "id": "Q66P__top",
-    "label": "Confidence: The Press_3-4",
+    "label": "Q66P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2689,7 +2689,7 @@
   },
   {
     "id": "Q67P__top",
-    "label": "Confidence: Television_3-4",
+    "label": "Q67P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2701,7 +2701,7 @@
   },
   {
     "id": "Q68P__top",
-    "label": "Confidence: Labour Unions_3-4",
+    "label": "Q68P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2713,7 +2713,7 @@
   },
   {
     "id": "Q85P__top",
-    "label": "Confidence: International Criminal Court (ICC)_3-4",
+    "label": "Q85P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2725,7 +2725,7 @@
   },
   {
     "id": "Q87P__top",
-    "label": "Confidence: The World Bank_3-4",
+    "label": "Q87P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2737,7 +2737,7 @@
   },
   {
     "id": "Q89P__top",
-    "label": "Confidence: The World Trade Organization (WTO)_3-4",
+    "label": "Q89P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2749,7 +2749,7 @@
   },
   {
     "id": "Q77P__middle",
-    "label": "Confidence: Major Companies_2",
+    "label": "Q77P__middle",
     "color": "#5E9E5E",
     "shape": "dot",
     "size": 6.0,
@@ -2761,7 +2761,7 @@
   },
   {
     "id": "Q73P__middle",
-    "label": "Confidence: Parliament_2",
+    "label": "Q73P__middle",
     "color": "#5E9E5E",
     "shape": "dot",
     "size": 6.0,
@@ -2773,7 +2773,7 @@
   },
   {
     "id": "Q79P__middle",
-    "label": "Confidence: The Environmental Protection Movement_3",
+    "label": "Q79P__middle",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2785,7 +2785,7 @@
   },
   {
     "id": "Q82P__top",
-    "label": "Confidence: Major regional organization (combined from country-specific)_3-4",
+    "label": "Q82P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2797,7 +2797,7 @@
   },
   {
     "id": "Q78P__bottom",
-    "label": "Confidence: Banks_1-2",
+    "label": "Q78P__bottom",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -2809,7 +2809,7 @@
   },
   {
     "id": "Q79P__bottom",
-    "label": "Confidence: The Environmental Protection Movement_1-2",
+    "label": "Q79P__bottom",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -2821,7 +2821,7 @@
   },
   {
     "id": "Q78P__middle",
-    "label": "Confidence: Banks_3",
+    "label": "Q78P__middle",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2833,7 +2833,7 @@
   },
   {
     "id": "Q80P__middle",
-    "label": "Confidence: The Women´s Movement_3",
+    "label": "Q80P__middle",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2845,7 +2845,7 @@
   },
   {
     "id": "Q81P__middle",
-    "label": "Confidence: Charitable or humanitarian organizations_3",
+    "label": "Q81P__middle",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2857,7 +2857,7 @@
   },
   {
     "id": "Q80P__bottom",
-    "label": "Confidence: The Women´s Movement_1-2",
+    "label": "Q80P__bottom",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -2869,7 +2869,7 @@
   },
   {
     "id": "Q81P__bottom",
-    "label": "Confidence: Charitable or humanitarian organizations_1-2",
+    "label": "Q81P__bottom",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -2881,7 +2881,7 @@
   },
   {
     "id": "Q71P__middle",
-    "label": "Confidence: The Government_2",
+    "label": "Q71P__middle",
     "color": "#5E9E5E",
     "shape": "dot",
     "size": 6.0,
@@ -2893,7 +2893,7 @@
   },
   {
     "id": "Q74P__middle",
-    "label": "Confidence: The Civil Services_2",
+    "label": "Q74P__middle",
     "color": "#5E9E5E",
     "shape": "dot",
     "size": 6.0,
@@ -2905,7 +2905,7 @@
   },
   {
     "id": "Q76P__middle",
-    "label": "Confidence: Elections_2",
+    "label": "Q76P__middle",
     "color": "#5E9E5E",
     "shape": "dot",
     "size": 6.0,
@@ -2917,7 +2917,7 @@
   },
   {
     "id": "Q72P__top",
-    "label": "Confidence: The Political Parties_3-4",
+    "label": "Q72P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2929,7 +2929,7 @@
   },
   {
     "id": "Q84P__top",
-    "label": "Confidence: International Monetary Found (IMF)_3-4",
+    "label": "Q84P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2941,7 +2941,7 @@
   },
   {
     "id": "Q75P__bottom",
-    "label": "Confidence: Universities_1-2",
+    "label": "Q75P__bottom",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -2953,7 +2953,7 @@
   },
   {
     "id": "Q88P__bottom",
-    "label": "Confidence: The World Health Organization (WHO)_1-2",
+    "label": "Q88P__bottom",
     "color": "#4F7A94",
     "shape": "dot",
     "size": 6.0,
@@ -2965,7 +2965,7 @@
   },
   {
     "id": "Q88P__middle",
-    "label": "Confidence: The World Health Organization (WHO)_3",
+    "label": "Q88P__middle",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -2977,7 +2977,7 @@
   },
   {
     "id": "Q82P__middle",
-    "label": "Confidence: Major regional organization (combined from country-specific)_2",
+    "label": "Q82P__middle",
     "color": "#6B7280",
     "shape": "dot",
     "size": 6.0,
@@ -2989,7 +2989,7 @@
   },
   {
     "id": "Q83P__middle",
-    "label": "Confidence: The United Nations_2",
+    "label": "Q83P__middle",
     "color": "#6B7280",
     "shape": "dot",
     "size": 6.0,
@@ -3001,7 +3001,7 @@
   },
   {
     "id": "Q84P__middle",
-    "label": "Confidence: International Monetary Found (IMF)_2",
+    "label": "Q84P__middle",
     "color": "#6B7280",
     "shape": "dot",
     "size": 6.0,
@@ -3013,7 +3013,7 @@
   },
   {
     "id": "Q85P__middle",
-    "label": "Confidence: International Criminal Court (ICC)_2",
+    "label": "Q85P__middle",
     "color": "#6B7280",
     "shape": "dot",
     "size": 6.0,
@@ -3025,7 +3025,7 @@
   },
   {
     "id": "Q86P__middle",
-    "label": "Confidence: NATO_2",
+    "label": "Q86P__middle",
     "color": "#6B7280",
     "shape": "dot",
     "size": 6.0,
@@ -3037,7 +3037,7 @@
   },
   {
     "id": "Q89P__middle",
-    "label": "Confidence: The World Trade Organization (WTO)_2",
+    "label": "Q89P__middle",
     "color": "#6B7280",
     "shape": "dot",
     "size": 6.0,
@@ -3049,7 +3049,7 @@
   },
   {
     "id": "Q86P__top",
-    "label": "Confidence: NATO_3-4",
+    "label": "Q86P__top",
     "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
@@ -3061,7 +3061,7 @@
   },
   {
     "id": "Q87P__middle",
-    "label": "Confidence: The World Bank_2",
+    "label": "Q87P__middle",
     "color": "#6B7280",
     "shape": "dot",
     "size": 6.0,
@@ -3073,7 +3073,7 @@
   },
   {
     "id": "Q91",
-    "label": "Five countries have permanent seats on the Security Council of the United Nations. Which ones of the following is not a member?_Correct",
+    "label": "Q91",
     "color": "#C05C64",
     "shape": "dot",
     "size": 6.0,
@@ -3085,7 +3085,7 @@
   },
   {
     "id": "Q149__c1",
-    "label": "Freedom and Equality - Which more important_Freedom",
+    "label": "Q149__c1",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -3097,7 +3097,7 @@
   },
   {
     "id": "Q7P",
-    "label": "Important child qualities: Good manners",
+    "label": "Q7P",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -3109,7 +3109,7 @@
   },
   {
     "id": "Q9P",
-    "label": "Important child qualities: Hard work",
+    "label": "Q9P",
     "color": "#8E7CB8",
     "shape": "dot",
     "size": 6.0,
@@ -3121,7 +3121,7 @@
   },
   {
     "id": "Q10P",
-    "label": "Important child qualities: feeling of responsibility",
+    "label": "Q10P",
     "color": "#C28A8A",
     "shape": "dot",
     "size": 6.0,
@@ -3133,7 +3133,7 @@
   },
   {
     "id": "Q150__c2",
-    "label": "Freedom and securiy - Which more important_Security",
+    "label": "Q150__c2",
     "color": "#C28A8A",
     "shape": "dot",
     "size": 6.0,
@@ -3145,7 +3145,7 @@
   },
   {
     "id": "Q119P__middle",
-    "label": "Degree of agreement: On the whole, women are less corrupt than men_2",
+    "label": "Q119P__middle",
     "color": "#8FC9B4",
     "shape": "dot",
     "size": 6.0,
@@ -3157,7 +3157,7 @@
   },
   {
     "id": "Q42__c2",
-    "label": "Basic kinds of attitudes concerning society_Our society must be gradually improved by reforms",
+    "label": "Q42__c2",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -3169,7 +3169,7 @@
   },
   {
     "id": "Q1P__top",
-    "label": "Important in life: Family_4",
+    "label": "Q1P__top",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
@@ -3181,7 +3181,7 @@
   },
   {
     "id": "Q58P__top",
-    "label": "How much you trust: Your family (B)_4",
+    "label": "Q58P__top",
     "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,

@@ -266,26 +266,26 @@
   {
     "id": "Q112__top",
     "label": "Scale corruption in [my country] - pay a bribe, give a gift, do a favor to other to get things_9-10",
-    "color": "#5FAEB8",
+    "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
     "value": 10.937101868137567,
     "x": -933.0,
     "y": -236.0,
-    "title": "Scale corruption in [my country] - pay a bribe, give a gift, do a favor to other to get things_9-10<br>Q112__top | community 8A | strength 10.937",
-    "cluster": "Community 8A"
+    "title": "Scale corruption in [my country] - pay a bribe, give a gift, do a favor to other to get things_9-10<br>Q112__top | community 15 | strength 10.937",
+    "cluster": "Community 15"
   },
   {
     "id": "Q116__top",
     "label": "Groups of people involved in corruption: Civil service providers (police, judiciary, civil servants, doctors, teachers)_3-4",
-    "color": "#5FAEB8",
+    "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
     "value": 4.26585595408866,
     "x": -1685.0,
     "y": -469.0,
-    "title": "Groups of people involved in corruption: Civil service providers (police, judiciary, civil servants, doctors, teachers)_3-4<br>Q116__top | community 8A | strength 4.266",
-    "cluster": "Community 8A"
+    "title": "Groups of people involved in corruption: Civil service providers (police, judiciary, civil servants, doctors, teachers)_3-4<br>Q116__top | community 15 | strength 4.266",
+    "cluster": "Community 15"
   },
   {
     "id": "Q124__top",
@@ -338,14 +338,14 @@
   {
     "id": "Q143P__top",
     "label": "Worries: Not being able to give one's children a good education_4",
-    "color": "#C4DBDE",
+    "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
     "value": 4.029501238538692,
     "x": -1218.0,
     "y": 28.0,
-    "title": "Worries: Not being able to give one's children a good education_4<br>Q143P__top | community 8D | strength 4.030",
-    "cluster": "Community 8D"
+    "title": "Worries: Not being able to give one's children a good education_4<br>Q143P__top | community 10 | strength 4.030",
+    "cluster": "Community 10"
   },
   {
     "id": "Q164__top",
@@ -446,14 +446,14 @@
   {
     "id": "Q253P__bottom",
     "label": "Respect for individual human rights nowadays_1-2",
-    "color": "#5FAEB8",
+    "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
     "value": 2.5354805987503237,
     "x": -1557.0,
     "y": -560.0,
-    "title": "Respect for individual human rights nowadays_1-2<br>Q253P__bottom | community 8A | strength 2.535",
-    "cluster": "Community 8A"
+    "title": "Respect for individual human rights nowadays_1-2<br>Q253P__bottom | community 15 | strength 2.535",
+    "cluster": "Community 15"
   },
   {
     "id": "Q27P__top",
@@ -482,38 +482,38 @@
   {
     "id": "Q69P__bottom",
     "label": "Confidence: The Police_1-2",
-    "color": "#5FAEB8",
+    "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
     "value": 3.3709706146428093,
     "x": -1593.0,
     "y": -729.0,
-    "title": "Confidence: The Police_1-2<br>Q69P__bottom | community 8A | strength 3.371",
-    "cluster": "Community 8A"
+    "title": "Confidence: The Police_1-2<br>Q69P__bottom | community 15 | strength 3.371",
+    "cluster": "Community 15"
   },
   {
     "id": "Q6P__top",
     "label": "Important in life: Religion_4",
-    "color": "#C4DBDE",
+    "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
     "value": 26.220318914098367,
     "x": -617.0,
     "y": 61.0,
-    "title": "Important in life: Religion_4<br>Q6P__top | community 8D | strength 26.220",
-    "cluster": "Community 8D"
+    "title": "Important in life: Religion_4<br>Q6P__top | community 10 | strength 26.220",
+    "cluster": "Community 10"
   },
   {
     "id": "Q70P__bottom",
     "label": "Confidence: Justice System/Courts_1-2",
-    "color": "#5FAEB8",
+    "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
     "value": 4.467147187250815,
     "x": -1698.0,
     "y": -789.0,
-    "title": "Confidence: Justice System/Courts_1-2<br>Q70P__bottom | community 8A | strength 4.467",
-    "cluster": "Community 8A"
+    "title": "Confidence: Justice System/Courts_1-2<br>Q70P__bottom | community 15 | strength 4.467",
+    "cluster": "Community 15"
   },
   {
     "id": "Q113__bottom",
@@ -746,50 +746,50 @@
   {
     "id": "Q113__middle",
     "label": "Groups of people involved in corruption: State authorities_3",
-    "color": "#5FAEB8",
+    "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
     "value": 1.7223870745134398,
     "x": -1879.0,
     "y": -306.0,
-    "title": "Groups of people involved in corruption: State authorities_3<br>Q113__middle | community 8A | strength 1.722",
-    "cluster": "Community 8A"
+    "title": "Groups of people involved in corruption: State authorities_3<br>Q113__middle | community 15 | strength 1.722",
+    "cluster": "Community 15"
   },
   {
     "id": "Q114__middle",
     "label": "Groups of people involved in corruption: Business executives_3",
-    "color": "#5FAEB8",
+    "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
     "value": 2.185401954250468,
     "x": -1950.0,
     "y": -414.0,
-    "title": "Groups of people involved in corruption: Business executives_3<br>Q114__middle | community 8A | strength 2.185",
-    "cluster": "Community 8A"
+    "title": "Groups of people involved in corruption: Business executives_3<br>Q114__middle | community 15 | strength 2.185",
+    "cluster": "Community 15"
   },
   {
     "id": "Q115__middle",
     "label": "Groups of people involved in corruption: Local authorities_3",
-    "color": "#5FAEB8",
+    "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
     "value": 1.7119671996920294,
     "x": -1919.0,
     "y": -353.0,
-    "title": "Groups of people involved in corruption: Local authorities_3<br>Q115__middle | community 8A | strength 1.712",
-    "cluster": "Community 8A"
+    "title": "Groups of people involved in corruption: Local authorities_3<br>Q115__middle | community 15 | strength 1.712",
+    "cluster": "Community 15"
   },
   {
     "id": "Q117__top",
     "label": "Groups of people involved in corruption: Journalists and media_3-4",
-    "color": "#5FAEB8",
+    "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
     "value": 1.1042842475156935,
     "x": -1905.0,
     "y": -509.0,
-    "title": "Groups of people involved in corruption: Journalists and media_3-4<br>Q117__top | community 8A | strength 1.104",
-    "cluster": "Community 8A"
+    "title": "Groups of people involved in corruption: Journalists and media_3-4<br>Q117__top | community 15 | strength 1.104",
+    "cluster": "Community 15"
   },
   {
     "id": "Q235P__bottom",
@@ -1166,50 +1166,50 @@
   {
     "id": "Q142P__top",
     "label": "Worries: Losing my job or not finding a job_4",
-    "color": "#C4DBDE",
+    "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
     "value": 2.3822996001867343,
     "x": -1452.0,
     "y": 65.0,
-    "title": "Worries: Losing my job or not finding a job_4<br>Q142P__top | community 8D | strength 2.382",
-    "cluster": "Community 8D"
+    "title": "Worries: Losing my job or not finding a job_4<br>Q142P__top | community 10 | strength 2.382",
+    "cluster": "Community 10"
   },
   {
     "id": "Q146P__top",
     "label": "Worries: A war involving my country_4",
-    "color": "#C4DBDE",
+    "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
     "value": 2.7843794606138434,
     "x": -1435.0,
     "y": 191.0,
-    "title": "Worries: A war involving my country_4<br>Q146P__top | community 8D | strength 2.784",
-    "cluster": "Community 8D"
+    "title": "Worries: A war involving my country_4<br>Q146P__top | community 10 | strength 2.784",
+    "cluster": "Community 10"
   },
   {
     "id": "Q147P__top",
     "label": "Worries: A terrorist attack_4",
-    "color": "#C4DBDE",
+    "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
     "value": 4.3300498113960355,
     "x": -1157.0,
     "y": 103.0,
-    "title": "Worries: A terrorist attack_4<br>Q147P__top | community 8D | strength 4.330",
-    "cluster": "Community 8D"
+    "title": "Worries: A terrorist attack_4<br>Q147P__top | community 10 | strength 4.330",
+    "cluster": "Community 10"
   },
   {
     "id": "Q148P__top",
     "label": "Worries: A civil war_4",
-    "color": "#C4DBDE",
+    "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
     "value": 2.7191269609010402,
     "x": -1450.0,
     "y": 130.0,
-    "title": "Worries: A civil war_4<br>Q148P__top | community 8D | strength 2.719",
-    "cluster": "Community 8D"
+    "title": "Worries: A civil war_4<br>Q148P__top | community 10 | strength 2.719",
+    "cluster": "Community 10"
   },
   {
     "id": "Q186__bottom",
@@ -1298,14 +1298,14 @@
   {
     "id": "Q15P",
     "label": "Important child qualities: religious faith",
-    "color": "#C4DBDE",
+    "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
     "value": 3.2511787155039196,
     "x": -935.0,
     "y": 89.0,
-    "title": "Important child qualities: religious faith<br>Q15P | community 8D | strength 3.251",
-    "cluster": "Community 8D"
+    "title": "Important child qualities: religious faith<br>Q15P | community 10 | strength 3.251",
+    "cluster": "Community 10"
   },
   {
     "id": "Q170P__top",
@@ -1322,14 +1322,14 @@
   {
     "id": "Q171P__top",
     "label": "How often do you attend religious services_6-7",
-    "color": "#C4DBDE",
+    "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
     "value": 2.10230286323156,
     "x": -1023.0,
     "y": 347.0,
-    "title": "How often do you attend religious services_6-7<br>Q171P__top | community 8D | strength 2.102",
-    "cluster": "Community 8D"
+    "title": "How often do you attend religious services_6-7<br>Q171P__top | community 10 | strength 2.102",
+    "cluster": "Community 10"
   },
   {
     "id": "Q44P__top",
@@ -1526,14 +1526,14 @@
   {
     "id": "Q64P__top",
     "label": "Confidence: Churches_4",
-    "color": "#C4DBDE",
+    "color": "#96716A",
     "shape": "dot",
     "size": 6.0,
     "value": 1.0235348778256799,
     "x": -1013.0,
     "y": 421.0,
-    "title": "Confidence: Churches_4<br>Q64P__top | community 8D | strength 1.024",
-    "cluster": "Community 8D"
+    "title": "Confidence: Churches_4<br>Q64P__top | community 10 | strength 1.024",
+    "cluster": "Community 10"
   },
   {
     "id": "Q221P__top",
@@ -1850,14 +1850,14 @@
   {
     "id": "Q229P__bottom",
     "label": "How often in country's elections: Election officials are fair_1-2",
-    "color": "#5FAEB8",
+    "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
     "value": 0.5032692801873054,
     "x": -1958.0,
     "y": -619.0,
-    "title": "How often in country's elections: Election officials are fair_1-2<br>Q229P__bottom | community 8A | strength 0.503",
-    "cluster": "Community 8A"
+    "title": "How often in country's elections: Election officials are fair_1-2<br>Q229P__bottom | community 15 | strength 0.503",
+    "cluster": "Community 15"
   },
   {
     "id": "Q226P__bottom",
@@ -2186,26 +2186,26 @@
   {
     "id": "Q78P__bottom",
     "label": "Confidence: Banks_1-2",
-    "color": "#5FAEB8",
+    "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
     "value": 2.8066340076947163,
     "x": -1834.0,
     "y": -1114.0,
-    "title": "Confidence: Banks_1-2<br>Q78P__bottom | community 8A | strength 2.807",
-    "cluster": "Community 8A"
+    "title": "Confidence: Banks_1-2<br>Q78P__bottom | community 15 | strength 2.807",
+    "cluster": "Community 15"
   },
   {
     "id": "Q79P__bottom",
     "label": "Confidence: The Environmental Protection Movement_1-2",
-    "color": "#5FAEB8",
+    "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
     "value": 3.53431469821324,
     "x": -1909.0,
     "y": -947.0,
-    "title": "Confidence: The Environmental Protection Movement_1-2<br>Q79P__bottom | community 8A | strength 3.534",
-    "cluster": "Community 8A"
+    "title": "Confidence: The Environmental Protection Movement_1-2<br>Q79P__bottom | community 15 | strength 3.534",
+    "cluster": "Community 15"
   },
   {
     "id": "Q78P__middle",
@@ -2246,26 +2246,26 @@
   {
     "id": "Q80P__bottom",
     "label": "Confidence: The Women´s Movement_1-2",
-    "color": "#5FAEB8",
+    "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
     "value": 2.9457493532956365,
     "x": -2028.0,
     "y": -993.0,
-    "title": "Confidence: The WomenВґs Movement_1-2<br>Q80P__bottom | community 8A | strength 2.946",
-    "cluster": "Community 8A"
+    "title": "Confidence: The WomenВґs Movement_1-2<br>Q80P__bottom | community 15 | strength 2.946",
+    "cluster": "Community 15"
   },
   {
     "id": "Q81P__bottom",
     "label": "Confidence: Charitable or humanitarian organizations_1-2",
-    "color": "#5FAEB8",
+    "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
     "value": 2.910627532341494,
     "x": -1976.0,
     "y": -1066.0,
-    "title": "Confidence: Charitable or humanitarian organizations_1-2<br>Q81P__bottom | community 8A | strength 2.911",
-    "cluster": "Community 8A"
+    "title": "Confidence: Charitable or humanitarian organizations_1-2<br>Q81P__bottom | community 15 | strength 2.911",
+    "cluster": "Community 15"
   },
   {
     "id": "Q72P__top",
@@ -2294,14 +2294,14 @@
   {
     "id": "Q88P__bottom",
     "label": "Confidence: The World Health Organization (WHO)_1-2",
-    "color": "#5FAEB8",
+    "color": "#B9A6D6",
     "shape": "dot",
     "size": 6.0,
     "value": 1.6089387927924186,
     "x": -2242.0,
     "y": -1112.0,
-    "title": "Confidence: The World Health Organization (WHO)_1-2<br>Q88P__bottom | community 8A | strength 1.609",
-    "cluster": "Community 8A"
+    "title": "Confidence: The World Health Organization (WHO)_1-2<br>Q88P__bottom | community 15 | strength 1.609",
+    "cluster": "Community 15"
   },
   {
     "id": "Q88P__middle",

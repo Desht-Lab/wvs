@@ -6,8 +6,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.6255304613739932,
-    "x": 2990.0,
-    "y": -934.0,
+    "x": 2301.0,
+    "y": 613.0,
     "title": "Income equality vs larger income differences_4-7<br>Q106__middle | community 5 | strength 1.626",
     "cluster": "Community 5"
   },
@@ -18,8 +18,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 4.334454584792665,
-    "x": 2738.0,
-    "y": -832.0,
+    "x": 2123.0,
+    "y": 510.0,
     "title": "Private vs state ownership of business_4-7<br>Q107__middle | community 5 | strength 4.334",
     "cluster": "Community 5"
   },
@@ -30,9 +30,9 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.670199503115656,
-    "x": 2899.0,
-    "y": -1023.0,
-    "title": "Government´s vs individual´s responsibility_4-7<br>Q108__middle | community 5 | strength 1.670",
+    "x": 2240.0,
+    "y": 686.0,
+    "title": "GovernmentВґs vs individualВґs responsibility_4-7<br>Q108__middle | community 5 | strength 1.670",
     "cluster": "Community 5"
   },
   {
@@ -42,8 +42,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 4.174093916101864,
-    "x": 2767.0,
-    "y": -771.0,
+    "x": 2105.0,
+    "y": 558.0,
     "title": "Should international organizations prioritize, being effective or being democratic_4-7<br>Q90__middle | community 5 | strength 4.174",
     "cluster": "Community 5"
   },
@@ -54,9 +54,9 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.5831546028852572,
-    "x": 2605.0,
-    "y": -938.0,
-    "title": "One of the bad effects of science is that it breaks down people’s ideas of right and wrong_4-7<br>Q161__middle | community 5 | strength 1.583",
+    "x": 2016.0,
+    "y": 650.0,
+    "title": "One of the bad effects of science is that it breaks down peopleвЂ™s ideas of right and wrong_4-7<br>Q161__middle | community 5 | strength 1.583",
     "cluster": "Community 5"
   },
   {
@@ -66,8 +66,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 3.617557898729114,
-    "x": 2502.0,
-    "y": -681.0,
+    "x": 1918.0,
+    "y": 470.0,
     "title": "Democraticness in own country_4-7<br>Q251__middle | community 5 | strength 3.618",
     "cluster": "Community 5"
   },
@@ -78,8 +78,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 4.7681874493468,
-    "x": 2476.0,
-    "y": -470.0,
+    "x": 1887.0,
+    "y": 321.0,
     "title": "How much freedom of choice and control_6-8<br>Q48__middle | community 5 | strength 4.768",
     "cluster": "Community 5"
   },
@@ -90,8 +90,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 4.910778331457606,
-    "x": 2637.0,
-    "y": -466.0,
+    "x": 2000.0,
+    "y": 304.0,
     "title": "Satisfaction with your life_5-7<br>Q49__middle | community 5 | strength 4.911",
     "cluster": "Community 5"
   },
@@ -102,8 +102,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 3.1765627873227387,
-    "x": 2782.0,
-    "y": -614.0,
+    "x": 2121.0,
+    "y": 399.0,
     "title": "Satisfaction with financial situation of household_5-7<br>Q50__middle | community 5 | strength 3.177",
     "cluster": "Community 5"
   },
@@ -114,10 +114,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.7891307222571164,
-    "x": 419.0,
-    "y": 527.0,
-    "title": "Competition good or harmful_1-3<br>Q109__bottom | community 3 | strength 5.789",
-    "cluster": "Community 3"
+    "x": 461.0,
+    "y": 204.0,
+    "title": "Competition good or harmful_1-3<br>Q109__bottom | community 3C | strength 5.789",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q163__top",
@@ -126,10 +126,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 8.673958591084887,
-    "x": 955.0,
-    "y": 622.0,
-    "title": "The world is better off, or worse off, because of science and technology_8-10<br>Q163__top | community 3 | strength 8.674",
-    "cluster": "Community 3"
+    "x": 804.0,
+    "y": 272.0,
+    "title": "The world is better off, or worse off, because of science and technology_8-10<br>Q163__top | community 3C | strength 8.674",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q177__bottom",
@@ -138,8 +138,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 12.227285758218905,
-    "x": 118.0,
-    "y": 555.0,
+    "x": 338.0,
+    "y": -35.0,
     "title": "Justifiable: Claiming government benefits to which you are not entitled_1-2<br>Q177__bottom | community 1 | strength 12.227",
     "cluster": "Community 1"
   },
@@ -150,8 +150,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 13.515604450367375,
-    "x": -59.0,
-    "y": 412.0,
+    "x": 157.0,
+    "y": -9.0,
     "title": "Justifiable: Avoiding a fare on public transport_1-2<br>Q178__bottom | community 1 | strength 13.516",
     "cluster": "Community 1"
   },
@@ -162,10 +162,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 11.61438679071613,
-    "x": 556.0,
-    "y": 235.0,
-    "title": "Political system: Having a democratic political system_4<br>Q238P__top | community 3 | strength 11.614",
-    "cluster": "Community 3"
+    "x": 502.0,
+    "y": 246.0,
+    "title": "Political system: Having a democratic political system_4<br>Q238P__top | community 3C | strength 11.614",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q242__bottom",
@@ -174,10 +174,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 13.964212995168399,
-    "x": 963.0,
-    "y": 290.0,
-    "title": "Democracy: Religious authorities interpret the laws._0-3<br>Q242__bottom | community 3 | strength 13.964",
-    "cluster": "Community 3"
+    "x": 852.0,
+    "y": 203.0,
+    "title": "Democracy: Religious authorities interpret the laws._0-3<br>Q242__bottom | community 3C | strength 13.964",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q243__top",
@@ -186,10 +186,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 7.380210931595857,
-    "x": 592.0,
-    "y": 573.0,
-    "title": "Democracy: People choose their leaders in free elections._8-10<br>Q243__top | community 3 | strength 7.380",
-    "cluster": "Community 3"
+    "x": 588.0,
+    "y": 326.0,
+    "title": "Democracy: People choose their leaders in free elections._8-10<br>Q243__top | community 3C | strength 7.380",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q244__top",
@@ -198,10 +198,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.122082634289297,
-    "x": 560.0,
-    "y": 798.0,
-    "title": "Democracy: People receive state aid for unemployment._8-10<br>Q244__top | community 3 | strength 5.122",
-    "cluster": "Community 3"
+    "x": 581.0,
+    "y": 509.0,
+    "title": "Democracy: People receive state aid for unemployment._8-10<br>Q244__top | community 3C | strength 5.122",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q246__top",
@@ -210,10 +210,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 9.504028534378092,
-    "x": 705.0,
-    "y": 479.0,
-    "title": "Democracy: Civil rights protect people’s liberty against oppression._8-10<br>Q246__top | community 3 | strength 9.504",
-    "cluster": "Community 3"
+    "x": 643.0,
+    "y": 201.0,
+    "title": "Democracy: Civil rights protect peopleвЂ™s liberty against oppression._8-10<br>Q246__top | community 3C | strength 9.504",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q249__top",
@@ -222,10 +222,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.463088082257739,
-    "x": 736.0,
-    "y": 662.0,
-    "title": "Democracy: Women have the same rights as men._8-10<br>Q249__top | community 3 | strength 5.463",
-    "cluster": "Community 3"
+    "x": 685.0,
+    "y": 394.0,
+    "title": "Democracy: Women have the same rights as men._8-10<br>Q249__top | community 3C | strength 5.463",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q250__top",
@@ -234,10 +234,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 9.188304834306244,
-    "x": 472.0,
-    "y": 415.0,
-    "title": "Importance of democracy_9-10<br>Q250__top | community 3 | strength 9.188",
-    "cluster": "Community 3"
+    "x": 471.0,
+    "y": 310.0,
+    "title": "Importance of democracy_9-10<br>Q250__top | community 3C | strength 9.188",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q43P__bottom",
@@ -246,10 +246,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 15.706620660706651,
-    "x": -500.0,
-    "y": -95.0,
-    "title": "Future changes: Less importance placed on work_1<br>Q43P__bottom | community 8 | strength 15.707",
-    "cluster": "Community 8"
+    "x": -302.0,
+    "y": 48.0,
+    "title": "Future changes: Less importance placed on work_1<br>Q43P__bottom | community 8B | strength 15.707",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q33P__bottom",
@@ -258,34 +258,34 @@
     "shape": "dot",
     "size": 6.0,
     "value": 6.8857064785778155,
-    "x": 1085.0,
-    "y": 546.0,
-    "title": "Jobs scarce: Men should have more right to a job than women (5 categories)_1-2<br>Q33P__bottom | community 3 | strength 6.886",
-    "cluster": "Community 3"
+    "x": 986.0,
+    "y": 357.0,
+    "title": "Jobs scarce: Men should have more right to a job than women (5 categories)_1-2<br>Q33P__bottom | community 3C | strength 6.886",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q112__top",
     "label": "Scale corruption in [my country] - pay a bribe, give a gift, do a favor to other to get things_9-10",
-    "color": "#A34A73",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 10.937101868137567,
-    "x": -438.0,
-    "y": -956.0,
-    "title": "Scale corruption in [my country] - pay a bribe, give a gift, do a favor to other to get things_9-10<br>Q112__top | community 14 | strength 10.937",
-    "cluster": "Community 14"
+    "x": -370.0,
+    "y": 649.0,
+    "title": "Scale corruption in [my country] - pay a bribe, give a gift, do a favor to other to get things_9-10<br>Q112__top | community 8A | strength 10.937",
+    "cluster": "Community 8A"
   },
   {
     "id": "Q116__top",
     "label": "Groups of people involved in corruption: Civil service providers (police, judiciary, civil servants, doctors, teachers)_3-4",
-    "color": "#A34A73",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 4.26585595408866,
-    "x": -201.0,
-    "y": -1892.0,
-    "title": "Groups of people involved in corruption: Civil service providers (police, judiciary, civil servants, doctors, teachers)_3-4<br>Q116__top | community 14 | strength 4.266",
-    "cluster": "Community 14"
+    "x": -617.0,
+    "y": 1280.0,
+    "title": "Groups of people involved in corruption: Civil service providers (police, judiciary, civil servants, doctors, teachers)_3-4<br>Q116__top | community 8A | strength 4.266",
+    "cluster": "Community 8A"
   },
   {
     "id": "Q124__top",
@@ -294,8 +294,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 3.7038419138244203,
-    "x": 71.0,
-    "y": -942.0,
+    "x": 49.0,
+    "y": 785.0,
     "title": "Effects of immigrants on the development of [your country]: Increase the crime rate_2<br>Q124__top | community 9 | strength 3.704",
     "cluster": "Community 9"
   },
@@ -306,8 +306,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 3.70509876305169,
-    "x": 139.0,
-    "y": -922.0,
+    "x": -2.0,
+    "y": 781.0,
     "title": "Effects of immigrants on the development of [your country]: Increase the risks of terrorism_2<br>Q126__top | community 9 | strength 3.705",
     "cluster": "Community 9"
   },
@@ -318,8 +318,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 11.066644775060501,
-    "x": -319.0,
-    "y": -624.0,
+    "x": -167.0,
+    "y": 483.0,
     "title": "Effects of immigrants on the development of [your country]: Increase unemployment_2<br>Q128__top | community 9 | strength 11.067",
     "cluster": "Community 9"
   },
@@ -330,22 +330,22 @@
     "shape": "dot",
     "size": 6.0,
     "value": 3.6470517493830386,
-    "x": -541.0,
-    "y": -690.0,
-    "title": "Things done for reasons of security: Preferred not to go out at night<br>Q140P | community 8 | strength 3.647",
-    "cluster": "Community 8"
+    "x": -601.0,
+    "y": 582.0,
+    "title": "Things done for reasons of security: Preferred not to go out at night<br>Q140P | community 8B | strength 3.647",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q143P__top",
     "label": "Worries: Not being able to give one's children a good education_4",
-    "color": "#96716A",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 4.029501238538692,
-    "x": -980.0,
-    "y": -1235.0,
-    "title": "Worries: Not being able to give one's children a good education_4<br>Q143P__top | community 10 | strength 4.030",
-    "cluster": "Community 10"
+    "x": -783.0,
+    "y": 741.0,
+    "title": "Worries: Not being able to give one's children a good education_4<br>Q143P__top | community 8D | strength 4.030",
+    "cluster": "Community 8D"
   },
   {
     "id": "Q164__top",
@@ -354,10 +354,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 21.562347783414634,
-    "x": -535.0,
-    "y": -387.0,
-    "title": "How important is God in your life_8-10<br>Q164__top | community 8 | strength 21.562",
-    "cluster": "Community 8"
+    "x": -367.0,
+    "y": 257.0,
+    "title": "How important is God in your life_8-10<br>Q164__top | community 8B | strength 21.562",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q169P__top",
@@ -366,10 +366,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 22.336869541982463,
-    "x": -885.0,
-    "y": -432.0,
-    "title": "Whenever science and religion conflict,  religion is always right_3-4<br>Q169P__top | community 8 | strength 22.337",
-    "cluster": "Community 8"
+    "x": -542.0,
+    "y": 203.0,
+    "title": "Whenever science and religion conflict,  religion is always right_3-4<br>Q169P__top | community 8B | strength 22.337",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q172P__top",
@@ -378,10 +378,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 22.844909350186533,
-    "x": -639.0,
-    "y": -395.0,
-    "title": "How often to you pray_7-8<br>Q172P__top | community 8 | strength 22.845",
-    "cluster": "Community 8"
+    "x": -398.0,
+    "y": 277.0,
+    "title": "How often to you pray_7-8<br>Q172P__top | community 8B | strength 22.845",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q173P__top",
@@ -390,34 +390,34 @@
     "shape": "dot",
     "size": 6.0,
     "value": 16.640992113593164,
-    "x": -504.0,
-    "y": -512.0,
-    "title": "Religious person_3<br>Q173P__top | community 8 | strength 16.641",
-    "cluster": "Community 8"
+    "x": -353.0,
+    "y": 393.0,
+    "title": "Religious person_3<br>Q173P__top | community 8B | strength 16.641",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q182__bottom",
     "label": "Justifiable: Homosexuality_1-3",
-    "color": "#5E9E5E",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 25.74303943860913,
-    "x": -866.0,
-    "y": -77.0,
-    "title": "Justifiable: Homosexuality_1-3<br>Q182__bottom | community 6 | strength 25.743",
-    "cluster": "Community 6"
+    "x": -499.0,
+    "y": 19.0,
+    "title": "Justifiable: Homosexuality_1-3<br>Q182__bottom | community 8C | strength 25.743",
+    "cluster": "Community 8C"
   },
   {
     "id": "Q184__bottom",
     "label": "Justifiable: Abortion_1-3",
-    "color": "#5E9E5E",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 27.704810638855246,
-    "x": -655.0,
-    "y": -69.0,
-    "title": "Justifiable: Abortion_1-3<br>Q184__bottom | community 6 | strength 27.705",
-    "cluster": "Community 6"
+    "x": -354.0,
+    "y": 31.0,
+    "title": "Justifiable: Abortion_1-3<br>Q184__bottom | community 8C | strength 27.705",
+    "cluster": "Community 8C"
   },
   {
     "id": "Q187__bottom",
@@ -426,34 +426,34 @@
     "shape": "dot",
     "size": 6.0,
     "value": 24.83497283908383,
-    "x": -452.0,
-    "y": 117.0,
+    "x": -144.0,
+    "y": 57.0,
     "title": "Justifiable: Suicide_1-2<br>Q187__bottom | community 1 | strength 24.835",
     "cluster": "Community 1"
   },
   {
     "id": "Q188__bottom",
     "label": "Justifiable: Euthanasia_1-3",
-    "color": "#5E9E5E",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 26.93528349191966,
-    "x": -662.0,
-    "y": -26.0,
-    "title": "Justifiable: Euthanasia_1-3<br>Q188__bottom | community 6 | strength 26.935",
-    "cluster": "Community 6"
+    "x": -380.0,
+    "y": 33.0,
+    "title": "Justifiable: Euthanasia_1-3<br>Q188__bottom | community 8C | strength 26.935",
+    "cluster": "Community 8C"
   },
   {
     "id": "Q253P__bottom",
     "label": "Respect for individual human rights nowadays_1-2",
-    "color": "#A34A73",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 2.5354805987503237,
-    "x": -436.0,
-    "y": -1674.0,
-    "title": "Respect for individual human rights nowadays_1-2<br>Q253P__bottom | community 14 | strength 2.535",
-    "cluster": "Community 14"
+    "x": -509.0,
+    "y": 1120.0,
+    "title": "Respect for individual human rights nowadays_1-2<br>Q253P__bottom | community 8A | strength 2.535",
+    "cluster": "Community 8A"
   },
   {
     "id": "Q27P__top",
@@ -462,10 +462,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 21.681455180706955,
-    "x": -788.0,
-    "y": -544.0,
-    "title": "One of main goals in life has been to make my parents proud_4<br>Q27P__top | community 8 | strength 21.681",
-    "cluster": "Community 8"
+    "x": -492.0,
+    "y": 248.0,
+    "title": "One of main goals in life has been to make my parents proud_4<br>Q27P__top | community 8B | strength 21.681",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q5P__top",
@@ -474,130 +474,130 @@
     "shape": "dot",
     "size": 6.0,
     "value": 10.756542203361978,
-    "x": -363.0,
-    "y": -511.0,
-    "title": "Important in life: Work_4<br>Q5P__top | community 8 | strength 10.757",
-    "cluster": "Community 8"
+    "x": -391.0,
+    "y": 386.0,
+    "title": "Important in life: Work_4<br>Q5P__top | community 8B | strength 10.757",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q69P__bottom",
     "label": "Confidence: The Police_1-2",
-    "color": "#A34A73",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 3.3709706146428093,
-    "x": -424.0,
-    "y": -1847.0,
-    "title": "Confidence: The Police_1-2<br>Q69P__bottom | community 14 | strength 3.371",
-    "cluster": "Community 14"
+    "x": -408.0,
+    "y": 1231.0,
+    "title": "Confidence: The Police_1-2<br>Q69P__bottom | community 8A | strength 3.371",
+    "cluster": "Community 8A"
   },
   {
     "id": "Q6P__top",
     "label": "Important in life: Religion_4",
-    "color": "#96716A",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 26.220318914098367,
-    "x": -1016.0,
-    "y": -862.0,
-    "title": "Important in life: Religion_4<br>Q6P__top | community 10 | strength 26.220",
-    "cluster": "Community 10"
+    "x": -467.0,
+    "y": 272.0,
+    "title": "Important in life: Religion_4<br>Q6P__top | community 8D | strength 26.220",
+    "cluster": "Community 8D"
   },
   {
     "id": "Q70P__bottom",
     "label": "Confidence: Justice System/Courts_1-2",
-    "color": "#A34A73",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 4.467147187250815,
-    "x": -498.0,
-    "y": -1967.0,
-    "title": "Confidence: Justice System/Courts_1-2<br>Q70P__bottom | community 14 | strength 4.467",
-    "cluster": "Community 14"
+    "x": -417.0,
+    "y": 1321.0,
+    "title": "Confidence: Justice System/Courts_1-2<br>Q70P__bottom | community 8A | strength 4.467",
+    "cluster": "Community 8A"
   },
   {
     "id": "Q113__bottom",
     "label": "Groups of people involved in corruption: State authorities_1-2",
-    "color": "#4F7A94",
+    "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
     "value": 10.655975616410739,
-    "x": 1716.0,
-    "y": 147.0,
-    "title": "Groups of people involved in corruption: State authorities_1-2<br>Q113__bottom | community 11 | strength 10.656",
-    "cluster": "Community 11"
+    "x": 1284.0,
+    "y": 3.0,
+    "title": "Groups of people involved in corruption: State authorities_1-2<br>Q113__bottom | community 4A | strength 10.656",
+    "cluster": "Community 4A"
   },
   {
     "id": "Q114__bottom",
     "label": "Groups of people involved in corruption: Business executives_1-2",
-    "color": "#4F7A94",
+    "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
     "value": 6.444370308590492,
-    "x": 1885.0,
-    "y": 118.0,
-    "title": "Groups of people involved in corruption: Business executives_1-2<br>Q114__bottom | community 11 | strength 6.444",
-    "cluster": "Community 11"
+    "x": 1357.0,
+    "y": -101.0,
+    "title": "Groups of people involved in corruption: Business executives_1-2<br>Q114__bottom | community 4A | strength 6.444",
+    "cluster": "Community 4A"
   },
   {
     "id": "Q115__bottom",
     "label": "Groups of people involved in corruption: Local authorities_1-2",
-    "color": "#4F7A94",
+    "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
     "value": 8.091889633447343,
-    "x": 1626.0,
-    "y": 201.0,
-    "title": "Groups of people involved in corruption: Local authorities_1-2<br>Q115__bottom | community 11 | strength 8.092",
-    "cluster": "Community 11"
+    "x": 1207.0,
+    "y": -17.0,
+    "title": "Groups of people involved in corruption: Local authorities_1-2<br>Q115__bottom | community 4A | strength 8.092",
+    "cluster": "Community 4A"
   },
   {
     "id": "Q116__middle",
     "label": "Groups of people involved in corruption: Civil service providers (police, judiciary, civil servants, doctors, teachers)_2",
-    "color": "#4F7A94",
+    "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
     "value": 8.483203929380434,
-    "x": 1629.0,
-    "y": 25.0,
-    "title": "Groups of people involved in corruption: Civil service providers (police, judiciary, civil servants, doctors, teachers)_2<br>Q116__middle | community 11 | strength 8.483",
-    "cluster": "Community 11"
+    "x": 1257.0,
+    "y": 144.0,
+    "title": "Groups of people involved in corruption: Civil service providers (police, judiciary, civil servants, doctors, teachers)_2<br>Q116__middle | community 4A | strength 8.483",
+    "cluster": "Community 4A"
   },
   {
     "id": "Q117__middle",
     "label": "Groups of people involved in corruption: Journalists and media_2",
-    "color": "#4F7A94",
+    "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
     "value": 5.633648059428718,
-    "x": 1708.0,
-    "y": 104.0,
-    "title": "Groups of people involved in corruption: Journalists and media_2<br>Q117__middle | community 11 | strength 5.634",
-    "cluster": "Community 11"
+    "x": 1314.0,
+    "y": 112.0,
+    "title": "Groups of people involved in corruption: Journalists and media_2<br>Q117__middle | community 4A | strength 5.634",
+    "cluster": "Community 4A"
   },
   {
     "id": "Q123__top",
     "label": "Effects of immigrants on the development of [your country]: Strengthen cultural diversity_2",
-    "color": "#3E7D52",
+    "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
     "value": 5.491208322215098,
-    "x": 1021.0,
-    "y": 28.0,
-    "title": "Effects of immigrants on the development of [your country]: Strengthen cultural diversity_2<br>Q123__top | community 13 | strength 5.491",
-    "cluster": "Community 13"
+    "x": 1001.0,
+    "y": 232.0,
+    "title": "Effects of immigrants on the development of [your country]: Strengthen cultural diversity_2<br>Q123__top | community 3B | strength 5.491",
+    "cluster": "Community 3B"
   },
   {
     "id": "Q131P__middle",
     "label": "Secure in neighborhood_3",
-    "color": "#4F7A94",
+    "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
     "value": 4.185408267110465,
-    "x": 2231.0,
-    "y": -247.0,
-    "title": "Secure in neighborhood_3<br>Q131P__middle | community 11 | strength 4.185",
-    "cluster": "Community 11"
+    "x": 1693.0,
+    "y": 192.0,
+    "title": "Secure in neighborhood_3<br>Q131P__middle | community 4A | strength 4.185",
+    "cluster": "Community 4A"
   },
   {
     "id": "Q199P__top",
@@ -606,10 +606,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.838493529963051,
-    "x": 1108.0,
-    "y": 331.0,
-    "title": "Interest in politics_3-4<br>Q199P__top | community 3 | strength 5.838",
-    "cluster": "Community 3"
+    "x": 878.0,
+    "y": 114.0,
+    "title": "Interest in politics_3-4<br>Q199P__top | community 3C | strength 5.838",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q227P__bottom",
@@ -618,22 +618,22 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.979660448649154,
-    "x": 1469.0,
-    "y": -164.0,
+    "x": 978.0,
+    "y": -328.0,
     "title": "How often in country's elections: Voters are bribed_1-2<br>Q227P__bottom | community 2 | strength 5.980",
     "cluster": "Community 2"
   },
   {
     "id": "Q253P__middle",
     "label": "Respect for individual human rights nowadays_3",
-    "color": "#4F7A94",
+    "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
     "value": 6.675512288058503,
-    "x": 1949.0,
-    "y": -94.0,
-    "title": "Respect for individual human rights nowadays_3<br>Q253P__middle | community 11 | strength 6.676",
-    "cluster": "Community 11"
+    "x": 1460.0,
+    "y": 78.0,
+    "title": "Respect for individual human rights nowadays_3<br>Q253P__middle | community 4A | strength 6.676",
+    "cluster": "Community 4A"
   },
   {
     "id": "Q4P__top",
@@ -642,10 +642,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 3.269269237890045,
-    "x": 1504.0,
-    "y": 532.0,
-    "title": "Important in life: Politics_3-4<br>Q4P__top | community 4 | strength 3.269",
-    "cluster": "Community 4"
+    "x": 1157.0,
+    "y": -1.0,
+    "title": "Important in life: Politics_3-4<br>Q4P__top | community 4B | strength 3.269",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q54P__bottom",
@@ -654,22 +654,22 @@
     "shape": "dot",
     "size": 6.0,
     "value": 8.613843492435723,
-    "x": 1275.0,
-    "y": -154.0,
+    "x": 885.0,
+    "y": -171.0,
     "title": "Frequency you/family (last 12 month): Gone without a cash income_1<br>Q54P__bottom | community 2 | strength 8.614",
     "cluster": "Community 2"
   },
   {
     "id": "Q59P__middle",
     "label": "Trust: Your neighborhood (B)_3",
-    "color": "#4F7A94",
+    "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
     "value": 3.24634805780864,
-    "x": 2095.0,
-    "y": -73.0,
-    "title": "Trust: Your neighborhood (B)_3<br>Q59P__middle | community 11 | strength 3.246",
-    "cluster": "Community 11"
+    "x": 1538.0,
+    "y": 167.0,
+    "title": "Trust: Your neighborhood (B)_3<br>Q59P__middle | community 4A | strength 3.246",
+    "cluster": "Community 4A"
   },
   {
     "id": "Q71P__top",
@@ -678,10 +678,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 15.414427362297738,
-    "x": 1623.0,
-    "y": 537.0,
-    "title": "Confidence: The Government_3-4<br>Q71P__top | community 4 | strength 15.414",
-    "cluster": "Community 4"
+    "x": 1172.0,
+    "y": -300.0,
+    "title": "Confidence: The Government_3-4<br>Q71P__top | community 4B | strength 15.414",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q74P__top",
@@ -690,22 +690,22 @@
     "shape": "dot",
     "size": 6.0,
     "value": 16.137523260381574,
-    "x": 1900.0,
-    "y": 444.0,
-    "title": "Confidence: The Civil Services_3-4<br>Q74P__top | community 4 | strength 16.138",
-    "cluster": "Community 4"
+    "x": 1375.0,
+    "y": -180.0,
+    "title": "Confidence: The Civil Services_3-4<br>Q74P__top | community 4B | strength 16.138",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q75P__middle",
     "label": "Confidence: Universities_3",
-    "color": "#4F7A94",
+    "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
     "value": 11.608003446934546,
-    "x": 2181.0,
-    "y": 127.0,
-    "title": "Confidence: Universities_3<br>Q75P__middle | community 11 | strength 11.608",
-    "cluster": "Community 11"
+    "x": 1604.0,
+    "y": -23.0,
+    "title": "Confidence: Universities_3<br>Q75P__middle | community 4A | strength 11.608",
+    "cluster": "Community 4A"
   },
   {
     "id": "Q76P__top",
@@ -714,10 +714,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 19.543957835686356,
-    "x": 1704.0,
-    "y": 387.0,
-    "title": "Confidence: Elections_3-4<br>Q76P__top | community 4 | strength 19.544",
-    "cluster": "Community 4"
+    "x": 1223.0,
+    "y": -205.0,
+    "title": "Confidence: Elections_3-4<br>Q76P__top | community 4B | strength 19.544",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q77P__top",
@@ -726,10 +726,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 11.073707750797189,
-    "x": 2153.0,
-    "y": 647.0,
-    "title": "Confidence: Major Companies_3-4<br>Q77P__top | community 4 | strength 11.074",
-    "cluster": "Community 4"
+    "x": 1549.0,
+    "y": -411.0,
+    "title": "Confidence: Major Companies_3-4<br>Q77P__top | community 4B | strength 11.074",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q83P__top",
@@ -738,58 +738,58 @@
     "shape": "dot",
     "size": 6.0,
     "value": 12.50370355447507,
-    "x": 2084.0,
-    "y": 738.0,
-    "title": "Confidence: The United Nations_3-4<br>Q83P__top | community 4 | strength 12.504",
-    "cluster": "Community 4"
+    "x": 1502.0,
+    "y": -398.0,
+    "title": "Confidence: The United Nations_3-4<br>Q83P__top | community 4B | strength 12.504",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q113__middle",
     "label": "Groups of people involved in corruption: State authorities_3",
-    "color": "#A34A73",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 1.7223870745134398,
-    "x": -60.0,
-    "y": -2194.0,
-    "title": "Groups of people involved in corruption: State authorities_3<br>Q113__middle | community 14 | strength 1.722",
-    "cluster": "Community 14"
+    "x": -821.0,
+    "y": 1398.0,
+    "title": "Groups of people involved in corruption: State authorities_3<br>Q113__middle | community 8A | strength 1.722",
+    "cluster": "Community 8A"
   },
   {
     "id": "Q114__middle",
     "label": "Groups of people involved in corruption: Business executives_3",
-    "color": "#A34A73",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 2.185401954250468,
-    "x": 19.0,
-    "y": -2155.0,
-    "title": "Groups of people involved in corruption: Business executives_3<br>Q114__middle | community 14 | strength 2.185",
-    "cluster": "Community 14"
+    "x": -748.0,
+    "y": 1498.0,
+    "title": "Groups of people involved in corruption: Business executives_3<br>Q114__middle | community 8A | strength 2.185",
+    "cluster": "Community 8A"
   },
   {
     "id": "Q115__middle",
     "label": "Groups of people involved in corruption: Local authorities_3",
-    "color": "#A34A73",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 1.7119671996920294,
-    "x": -132.0,
-    "y": -2217.0,
-    "title": "Groups of people involved in corruption: Local authorities_3<br>Q115__middle | community 14 | strength 1.712",
-    "cluster": "Community 14"
+    "x": -791.0,
+    "y": 1448.0,
+    "title": "Groups of people involved in corruption: Local authorities_3<br>Q115__middle | community 8A | strength 1.712",
+    "cluster": "Community 8A"
   },
   {
     "id": "Q117__top",
     "label": "Groups of people involved in corruption: Journalists and media_3-4",
-    "color": "#A34A73",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 1.1042842475156935,
-    "x": 49.0,
-    "y": -2019.0,
-    "title": "Groups of people involved in corruption: Journalists and media_3-4<br>Q117__top | community 14 | strength 1.104",
-    "cluster": "Community 14"
+    "x": -656.0,
+    "y": 1496.0,
+    "title": "Groups of people involved in corruption: Journalists and media_3-4<br>Q117__top | community 8A | strength 1.104",
+    "cluster": "Community 8A"
   },
   {
     "id": "Q235P__bottom",
@@ -798,10 +798,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.746567347897705,
-    "x": 957.0,
-    "y": 223.0,
-    "title": "Political system: Having a strong leader_1-2<br>Q235P__bottom | community 3 | strength 5.747",
-    "cluster": "Community 3"
+    "x": 813.0,
+    "y": 94.0,
+    "title": "Political system: Having a strong leader_1-2<br>Q235P__bottom | community 3C | strength 5.747",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q93",
@@ -810,22 +810,22 @@
     "shape": "dot",
     "size": 6.0,
     "value": 3.1288698875363297,
-    "x": 1212.0,
-    "y": 526.0,
-    "title": "Which of the following problems does the organization Amnesty International deal with?_Correct<br>Q93 | community 3 | strength 3.129",
-    "cluster": "Community 3"
+    "x": 1081.0,
+    "y": 300.0,
+    "title": "Which of the following problems does the organization Amnesty International deal with?_Correct<br>Q93 | community 3C | strength 3.129",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q122__top",
     "label": "Effects of immigrants on the development of [your country]: Fill useful jobs in the workforce_2",
-    "color": "#3E7D52",
+    "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
     "value": 2.7056053521952337,
-    "x": 1082.0,
-    "y": -62.0,
-    "title": "Effects of immigrants on the development of [your country]: Fill useful jobs in the workforce_2<br>Q122__top | community 13 | strength 2.706",
-    "cluster": "Community 13"
+    "x": 1026.0,
+    "y": 256.0,
+    "title": "Effects of immigrants on the development of [your country]: Fill useful jobs in the workforce_2<br>Q122__top | community 3B | strength 2.706",
+    "cluster": "Community 3B"
   },
   {
     "id": "Q125__top",
@@ -834,22 +834,22 @@
     "shape": "dot",
     "size": 6.0,
     "value": 4.298520066150607,
-    "x": 545.0,
-    "y": -428.0,
+    "x": 441.0,
+    "y": 593.0,
     "title": "Effects of immigrants on the development of [your country]: Give asylum to political refugees_2<br>Q125__top | community 9 | strength 4.299",
     "cluster": "Community 9"
   },
   {
     "id": "Q127__top",
     "label": "Effects of immigrants on the development of [your country]: Help poor people establish new lives_2",
-    "color": "#3E7D52",
+    "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
     "value": 2.894325739864804,
-    "x": 814.0,
-    "y": -144.0,
-    "title": "Effects of immigrants on the development of [your country]: Help poor people establish new lives_2<br>Q127__top | community 13 | strength 2.894",
-    "cluster": "Community 13"
+    "x": 807.0,
+    "y": 429.0,
+    "title": "Effects of immigrants on the development of [your country]: Help poor people establish new lives_2<br>Q127__top | community 3B | strength 2.894",
+    "cluster": "Community 3B"
   },
   {
     "id": "Q129__top",
@@ -858,8 +858,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 3.196402971458361,
-    "x": 248.0,
-    "y": -859.0,
+    "x": 154.0,
+    "y": 770.0,
     "title": "Effects of immigrants on the development of [your country]: Lead to social conflict_2<br>Q129__top | community 9 | strength 3.196",
     "cluster": "Community 9"
   },
@@ -870,8 +870,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 2.103229228788079,
-    "x": 80.0,
-    "y": -1039.0,
+    "x": -2.0,
+    "y": 844.0,
     "title": "Immigrant policy_2<br>Q130P__middle | community 9 | strength 2.103",
     "cluster": "Community 9"
   },
@@ -882,10 +882,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 13.283794766699666,
-    "x": -632.0,
-    "y": -485.0,
-    "title": "Believe in: hell<br>Q167P | community 8 | strength 13.284",
-    "cluster": "Community 8"
+    "x": -409.0,
+    "y": 373.0,
+    "title": "Believe in: hell<br>Q167P | community 8B | strength 13.284",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q218P__bottom",
@@ -894,22 +894,22 @@
     "shape": "dot",
     "size": 6.0,
     "value": 16.454288188677985,
-    "x": -1096.0,
-    "y": 14.0,
+    "x": -471.0,
+    "y": -153.0,
     "title": "Political actions using Internet: Signing an electronic petition_1<br>Q218P__bottom | community 7 | strength 16.454",
     "cluster": "Community 7"
   },
   {
     "id": "Q28P__top",
     "label": "Pre-school child suffers with working mother_3-4",
-    "color": "#5E9E5E",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 5.114404171414171,
-    "x": -1071.0,
-    "y": -589.0,
-    "title": "Pre-school child suffers with working mother_3-4<br>Q28P__top | community 6 | strength 5.114",
-    "cluster": "Community 6"
+    "x": -655.0,
+    "y": 294.0,
+    "title": "Pre-school child suffers with working mother_3-4<br>Q28P__top | community 8C | strength 5.114",
+    "cluster": "Community 8C"
   },
   {
     "id": "Q46P__middle",
@@ -918,8 +918,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 2.713014909314479,
-    "x": 2624.0,
-    "y": -313.0,
+    "x": 2036.0,
+    "y": 220.0,
     "title": "Feeling of happiness_3<br>Q46P__middle | community 5 | strength 2.713",
     "cluster": "Community 5"
   },
@@ -930,8 +930,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 3.3991248696057452,
-    "x": 637.0,
-    "y": -599.0,
+    "x": 398.0,
+    "y": -642.0,
     "title": "Frequency in your neighborhood: Robberies_1<br>Q132P__bottom | community 2 | strength 3.399",
     "cluster": "Community 2"
   },
@@ -942,8 +942,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.6856315016991426,
-    "x": 840.0,
-    "y": -822.0,
+    "x": 525.0,
+    "y": -774.0,
     "title": "Frequency in your neighborhood: Alcohol consumed in the streets_1<br>Q133P__bottom | community 2 | strength 1.686",
     "cluster": "Community 2"
   },
@@ -954,9 +954,9 @@
     "shape": "dot",
     "size": 6.0,
     "value": 7.796661585486921,
-    "x": 948.0,
-    "y": -296.0,
-    "title": "Frequency in your neighborhood: Police or military interfere with people’s private life_1<br>Q134P__bottom | community 2 | strength 7.797",
+    "x": 636.0,
+    "y": -405.0,
+    "title": "Frequency in your neighborhood: Police or military interfere with peopleвЂ™s private life_1<br>Q134P__bottom | community 2 | strength 7.797",
     "cluster": "Community 2"
   },
   {
@@ -966,8 +966,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 8.496219972811902,
-    "x": 181.0,
-    "y": -293.0,
+    "x": 15.0,
+    "y": -442.0,
     "title": "Frequency in your neighborhood: Racist behavior_1<br>Q135P__bottom | community 2 | strength 8.496",
     "cluster": "Community 2"
   },
@@ -978,8 +978,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.666143495053143,
-    "x": 792.0,
-    "y": -524.0,
+    "x": 507.0,
+    "y": -545.0,
     "title": "Frequency in your neighborhood: Drug sale in streets_1<br>Q136P__bottom | community 2 | strength 5.666",
     "cluster": "Community 2"
   },
@@ -990,7 +990,7 @@
     "shape": "dot",
     "size": 6.0,
     "value": 6.408486413236871,
-    "x": 941.0,
+    "x": 599.0,
     "y": -555.0,
     "title": "How frequently do the following things occur in your neighborhood: Street violence and fights_1<br>Q137P__bottom | community 2 | strength 6.408",
     "cluster": "Community 2"
@@ -1002,8 +1002,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.2779986313549925,
-    "x": 586.0,
-    "y": -460.0,
+    "x": 372.0,
+    "y": -410.0,
     "title": "How frequently do the following things occur in your neighborhood: Sexual harassment_1<br>Q138P__bottom | community 2 | strength 5.278",
     "cluster": "Community 2"
   },
@@ -1014,10 +1014,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.065065060586372,
-    "x": 518.0,
-    "y": -8.0,
-    "title": "Vote in elections: National level_4<br>Q222P__top | community 3 | strength 5.065",
-    "cluster": "Community 3"
+    "x": 396.0,
+    "y": 110.0,
+    "title": "Vote in elections: National level_4<br>Q222P__top | community 3C | strength 5.065",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q231P__bottom",
@@ -1026,8 +1026,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 2.2110576273040174,
-    "x": 1344.0,
-    "y": -527.0,
+    "x": 811.0,
+    "y": -583.0,
     "title": "How often in country's elections: Voters are threatened with  violence at the polls_1<br>Q231P__bottom | community 2 | strength 2.211",
     "cluster": "Community 2"
   },
@@ -1038,8 +1038,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 4.757825133935599,
-    "x": 1171.0,
-    "y": -264.0,
+    "x": 729.0,
+    "y": -210.0,
     "title": "Frequency you/family (last 12 month): Gone without enough food to eat_1<br>Q51P__bottom | community 2 | strength 4.758",
     "cluster": "Community 2"
   },
@@ -1050,8 +1050,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.789631952963964,
-    "x": 898.0,
-    "y": -473.0,
+    "x": 543.0,
+    "y": -403.0,
     "title": "Frequency you/family (last 12 month): Felt unsafe from crime in your own home_1<br>Q52P__bottom | community 2 | strength 5.790",
     "cluster": "Community 2"
   },
@@ -1062,8 +1062,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 6.344783064439688,
-    "x": 1066.0,
-    "y": -378.0,
+    "x": 692.0,
+    "y": -330.0,
     "title": "Frequency you/family (last 12 month): Gone without needed medicine or treatment that you needed_1<br>Q53P__bottom | community 2 | strength 6.345",
     "cluster": "Community 2"
   },
@@ -1074,8 +1074,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 16.42913950764642,
-    "x": -933.0,
-    "y": 303.0,
+    "x": -369.0,
+    "y": -300.0,
     "title": "Information source: Email (B)_1<br>Q205P__bottom | community 7 | strength 16.429",
     "cluster": "Community 7"
   },
@@ -1086,8 +1086,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 17.034943988005157,
-    "x": -1018.0,
-    "y": 117.0,
+    "x": -468.0,
+    "y": -262.0,
     "title": "Political action: joining in boycotts_1<br>Q210P__bottom | community 7 | strength 17.035",
     "cluster": "Community 7"
   },
@@ -1098,8 +1098,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 14.736876288121728,
-    "x": -1177.0,
-    "y": 91.0,
+    "x": -554.0,
+    "y": -309.0,
     "title": "Political action: attending lawful/peaceful demonstrations_1<br>Q211P__bottom | community 7 | strength 14.737",
     "cluster": "Community 7"
   },
@@ -1110,8 +1110,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 15.68507054613045,
-    "x": -1116.0,
-    "y": 113.0,
+    "x": -508.0,
+    "y": -201.0,
     "title": "Political action: joining unofficial strikes_1<br>Q212P__bottom | community 7 | strength 15.685",
     "cluster": "Community 7"
   },
@@ -1122,8 +1122,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 14.725582693849374,
-    "x": -1081.0,
-    "y": 173.0,
+    "x": -576.0,
+    "y": -224.0,
     "title": "Social activism: Contacting a government official_1<br>Q214P__bottom | community 7 | strength 14.726",
     "cluster": "Community 7"
   },
@@ -1134,8 +1134,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 13.17536813974518,
-    "x": -1040.0,
-    "y": 399.0,
+    "x": -466.0,
+    "y": -343.0,
     "title": "Social activism: Encouraging others to take action about political issues_1<br>Q215P__bottom | community 7 | strength 13.175",
     "cluster": "Community 7"
   },
@@ -1146,10 +1146,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 19.677258319782105,
-    "x": -286.0,
-    "y": -212.0,
-    "title": "How proud of nationality_4<br>Q254P__top | community 8 | strength 19.677",
-    "cluster": "Community 8"
+    "x": -189.0,
+    "y": 177.0,
+    "title": "How proud of nationality_4<br>Q254P__top | community 8B | strength 19.677",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q255P__top",
@@ -1158,70 +1158,70 @@
     "shape": "dot",
     "size": 6.0,
     "value": 10.920619911079733,
-    "x": -212.0,
-    "y": -307.0,
-    "title": "How close you feel: Your [village, town or city]_4<br>Q255P__top | community 8 | strength 10.921",
-    "cluster": "Community 8"
+    "x": -142.0,
+    "y": 293.0,
+    "title": "How close you feel: Your [village, town or city]_4<br>Q255P__top | community 8B | strength 10.921",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q142P__top",
     "label": "Worries: Losing my job or not finding a job_4",
-    "color": "#96716A",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 2.3822996001867343,
-    "x": -1156.0,
-    "y": -1485.0,
-    "title": "Worries: Losing my job or not finding a job_4<br>Q142P__top | community 10 | strength 2.382",
-    "cluster": "Community 10"
+    "x": -985.0,
+    "y": 861.0,
+    "title": "Worries: Losing my job or not finding a job_4<br>Q142P__top | community 8D | strength 2.382",
+    "cluster": "Community 8D"
   },
   {
     "id": "Q146P__top",
     "label": "Worries: A war involving my country_4",
-    "color": "#96716A",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 2.7843794606138434,
-    "x": -1226.0,
-    "y": -1466.0,
-    "title": "Worries: A war involving my country_4<br>Q146P__top | community 10 | strength 2.784",
-    "cluster": "Community 10"
+    "x": -937.0,
+    "y": 883.0,
+    "title": "Worries: A war involving my country_4<br>Q146P__top | community 8D | strength 2.784",
+    "cluster": "Community 8D"
   },
   {
     "id": "Q147P__top",
     "label": "Worries: A terrorist attack_4",
-    "color": "#96716A",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 4.3300498113960355,
-    "x": -1146.0,
-    "y": -1118.0,
-    "title": "Worries: A terrorist attack_4<br>Q147P__top | community 10 | strength 4.330",
-    "cluster": "Community 10"
+    "x": -852.0,
+    "y": 615.0,
+    "title": "Worries: A terrorist attack_4<br>Q147P__top | community 8D | strength 4.330",
+    "cluster": "Community 8D"
   },
   {
     "id": "Q148P__top",
     "label": "Worries: A civil war_4",
-    "color": "#96716A",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 2.7191269609010402,
-    "x": -1290.0,
-    "y": -1430.0,
-    "title": "Worries: A civil war_4<br>Q148P__top | community 10 | strength 2.719",
-    "cluster": "Community 10"
+    "x": -1002.0,
+    "y": 816.0,
+    "title": "Worries: A civil war_4<br>Q148P__top | community 8D | strength 2.719",
+    "cluster": "Community 8D"
   },
   {
     "id": "Q186__bottom",
     "label": "Justifiable: Sex before marriage_1-3",
-    "color": "#5E9E5E",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 20.68497385882822,
-    "x": -954.0,
-    "y": -271.0,
-    "title": "Justifiable: Sex before marriage_1-3<br>Q186__bottom | community 6 | strength 20.685",
-    "cluster": "Community 6"
+    "x": -474.0,
+    "y": 38.0,
+    "title": "Justifiable: Sex before marriage_1-3<br>Q186__bottom | community 8C | strength 20.685",
+    "cluster": "Community 8C"
   },
   {
     "id": "Q151P",
@@ -1230,10 +1230,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 8.056460701291174,
-    "x": -464.0,
-    "y": -339.0,
-    "title": "Willingness to fight for country<br>Q151P | community 8 | strength 8.056",
-    "cluster": "Community 8"
+    "x": -384.0,
+    "y": 79.0,
+    "title": "Willingness to fight for country<br>Q151P | community 8B | strength 8.056",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q193__bottom",
@@ -1242,8 +1242,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 23.44543811743729,
-    "x": -718.0,
-    "y": 138.0,
+    "x": -283.0,
+    "y": -111.0,
     "title": "Justifiable: Having casual sex_1-3<br>Q193__bottom | community 1 | strength 23.445",
     "cluster": "Community 1"
   },
@@ -1254,10 +1254,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 10.295432746009048,
-    "x": -137.0,
-    "y": -276.0,
-    "title": "Feel close to your country_4<br>Q257P__top | community 8 | strength 10.295",
-    "cluster": "Community 8"
+    "x": -126.0,
+    "y": 339.0,
+    "title": "Feel close to your country_4<br>Q257P__top | community 8B | strength 10.295",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q158__top",
@@ -1266,10 +1266,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.3152558589146448,
-    "x": 826.0,
-    "y": 1024.0,
-    "title": "Science and technology are making our lives healthier, easier, and more comfortable_9-10<br>Q158__top | community 3 | strength 1.315",
-    "cluster": "Community 3"
+    "x": 799.0,
+    "y": 641.0,
+    "title": "Science and technology are making our lives healthier, easier, and more comfortable_9-10<br>Q158__top | community 3C | strength 1.315",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q159__top",
@@ -1278,10 +1278,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.8315199398012407,
-    "x": 892.0,
-    "y": 1071.0,
-    "title": "Because of science and technology, there will be more opportunities for the next generation_9-10<br>Q159__top | community 3 | strength 1.832",
-    "cluster": "Community 3"
+    "x": 851.0,
+    "y": 672.0,
+    "title": "Because of science and technology, there will be more opportunities for the next generation_9-10<br>Q159__top | community 3C | strength 1.832",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q162__bottom",
@@ -1290,46 +1290,46 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.018860623104449,
-    "x": 973.0,
-    "y": 1024.0,
-    "title": "It is not important for me to know about science in my daily life_1-3<br>Q162__bottom | community 3 | strength 1.019",
-    "cluster": "Community 3"
+    "x": 896.0,
+    "y": 632.0,
+    "title": "It is not important for me to know about science in my daily life_1-3<br>Q162__bottom | community 3C | strength 1.019",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q15P",
     "label": "Important child qualities: religious faith",
-    "color": "#96716A",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 3.2511787155039196,
-    "x": -1205.0,
-    "y": -768.0,
-    "title": "Important child qualities: religious faith<br>Q15P | community 10 | strength 3.251",
-    "cluster": "Community 10"
+    "x": -875.0,
+    "y": 342.0,
+    "title": "Important child qualities: religious faith<br>Q15P | community 8D | strength 3.251",
+    "cluster": "Community 8D"
   },
   {
     "id": "Q170P__top",
     "label": "The only acceptable religion  is my religion_3-4",
-    "color": "#5E9E5E",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 12.68741440271763,
-    "x": -1100.0,
-    "y": -479.0,
-    "title": "The only acceptable religion  is my religion_3-4<br>Q170P__top | community 6 | strength 12.687",
-    "cluster": "Community 6"
+    "x": -738.0,
+    "y": 196.0,
+    "title": "The only acceptable religion  is my religion_3-4<br>Q170P__top | community 8C | strength 12.687",
+    "cluster": "Community 8C"
   },
   {
     "id": "Q171P__top",
     "label": "How often do you attend religious services_6-7",
-    "color": "#96716A",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 2.10230286323156,
-    "x": -1158.0,
-    "y": -959.0,
-    "title": "How often do you attend religious services_6-7<br>Q171P__top | community 10 | strength 2.102",
-    "cluster": "Community 10"
+    "x": -916.0,
+    "y": 515.0,
+    "title": "How often do you attend religious services_6-7<br>Q171P__top | community 8D | strength 2.102",
+    "cluster": "Community 8D"
   },
   {
     "id": "Q44P__top",
@@ -1338,10 +1338,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.1923896499238964,
-    "x": 437.0,
-    "y": 4.0,
-    "title": "Future changes: More emphasis on technology_3<br>Q44P__top | community 3 | strength 1.192",
-    "cluster": "Community 3"
+    "x": 329.0,
+    "y": 465.0,
+    "title": "Future changes: More emphasis on technology_3<br>Q44P__top | community 3C | strength 1.192",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q56P__top",
@@ -1350,8 +1350,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 3.905258506287663,
-    "x": 1377.0,
-    "y": 138.0,
+    "x": 967.0,
+    "y": -181.0,
     "title": "Standard of living comparing with your parents_3<br>Q56P__top | community 2 | strength 3.905",
     "cluster": "Community 2"
   },
@@ -1362,10 +1362,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 9.994817525198254,
-    "x": -806.0,
-    "y": -448.0,
-    "title": "Believe in: God<br>Q165P | community 8 | strength 9.995",
-    "cluster": "Community 8"
+    "x": -515.0,
+    "y": 172.0,
+    "title": "Believe in: God<br>Q165P | community 8B | strength 9.995",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q166P",
@@ -1374,10 +1374,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 8.99459348708961,
-    "x": -888.0,
-    "y": -646.0,
-    "title": "Believe in: life after death<br>Q166P | community 8 | strength 8.995",
-    "cluster": "Community 8"
+    "x": -716.0,
+    "y": 230.0,
+    "title": "Believe in: life after death<br>Q166P | community 8B | strength 8.995",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q168P",
@@ -1386,10 +1386,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 12.54438464534553,
-    "x": -731.0,
-    "y": -445.0,
-    "title": "Believe in: heaven<br>Q168P | community 8 | strength 12.544",
-    "cluster": "Community 8"
+    "x": -614.0,
+    "y": 303.0,
+    "title": "Believe in: heaven<br>Q168P | community 8B | strength 12.544",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q183__bottom",
@@ -1398,8 +1398,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 23.973925828471714,
-    "x": -704.0,
-    "y": 243.0,
+    "x": -323.0,
+    "y": -110.0,
     "title": "Justifiable: Prostitution_1-2<br>Q183__bottom | community 1 | strength 23.974",
     "cluster": "Community 1"
   },
@@ -1410,8 +1410,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 8.585120895040808,
-    "x": -423.0,
-    "y": 216.0,
+    "x": -178.0,
+    "y": -58.0,
     "title": "Justifiable: Death penalty_1-3<br>Q195__bottom | community 1 | strength 8.585",
     "cluster": "Community 1"
   },
@@ -1422,8 +1422,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 13.691383920116325,
-    "x": -1303.0,
-    "y": -77.0,
+    "x": -680.0,
+    "y": -108.0,
     "title": "Political action: Signing a petition_1<br>Q209P__bottom | community 7 | strength 13.691",
     "cluster": "Community 7"
   },
@@ -1434,10 +1434,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 7.882768303922452,
-    "x": 203.0,
-    "y": 76.0,
-    "title": "Some people think that having honest elections makes a lot of difference in their lives;  other people think that it doesn’t matter much_4<br>Q234P__top | community 3 | strength 7.883",
-    "cluster": "Community 3"
+    "x": 225.0,
+    "y": 252.0,
+    "title": "Some people think that having honest elections makes a lot of difference in their lives;  other people think that it doesnвЂ™t matter much_4<br>Q234P__top | community 3C | strength 7.883",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q45P__top",
@@ -1446,10 +1446,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 6.925797038657132,
-    "x": -244.0,
-    "y": -438.0,
-    "title": "Future changes: Greater respect for authority_3<br>Q45P__top | community 8 | strength 6.926",
-    "cluster": "Community 8"
+    "x": -214.0,
+    "y": 216.0,
+    "title": "Future changes: Greater respect for authority_3<br>Q45P__top | community 8B | strength 6.926",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q57P__c1",
@@ -1458,34 +1458,34 @@
     "shape": "dot",
     "size": 6.0,
     "value": 2.2363805788514766,
-    "x": -694.0,
-    "y": -753.0,
-    "title": "Most people can be trusted_Need to be very careful<br>Q57P__c1 | community 8 | strength 2.236",
-    "cluster": "Community 8"
+    "x": -505.0,
+    "y": 322.0,
+    "title": "Most people can be trusted_Need to be very careful<br>Q57P__c1 | community 8B | strength 2.236",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q185__bottom",
     "label": "Justifiable: Divorce_1-3",
-    "color": "#5E9E5E",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 4.939498529806745,
-    "x": -1103.0,
-    "y": -219.0,
-    "title": "Justifiable: Divorce_1-3<br>Q185__bottom | community 6 | strength 4.939",
-    "cluster": "Community 6"
+    "x": -607.0,
+    "y": 85.0,
+    "title": "Justifiable: Divorce_1-3<br>Q185__bottom | community 8C | strength 4.939",
+    "cluster": "Community 8C"
   },
   {
     "id": "Q22P",
     "label": "Neighbours: Homosexuals",
-    "color": "#5E9E5E",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 7.655136152872488,
-    "x": -1310.0,
-    "y": -318.0,
-    "title": "Neighbours: Homosexuals<br>Q22P | community 6 | strength 7.655",
-    "cluster": "Community 6"
+    "x": -814.0,
+    "y": 40.0,
+    "title": "Neighbours: Homosexuals<br>Q22P | community 8C | strength 7.655",
+    "cluster": "Community 8C"
   },
   {
     "id": "Q256P__top",
@@ -1494,46 +1494,46 @@
     "shape": "dot",
     "size": 6.0,
     "value": 3.4962574449389656,
-    "x": -324.0,
-    "y": -731.0,
-    "title": "Feel close to your district, region_4<br>Q256P__top | community 8 | strength 3.496",
-    "cluster": "Community 8"
+    "x": -461.0,
+    "y": 548.0,
+    "title": "Feel close to your district, region_4<br>Q256P__top | community 8B | strength 3.496",
+    "cluster": "Community 8B"
   },
   {
     "id": "Q29P__top",
     "label": "Men make better political leaders than women do_3-4",
-    "color": "#5E9E5E",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 3.1429053829615157,
-    "x": -1443.0,
-    "y": -614.0,
-    "title": "Men make better political leaders than women do_3-4<br>Q29P__top | community 6 | strength 3.143",
-    "cluster": "Community 6"
+    "x": -969.0,
+    "y": 210.0,
+    "title": "Men make better political leaders than women do_3-4<br>Q29P__top | community 8C | strength 3.143",
+    "cluster": "Community 8C"
   },
   {
     "id": "Q20P",
     "label": "Neighbours: People who have AIDS",
-    "color": "#5E9E5E",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 1.6659780652930825,
-    "x": -1595.0,
-    "y": -570.0,
-    "title": "Neighbours: People who have AIDS<br>Q20P | community 6 | strength 1.666",
-    "cluster": "Community 6"
+    "x": -1084.0,
+    "y": 204.0,
+    "title": "Neighbours: People who have AIDS<br>Q20P | community 8C | strength 1.666",
+    "cluster": "Community 8C"
   },
   {
     "id": "Q64P__top",
     "label": "Confidence: Churches_4",
-    "color": "#96716A",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 1.0235348778256799,
-    "x": -1249.0,
-    "y": -1011.0,
-    "title": "Confidence: Churches_4<br>Q64P__top | community 10 | strength 1.024",
-    "cluster": "Community 10"
+    "x": -897.0,
+    "y": 479.0,
+    "title": "Confidence: Churches_4<br>Q64P__top | community 8D | strength 1.024",
+    "cluster": "Community 8D"
   },
   {
     "id": "Q221P__top",
@@ -1542,10 +1542,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.426971116861375,
-    "x": 305.0,
-    "y": -50.0,
-    "title": "Vote in elections: local level_4<br>Q221P__top | community 3 | strength 5.427",
-    "cluster": "Community 3"
+    "x": 247.0,
+    "y": 323.0,
+    "title": "Vote in elections: local level_4<br>Q221P__top | community 3C | strength 5.427",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q179__bottom",
@@ -1554,8 +1554,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 8.62374711853182,
-    "x": -264.0,
-    "y": 758.0,
+    "x": 188.0,
+    "y": -246.0,
     "title": "Justifiable: Stealing property_1-2<br>Q179__bottom | community 1 | strength 8.624",
     "cluster": "Community 1"
   },
@@ -1566,8 +1566,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 10.94862728138967,
-    "x": -445.0,
-    "y": 601.0,
+    "x": 22.0,
+    "y": -219.0,
     "title": "Justifiable: Cheating on taxes_1-2<br>Q180__bottom | community 1 | strength 10.949",
     "cluster": "Community 1"
   },
@@ -1578,8 +1578,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 11.07601825745172,
-    "x": -422.0,
-    "y": 546.0,
+    "x": -113.0,
+    "y": -286.0,
     "title": "Justifiable: Someone accepting a bribe_1-2<br>Q181__bottom | community 1 | strength 11.076",
     "cluster": "Community 1"
   },
@@ -1590,8 +1590,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 10.94068849106503,
-    "x": -356.0,
-    "y": 586.0,
+    "x": 46.0,
+    "y": -181.0,
     "title": "Justifiable: For a man to beat his wife_1-2<br>Q189__bottom | community 1 | strength 10.941",
     "cluster": "Community 1"
   },
@@ -1602,8 +1602,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 8.088624425056627,
-    "x": -229.0,
-    "y": 664.0,
+    "x": 116.0,
+    "y": -221.0,
     "title": "Justifiable: Parents beating children_1-2<br>Q190__bottom | community 1 | strength 8.089",
     "cluster": "Community 1"
   },
@@ -1614,8 +1614,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 11.645706079889964,
-    "x": -492.0,
-    "y": 611.0,
+    "x": 10.0,
+    "y": -202.0,
     "title": "Justifiable: Violence against other people_1-2<br>Q191__bottom | community 1 | strength 11.646",
     "cluster": "Community 1"
   },
@@ -1626,8 +1626,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 8.58685217423392,
-    "x": -321.0,
-    "y": 783.0,
+    "x": 151.0,
+    "y": -249.0,
     "title": "Justifiable: Terrorism as a political, ideological or religious mean_1-2<br>Q192__bottom | community 1 | strength 8.587",
     "cluster": "Community 1"
   },
@@ -1638,8 +1638,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 10.938911263685705,
-    "x": -276.0,
-    "y": 522.0,
+    "x": 43.0,
+    "y": -243.0,
     "title": "Justifiable: Political violence_1-2<br>Q194__bottom | community 1 | strength 10.939",
     "cluster": "Community 1"
   },
@@ -1650,8 +1650,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.822275438349905,
-    "x": -1141.0,
-    "y": 473.0,
+    "x": -674.0,
+    "y": -417.0,
     "title": "Information source: Radio news (B)_1-2<br>Q203P__bottom | community 7 | strength 5.822",
     "cluster": "Community 7"
   },
@@ -1662,8 +1662,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 10.947187049179476,
-    "x": -1239.0,
-    "y": 320.0,
+    "x": -679.0,
+    "y": -313.0,
     "title": "Social activism: Encouraging others to vote_1<br>Q216P__bottom | community 7 | strength 10.947",
     "cluster": "Community 7"
   },
@@ -1674,34 +1674,34 @@
     "shape": "dot",
     "size": 6.0,
     "value": 9.001923702315514,
-    "x": -1251.0,
-    "y": 426.0,
+    "x": -549.0,
+    "y": -395.0,
     "title": "Political actions using Internet: Encouraging other people to take any form of political action_1<br>Q219P__bottom | community 7 | strength 9.002",
     "cluster": "Community 7"
   },
   {
     "id": "Q36P__bottom",
     "label": "Homosexual couples are as good parents as other couples_1-2",
-    "color": "#5E9E5E",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 1.099204536331916,
-    "x": -1567.0,
-    "y": -241.0,
-    "title": "Homosexual couples are as good parents as other couples_1-2<br>Q36P__bottom | community 6 | strength 1.099",
-    "cluster": "Community 6"
+    "x": -976.0,
+    "y": -157.0,
+    "title": "Homosexual couples are as good parents as other couples_1-2<br>Q36P__bottom | community 8C | strength 1.099",
+    "cluster": "Community 8C"
   },
   {
     "id": "Q206P__top",
     "label": "Information source: Internet (B)_5",
-    "color": "#A8A94E",
+    "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
     "value": 4.749822269037969,
-    "x": 1134.0,
-    "y": 960.0,
-    "title": "Information source: Internet (B)_5<br>Q206P__top | community 12 | strength 4.750",
-    "cluster": "Community 12"
+    "x": 1136.0,
+    "y": 568.0,
+    "title": "Information source: Internet (B)_5<br>Q206P__top | community 3A | strength 4.750",
+    "cluster": "Community 3A"
   },
   {
     "id": "Q201P__bottom",
@@ -1710,8 +1710,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.603878176254547,
-    "x": -1475.0,
-    "y": 548.0,
+    "x": -912.0,
+    "y": -514.0,
     "title": "Information source: Daily newspaper (B)_1<br>Q201P__bottom | community 7 | strength 1.604",
     "cluster": "Community 7"
   },
@@ -1722,10 +1722,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.2645759868533673,
-    "x": 467.0,
-    "y": -171.0,
-    "title": "Information source: TV news (B)_5<br>Q202P__top | community 3 | strength 1.265",
-    "cluster": "Community 3"
+    "x": 313.0,
+    "y": 375.0,
+    "title": "Information source: TV news (B)_5<br>Q202P__top | community 3C | strength 1.265",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q204P__bottom",
@@ -1734,8 +1734,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.8111596968750434,
-    "x": -1029.0,
-    "y": 588.0,
+    "x": -374.0,
+    "y": -725.0,
     "title": "Information source: Mobile phone (B)_1-2<br>Q204P__bottom | community 7 | strength 1.811",
     "cluster": "Community 7"
   },
@@ -1746,8 +1746,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 2.0107075080769183,
-    "x": -1104.0,
-    "y": 588.0,
+    "x": -312.0,
+    "y": -759.0,
     "title": "Information source: Internet (B)_1-2<br>Q206P__bottom | community 7 | strength 2.011",
     "cluster": "Community 7"
   },
@@ -1758,58 +1758,58 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.9635886517911805,
-    "x": -977.0,
-    "y": 588.0,
+    "x": -370.0,
+    "y": -772.0,
     "title": "Information source: Social media (Facebook, Twitter, etc.)_1-2<br>Q207P__bottom | community 7 | strength 1.964",
     "cluster": "Community 7"
   },
   {
     "id": "Q204P__top",
     "label": "Information source: Mobile phone (B)_5",
-    "color": "#A8A94E",
+    "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
     "value": 2.9890793112497227,
-    "x": 1114.0,
-    "y": 1175.0,
-    "title": "Information source: Mobile phone (B)_5<br>Q204P__top | community 12 | strength 2.989",
-    "cluster": "Community 12"
+    "x": 1171.0,
+    "y": 728.0,
+    "title": "Information source: Mobile phone (B)_5<br>Q204P__top | community 3A | strength 2.989",
+    "cluster": "Community 3A"
   },
   {
     "id": "Q205P__top",
     "label": "Information source: Email (B)_4-5",
-    "color": "#A8A94E",
+    "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
     "value": 1.5974740287195515,
-    "x": 1026.0,
-    "y": 1364.0,
-    "title": "Information source: Email (B)_4-5<br>Q205P__top | community 12 | strength 1.597",
-    "cluster": "Community 12"
+    "x": 1166.0,
+    "y": 861.0,
+    "title": "Information source: Email (B)_4-5<br>Q205P__top | community 3A | strength 1.597",
+    "cluster": "Community 3A"
   },
   {
     "id": "Q207P__top",
     "label": "Information source: Social media (Facebook, Twitter, etc.)_5",
-    "color": "#A8A94E",
+    "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
     "value": 2.5363910676562416,
-    "x": 1148.0,
-    "y": 1396.0,
-    "title": "Information source: Social media (Facebook, Twitter, etc.)_5<br>Q207P__top | community 12 | strength 2.536",
-    "cluster": "Community 12"
+    "x": 1268.0,
+    "y": 836.0,
+    "title": "Information source: Social media (Facebook, Twitter, etc.)_5<br>Q207P__top | community 3A | strength 2.536",
+    "cluster": "Community 3A"
   },
   {
     "id": "Q208P__top",
     "label": "Information source: Talk with friends or colleagues (B)_5",
-    "color": "#A8A94E",
+    "color": "#D9BC94",
     "shape": "dot",
     "size": 6.0,
     "value": 1.667045561563821,
-    "x": 1251.0,
-    "y": 1338.0,
-    "title": "Information source: Talk with friends or colleagues (B)_5<br>Q208P__top | community 12 | strength 1.667",
-    "cluster": "Community 12"
+    "x": 1319.0,
+    "y": 761.0,
+    "title": "Information source: Talk with friends or colleagues (B)_5<br>Q208P__top | community 3A | strength 1.667",
+    "cluster": "Community 3A"
   },
   {
     "id": "Q217P__bottom",
@@ -1818,8 +1818,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 7.023891790101092,
-    "x": -1495.0,
-    "y": 317.0,
+    "x": -742.0,
+    "y": -521.0,
     "title": "Political actions using Internet: Searching information about politics and political events_1<br>Q217P__bottom | community 7 | strength 7.024",
     "cluster": "Community 7"
   },
@@ -1830,8 +1830,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.063582556424482,
-    "x": -1538.0,
-    "y": 170.0,
+    "x": -707.0,
+    "y": -429.0,
     "title": "Social activism: Donating to a group or campaign_1<br>Q213P__bottom | community 7 | strength 5.064",
     "cluster": "Community 7"
   },
@@ -1842,22 +1842,22 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.836295895087564,
-    "x": -1446.0,
-    "y": 420.0,
+    "x": -625.0,
+    "y": -570.0,
     "title": "Political actions using Internet: Organizing political activities, events, protests_1<br>Q220P__bottom | community 7 | strength 5.836",
     "cluster": "Community 7"
   },
   {
     "id": "Q229P__bottom",
     "label": "How often in country's elections: Election officials are fair_1-2",
-    "color": "#A34A73",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 0.5032692801873054,
-    "x": -632.0,
-    "y": -1809.0,
-    "title": "How often in country's elections: Election officials are fair_1-2<br>Q229P__bottom | community 14 | strength 0.503",
-    "cluster": "Community 14"
+    "x": -665.0,
+    "y": 1184.0,
+    "title": "How often in country's elections: Election officials are fair_1-2<br>Q229P__bottom | community 8A | strength 0.503",
+    "cluster": "Community 8A"
   },
   {
     "id": "Q226P__bottom",
@@ -1866,8 +1866,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.0775441573983164,
-    "x": 1633.0,
-    "y": -504.0,
+    "x": 955.0,
+    "y": -590.0,
     "title": "How often in country's elections: TV news favors the governing party_1-2<br>Q226P__bottom | community 2 | strength 1.078",
     "cluster": "Community 2"
   },
@@ -1878,8 +1878,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 2.330028617473565,
-    "x": 1629.0,
-    "y": -335.0,
+    "x": 994.0,
+    "y": -538.0,
     "title": "How often in country's elections: Rich people buy elections_1-2<br>Q230P__bottom | community 2 | strength 2.330",
     "cluster": "Community 2"
   },
@@ -1890,10 +1890,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 2.7908696944577494,
-    "x": 783.0,
-    "y": 55.0,
-    "title": "Political system: Having the army rule_1<br>Q237P__bottom | community 3 | strength 2.791",
-    "cluster": "Community 3"
+    "x": 833.0,
+    "y": 399.0,
+    "title": "Political system: Having the army rule_1<br>Q237P__bottom | community 3C | strength 2.791",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q239P__bottom",
@@ -1902,10 +1902,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.7422945711378137,
-    "x": 857.0,
-    "y": 59.0,
-    "title": "Political system: Having a system governed by religious law in which there are no political parties or elections_1<br>Q239P__bottom | community 3 | strength 1.742",
-    "cluster": "Community 3"
+    "x": 949.0,
+    "y": 566.0,
+    "title": "Political system: Having a system governed by religious law in which there are no political parties or elections_1<br>Q239P__bottom | community 3C | strength 1.742",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q245__bottom",
@@ -1914,10 +1914,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.7361920576787773,
-    "x": 938.0,
-    "y": 15.0,
-    "title": "Democracy: The army takes over when government is incompetent._0-3<br>Q245__bottom | community 3 | strength 1.736",
-    "cluster": "Community 3"
+    "x": 972.0,
+    "y": 525.0,
+    "title": "Democracy: The army takes over when government is incompetent._0-3<br>Q245__bottom | community 3C | strength 1.736",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q241__top",
@@ -1926,10 +1926,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 2.171831375776839,
-    "x": 617.0,
-    "y": 949.0,
-    "title": "Democracy: Governments tax the rich and subsidize the poor._8-10<br>Q241__top | community 3 | strength 2.172",
-    "cluster": "Community 3"
+    "x": 654.0,
+    "y": 598.0,
+    "title": "Democracy: Governments tax the rich and subsidize the poor._8-10<br>Q241__top | community 3C | strength 2.172",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q247__top",
@@ -1938,10 +1938,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.0621192668346282,
-    "x": 515.0,
-    "y": 1142.0,
-    "title": "Democracy: The state makes people's incomes equal_8-10<br>Q247__top | community 3 | strength 1.062",
-    "cluster": "Community 3"
+    "x": 610.0,
+    "y": 770.0,
+    "title": "Democracy: The state makes people's incomes equal_8-10<br>Q247__top | community 3C | strength 1.062",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q35P__bottom",
@@ -1950,10 +1950,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.1325782777911422,
-    "x": 1020.0,
-    "y": 576.0,
-    "title": "Problem if women have more income than husband (5 categories)_1-2<br>Q35P__bottom | community 3 | strength 1.133",
-    "cluster": "Community 3"
+    "x": 1056.0,
+    "y": 421.0,
+    "title": "Problem if women have more income than husband (5 categories)_1-2<br>Q35P__bottom | community 3C | strength 1.133",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q252__top",
@@ -1962,10 +1962,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.6181505934496063,
-    "x": 1621.0,
-    "y": 826.0,
-    "title": "Satisfaction with the political system performance_7-10<br>Q252__top | community 4 | strength 1.618",
-    "cluster": "Community 4"
+    "x": 1148.0,
+    "y": -509.0,
+    "title": "Satisfaction with the political system performance_7-10<br>Q252__top | community 4B | strength 1.618",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q73P__top",
@@ -1974,10 +1974,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 9.077626975686893,
-    "x": 1928.0,
-    "y": 958.0,
-    "title": "Confidence: Parliament_3-4<br>Q73P__top | community 4 | strength 9.078",
-    "cluster": "Community 4"
+    "x": 1354.0,
+    "y": -584.0,
+    "title": "Confidence: Parliament_3-4<br>Q73P__top | community 4B | strength 9.078",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q2P__top",
@@ -1986,10 +1986,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 0.5074519952861797,
-    "x": 1462.0,
-    "y": 654.0,
-    "title": "Important in life: Friends_4<br>Q2P__top | community 4 | strength 0.507",
-    "cluster": "Community 4"
+    "x": 1284.0,
+    "y": 291.0,
+    "title": "Important in life: Friends_4<br>Q2P__top | community 4B | strength 0.507",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q62P__top",
@@ -1998,10 +1998,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.7704697349208978,
-    "x": 1497.0,
-    "y": 811.0,
-    "title": "Trust: People of another religion (B)_3-4<br>Q62P__top | community 3 | strength 1.770",
-    "cluster": "Community 3"
+    "x": 1386.0,
+    "y": 240.0,
+    "title": "Trust: People of another religion (B)_3-4<br>Q62P__top | community 3C | strength 1.770",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q47P__middle",
@@ -2010,8 +2010,8 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.0272997464817542,
-    "x": 2770.0,
-    "y": -377.0,
+    "x": 2196.0,
+    "y": 207.0,
     "title": "State of health (subjective)_4<br>Q47P__middle | community 5 | strength 1.027",
     "cluster": "Community 5"
   },
@@ -2022,22 +2022,22 @@
     "shape": "dot",
     "size": 6.0,
     "value": 2.8485083786288605,
-    "x": 1244.0,
-    "y": -539.0,
+    "x": 779.0,
+    "y": -396.0,
     "title": "In the last 12 month, how often have you or your family: Gone without a safe shelter over your head_1<br>Q55P__bottom | community 2 | strength 2.849",
     "cluster": "Community 2"
   },
   {
     "id": "Q60P__middle",
     "label": "Trust: People you know personally (B)_3",
-    "color": "#4F7A94",
+    "color": "#9FBEDC",
     "shape": "dot",
     "size": 6.0,
     "value": 1.1626315963606864,
-    "x": 2185.0,
-    "y": -32.0,
-    "title": "Trust: People you know personally (B)_3<br>Q60P__middle | community 11 | strength 1.163",
-    "cluster": "Community 11"
+    "x": 1662.0,
+    "y": 244.0,
+    "title": "Trust: People you know personally (B)_3<br>Q60P__middle | community 4A | strength 1.163",
+    "cluster": "Community 4A"
   },
   {
     "id": "Q63P__top",
@@ -2047,9 +2047,9 @@
     "size": 6.0,
     "value": 0.7616057838660578,
     "x": 1496.0,
-    "y": 943.0,
-    "title": "Trust: People of another nationality (B)_3-4<br>Q63P__top | community 3 | strength 0.762",
-    "cluster": "Community 3"
+    "y": 456.0,
+    "title": "Trust: People of another nationality (B)_3-4<br>Q63P__top | community 3C | strength 0.762",
+    "cluster": "Community 3C"
   },
   {
     "id": "Q65P__middle",
@@ -2058,10 +2058,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.0954641683953563,
-    "x": 2604.0,
-    "y": 205.0,
-    "title": "Confidence: Armed Forces_3<br>Q65P__middle | community 4 | strength 1.095",
-    "cluster": "Community 4"
+    "x": 1879.0,
+    "y": -65.0,
+    "title": "Confidence: Armed Forces_3<br>Q65P__middle | community 4B | strength 1.095",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q69P__middle",
@@ -2070,10 +2070,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.332669069588728,
-    "x": 2305.0,
-    "y": 300.0,
-    "title": "Confidence: The Police_3<br>Q69P__middle | community 4 | strength 5.333",
-    "cluster": "Community 4"
+    "x": 1670.0,
+    "y": -150.0,
+    "title": "Confidence: The Police_3<br>Q69P__middle | community 4B | strength 5.333",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q70P__middle",
@@ -2082,10 +2082,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.271177827697241,
-    "x": 2247.0,
-    "y": 391.0,
-    "title": "Confidence: Justice System/Courts_3<br>Q70P__middle | community 4 | strength 5.271",
-    "cluster": "Community 4"
+    "x": 1606.0,
+    "y": -180.0,
+    "title": "Confidence: Justice System/Courts_3<br>Q70P__middle | community 4B | strength 5.271",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q66P__top",
@@ -2094,10 +2094,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 6.280534762946072,
-    "x": 1875.0,
-    "y": 879.0,
-    "title": "Confidence: The Press_3-4<br>Q66P__top | community 4 | strength 6.281",
-    "cluster": "Community 4"
+    "x": 1329.0,
+    "y": -532.0,
+    "title": "Confidence: The Press_3-4<br>Q66P__top | community 4B | strength 6.281",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q67P__top",
@@ -2106,10 +2106,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.3813915801261185,
-    "x": 1842.0,
-    "y": 804.0,
-    "title": "Confidence: Television_3-4<br>Q67P__top | community 4 | strength 5.381",
-    "cluster": "Community 4"
+    "x": 1284.0,
+    "y": -488.0,
+    "title": "Confidence: Television_3-4<br>Q67P__top | community 4B | strength 5.381",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q68P__top",
@@ -2118,10 +2118,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 7.215921039696129,
-    "x": 1967.0,
-    "y": 907.0,
-    "title": "Confidence: Labour Unions_3-4<br>Q68P__top | community 4 | strength 7.216",
-    "cluster": "Community 4"
+    "x": 1393.0,
+    "y": -553.0,
+    "title": "Confidence: Labour Unions_3-4<br>Q68P__top | community 4B | strength 7.216",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q85P__top",
@@ -2130,10 +2130,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 8.80755383995107,
-    "x": 2112.0,
-    "y": 969.0,
-    "title": "Confidence: International Criminal Court (ICC)_3-4<br>Q85P__top | community 4 | strength 8.808",
-    "cluster": "Community 4"
+    "x": 1561.0,
+    "y": -569.0,
+    "title": "Confidence: International Criminal Court (ICC)_3-4<br>Q85P__top | community 4B | strength 8.808",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q87P__top",
@@ -2142,10 +2142,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 9.402803359374198,
-    "x": 2174.0,
-    "y": 876.0,
-    "title": "Confidence: The World Bank_3-4<br>Q87P__top | community 4 | strength 9.403",
-    "cluster": "Community 4"
+    "x": 1496.0,
+    "y": -605.0,
+    "title": "Confidence: The World Bank_3-4<br>Q87P__top | community 4B | strength 9.403",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q89P__top",
@@ -2154,10 +2154,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 8.833022353680416,
-    "x": 2191.0,
-    "y": 929.0,
-    "title": "Confidence: The World Trade Organization (WTO)_3-4<br>Q89P__top | community 4 | strength 8.833",
-    "cluster": "Community 4"
+    "x": 1520.0,
+    "y": -561.0,
+    "title": "Confidence: The World Trade Organization (WTO)_3-4<br>Q89P__top | community 4B | strength 8.833",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q79P__middle",
@@ -2166,10 +2166,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 8.196561132196333,
-    "x": 2285.0,
-    "y": 587.0,
-    "title": "Confidence: The Environmental Protection Movement_3<br>Q79P__middle | community 4 | strength 8.197",
-    "cluster": "Community 4"
+    "x": 1636.0,
+    "y": -342.0,
+    "title": "Confidence: The Environmental Protection Movement_3<br>Q79P__middle | community 4B | strength 8.197",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q82P__top",
@@ -2178,34 +2178,34 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.215057536349075,
-    "x": 2196.0,
-    "y": 1155.0,
-    "title": "Confidence: Major regional organization (combined from country-specific)_3-4<br>Q82P__top | community 4 | strength 5.215",
-    "cluster": "Community 4"
+    "x": 1539.0,
+    "y": -750.0,
+    "title": "Confidence: Major regional organization (combined from country-specific)_3-4<br>Q82P__top | community 4B | strength 5.215",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q78P__bottom",
     "label": "Confidence: Banks_1-2",
-    "color": "#A34A73",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 2.8066340076947163,
-    "x": -644.0,
-    "y": -2175.0,
-    "title": "Confidence: Banks_1-2<br>Q78P__bottom | community 14 | strength 2.807",
-    "cluster": "Community 14"
+    "x": -448.0,
+    "y": 1499.0,
+    "title": "Confidence: Banks_1-2<br>Q78P__bottom | community 8A | strength 2.807",
+    "cluster": "Community 8A"
   },
   {
     "id": "Q79P__bottom",
     "label": "Confidence: The Environmental Protection Movement_1-2",
-    "color": "#A34A73",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 3.53431469821324,
-    "x": -463.0,
-    "y": -2265.0,
-    "title": "Confidence: The Environmental Protection Movement_1-2<br>Q79P__bottom | community 14 | strength 3.534",
-    "cluster": "Community 14"
+    "x": -309.0,
+    "y": 1508.0,
+    "title": "Confidence: The Environmental Protection Movement_1-2<br>Q79P__bottom | community 8A | strength 3.534",
+    "cluster": "Community 8A"
   },
   {
     "id": "Q78P__middle",
@@ -2214,10 +2214,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 4.2736913183235,
-    "x": 2506.0,
-    "y": 477.0,
-    "title": "Confidence: Banks_3<br>Q78P__middle | community 4 | strength 4.274",
-    "cluster": "Community 4"
+    "x": 1799.0,
+    "y": -298.0,
+    "title": "Confidence: Banks_3<br>Q78P__middle | community 4B | strength 4.274",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q80P__middle",
@@ -2226,10 +2226,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 6.663411759432429,
-    "x": 2269.0,
-    "y": 464.0,
-    "title": "Confidence: The Women´s Movement_3<br>Q80P__middle | community 4 | strength 6.663",
-    "cluster": "Community 4"
+    "x": 1633.0,
+    "y": -268.0,
+    "title": "Confidence: The WomenВґs Movement_3<br>Q80P__middle | community 4B | strength 6.663",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q81P__middle",
@@ -2238,34 +2238,34 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.479275761598933,
-    "x": 2373.0,
-    "y": 481.0,
-    "title": "Confidence: Charitable or humanitarian organizations_3<br>Q81P__middle | community 4 | strength 5.479",
-    "cluster": "Community 4"
+    "x": 1708.0,
+    "y": -267.0,
+    "title": "Confidence: Charitable or humanitarian organizations_3<br>Q81P__middle | community 4B | strength 5.479",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q80P__bottom",
     "label": "Confidence: The Women´s Movement_1-2",
-    "color": "#A34A73",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 2.9457493532956365,
-    "x": -576.0,
-    "y": -2360.0,
-    "title": "Confidence: The Women´s Movement_1-2<br>Q80P__bottom | community 14 | strength 2.946",
-    "cluster": "Community 14"
+    "x": -417.0,
+    "y": 1617.0,
+    "title": "Confidence: The WomenВґs Movement_1-2<br>Q80P__bottom | community 8A | strength 2.946",
+    "cluster": "Community 8A"
   },
   {
     "id": "Q81P__bottom",
     "label": "Confidence: Charitable or humanitarian organizations_1-2",
-    "color": "#A34A73",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 2.910627532341494,
-    "x": -641.0,
-    "y": -2346.0,
-    "title": "Confidence: Charitable or humanitarian organizations_1-2<br>Q81P__bottom | community 14 | strength 2.911",
-    "cluster": "Community 14"
+    "x": -316.0,
+    "y": 1587.0,
+    "title": "Confidence: Charitable or humanitarian organizations_1-2<br>Q81P__bottom | community 8A | strength 2.911",
+    "cluster": "Community 8A"
   },
   {
     "id": "Q72P__top",
@@ -2274,10 +2274,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 1.2005088090716869,
-    "x": 1614.0,
-    "y": 1004.0,
-    "title": "Confidence: The Political Parties_3-4<br>Q72P__top | community 4 | strength 1.201",
-    "cluster": "Community 4"
+    "x": 1130.0,
+    "y": -627.0,
+    "title": "Confidence: The Political Parties_3-4<br>Q72P__top | community 4B | strength 1.201",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q84P__top",
@@ -2286,22 +2286,22 @@
     "shape": "dot",
     "size": 6.0,
     "value": 5.5967337619033115,
-    "x": 2379.0,
-    "y": 1065.0,
-    "title": "Confidence: International Monetary Found (IMF)_3-4<br>Q84P__top | community 4 | strength 5.597",
-    "cluster": "Community 4"
+    "x": 1664.0,
+    "y": -696.0,
+    "title": "Confidence: International Monetary Found (IMF)_3-4<br>Q84P__top | community 4B | strength 5.597",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q88P__bottom",
     "label": "Confidence: The World Health Organization (WHO)_1-2",
-    "color": "#A34A73",
+    "color": "#5FAEB8",
     "shape": "dot",
     "size": 6.0,
     "value": 1.6089387927924186,
-    "x": -534.0,
-    "y": -2539.0,
-    "title": "Confidence: The World Health Organization (WHO)_1-2<br>Q88P__bottom | community 14 | strength 1.609",
-    "cluster": "Community 14"
+    "x": -313.0,
+    "y": 1719.0,
+    "title": "Confidence: The World Health Organization (WHO)_1-2<br>Q88P__bottom | community 8A | strength 1.609",
+    "cluster": "Community 8A"
   },
   {
     "id": "Q88P__middle",
@@ -2310,10 +2310,10 @@
     "shape": "dot",
     "size": 6.0,
     "value": 4.280947203132537,
-    "x": 2494.0,
-    "y": 824.0,
-    "title": "Confidence: The World Health Organization (WHO)_3<br>Q88P__middle | community 4 | strength 4.281",
-    "cluster": "Community 4"
+    "x": 1772.0,
+    "y": -530.0,
+    "title": "Confidence: The World Health Organization (WHO)_3<br>Q88P__middle | community 4B | strength 4.281",
+    "cluster": "Community 4B"
   },
   {
     "id": "Q86P__top",
@@ -2322,9 +2322,9 @@
     "shape": "dot",
     "size": 6.0,
     "value": 3.686709582715211,
-    "x": 2336.0,
-    "y": 1179.0,
-    "title": "Confidence: NATO_3-4<br>Q86P__top | community 4 | strength 3.687",
-    "cluster": "Community 4"
+    "x": 1661.0,
+    "y": -757.0,
+    "title": "Confidence: NATO_3-4<br>Q86P__top | community 4B | strength 3.687",
+    "cluster": "Community 4B"
   }
 ]

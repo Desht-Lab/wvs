@@ -1006,7 +1006,7 @@
       document.getElementById("status").textContent = "Загрузка данных сети...";
 
       const NODES_FILE = "nodes_lift_noresiduals.json";
-      const EDGES_FILE = "edges_lift_noresiduals.csv";
+      const EDGES_FILE = "edges_lift_res15_noresid.csv";
 
       const [nodesRes, edgesRes, specRes] = await Promise.all([
         fetch(NODES_FILE, { cache: "no-store" }),

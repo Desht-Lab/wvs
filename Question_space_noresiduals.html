@@ -260,13 +260,6 @@
     .filter-item-id,
     .filter-item-label { display: block; }
 
-    .filter-hint {
-      font-size: 11px;
-      color: var(--muted);
-      line-height: 1.35;
-      margin-top: -4px;
-    }
-
     /* ── search results section ── */
     .search-results-section {
       flex: 1 1 auto;
@@ -343,13 +336,10 @@
           <!-- Node search -->
           <div class="filter-inline">
             <input id="node-search" class="filter-search" type="search"
-                   placeholder="Поиск по индексу или тексту">
+                   placeholder="Поиск по индексу или тексту"
+                   title="Ищет по коду, тексту вопроса и кластеру. Пробел — все слова, запятая — любое из условий.">
             <button id="clear-node-search" class="filter-button filter-button-small"
                     type="button">Очистить</button>
-          </div>
-          <div class="filter-hint">
-            Ищет по коду (Q106__middle), тексту вопроса и кластеру.
-            Пробел — все слова, запятая — любое из условий.
           </div>
 
           <div class="filter-actions">
@@ -780,24 +770,22 @@
       return state.searchMatchIds; // null = search box empty (no filter)
     }
 
-    // base = страна (или вся сеть) ∩ кластеры ∩ поиск, затем ∪ закреплённые вручную
+    // Приоритет: закреплённые галочками узлы. Есть хотя бы один — подсвечиваем
+    // только их (поиск/кластер/страна в этот момент работают как навигация по списку).
+    // Нет ни одного — подсвечиваем страна (или вся сеть) ∩ кластеры ∩ поиск.
     function getCombinedHighlightedIds() {
+      if (state.selectedNodeIds.size) return new Set(state.selectedNodeIds);
+
       const countryIds = getCountryHighlightedIds();
       const clusterIds = getClusterNodeIds();  // null if no cluster selected
       const searchIds  = getSearchNodeIds();   // null if search box is empty
-      const manualIds  = state.selectedNodeIds;
 
       // If nothing is active at all, return empty (show all)
-      if (!countryIds.size && !clusterIds && !searchIds && !manualIds.size) return new Set();
+      if (!countryIds.size && !clusterIds && !searchIds) return new Set();
 
-      let highlighted;
-      if (countryIds.size) {
-        highlighted = new Set(countryIds);
-      } else if (clusterIds || searchIds) {
-        highlighted = new Set(state.allNodes.map((n) => n.id));
-      } else {
-        highlighted = new Set();
-      }
+      const highlighted = countryIds.size
+        ? new Set(countryIds)
+        : new Set(state.allNodes.map((n) => n.id));
 
       [clusterIds, searchIds].forEach((filterIds) => {
         if (!filterIds) return;
@@ -806,7 +794,6 @@
         });
       });
 
-      manualIds.forEach((id) => highlighted.add(id));
       return highlighted;
     }
 
@@ -1016,18 +1003,21 @@
 
     /* ── main ── */
     async function main() {
-      document.getElementById("status").textContent = "Загрузка nodes_266_lift.json / edges_266_lift.csv...";
+      document.getElementById("status").textContent = "Загрузка данных сети...";
+
+      const NODES_FILE = "nodes_lift_noresiduals.json";
+      const EDGES_FILE = "edges_lift_noresiduals.csv";
 
       const [nodesRes, edgesRes, specRes] = await Promise.all([
-        fetch("nodes_lift_noresiduals.json", { cache: "no-store" }),
-        fetch("edges_lift_noresiduals.csv",  { cache: "no-store" }),
+        fetch(NODES_FILE, { cache: "no-store" }),
+        fetch(EDGES_FILE, { cache: "no-store" }),
         // spec_df_base.csv нужен только для фильтра по странам: если его нет,
         // сеть, кластеры и поиск продолжают работать
         fetch("spec_df_base.csv",    { cache: "no-store" }).catch(() => null)
       ]);
 
-      if (!nodesRes.ok) throw new Error("Не удалось загрузить nodes_266_lift.json");
-      if (!edgesRes.ok) throw new Error("Не удалось загрузить edges_266_lift.csv");
+      if (!nodesRes.ok) throw new Error("Не удалось загрузить " + NODES_FILE);
+      if (!edgesRes.ok) throw new Error("Не удалось загрузить " + EDGES_FILE);
 
       const rawNodes = await nodesRes.json();
       const edgesCsv = await edgesRes.text();

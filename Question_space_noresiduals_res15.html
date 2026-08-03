@@ -13,6 +13,9 @@
       --muted: #6b7280;
       --border: #d1d5db;
       --accent: #376C8A;
+      /* отступ внутри панели сети: сеть не прилипает к краям, подписи узлов
+         на периферии не обрезаются. Увеличить/уменьшить — менять только здесь. */
+      --viz-pad: 36px;
     }
 
     * { box-sizing: border-box; }
@@ -286,17 +289,23 @@
     #viz {
       width: 100%;
       height: 100%;
+      padding: var(--viz-pad);
       background: var(--panel);
       border: 0;
       border-radius: 8px;
       overflow: hidden;
     }
 
+    /* d3plus считает размер svg по контентной области #viz, поэтому padding
+       автоматически уменьшает область укладки — сеть вписывается с отступом. */
+    #viz > svg { display: block; overflow: visible; }
+
     @media (max-width: 900px) {
       .layout {
         grid-template-columns: 1fr;
         grid-template-rows: 260px minmax(0, 1fr);
       }
+      :root { --viz-pad: 16px; }
     }
   </style>
 </head>

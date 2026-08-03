@@ -286,20 +286,22 @@
       border-radius: 2px;
     }
 
-    /* Зазор по краям задаёт рамка, а не сам #viz: d3plus измеряет контейнер
-       через getComputedStyle, и padding на измеряемом элементе даёт разное
-       поведение в разных браузерах. Здесь #viz — чистый бокс без padding. */
+    /* Зазор по краям задаёт рамка, а не сам #viz. Рамка — grid с одним треком,
+       поэтому #viz получает точный размер контентной области (без процентов:
+       процентная высота внутри grid-элемента резолвится по-разному). */
     .viz-frame {
       padding: var(--viz-pad);
       background: var(--panel);
+      display: grid;
+      grid-template: minmax(0, 1fr) / minmax(0, 1fr);
       min-width: 0;
       min-height: 0;
       overflow: hidden;
     }
 
     #viz {
-      width: 100%;
-      height: 100%;
+      min-width: 0;
+      min-height: 0;
       background: var(--panel);
       border: 0;
       border-radius: 0;
@@ -900,8 +902,15 @@
     function renderNetwork(nodes, links) {
       const viz = document.getElementById("viz");
       viz.innerHTML = "";
+      // Размер задаём явно по контентной области #viz: d3plus иначе измеряет
+      // контейнер через getComputedStyle и может вернуть размер с padding,
+      // из-за чего сеть не сжимается, а сдвигается и обрезается по краям.
+      const vizW = Math.max(200, viz.clientWidth);
+      const vizH = Math.max(200, viz.clientHeight);
       new d3plus.Network()
         .select("#viz")
+        .width(vizW)
+        .height(vizH)
         .nodes(nodes)
         .links(links)
         .x("x")
@@ -1159,7 +1168,12 @@
       renderFilterList();
       applySelectionColoring();
 
-      window.addEventListener("resize", () => setTimeout(drawTopIdLabels, 120));
+      // размер сети теперь фиксируется явно, поэтому на ресайз нужна перерисовка
+      let resizeTimer = null;
+      window.addEventListener("resize", () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => renderNetwork(getDisplayNodes(), state.allLinks), 150);
+      });
       document.getElementById("viz").addEventListener("mouseup",  () => setTimeout(drawTopIdLabels, 90));
       document.getElementById("viz").addEventListener("wheel",    () => setTimeout(drawTopIdLabels, 90), { passive: true });
     }

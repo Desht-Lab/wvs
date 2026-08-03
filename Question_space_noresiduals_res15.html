@@ -286,19 +286,27 @@
       border-radius: 2px;
     }
 
-    #viz {
-      width: 100%;
-      height: 100%;
+    /* Зазор по краям задаёт рамка, а не сам #viz: d3plus измеряет контейнер
+       через getComputedStyle, и padding на измеряемом элементе даёт разное
+       поведение в разных браузерах. Здесь #viz — чистый бокс без padding. */
+    .viz-frame {
       padding: var(--viz-pad);
       background: var(--panel);
-      border: 0;
-      border-radius: 8px;
+      min-width: 0;
+      min-height: 0;
       overflow: hidden;
     }
 
-    /* d3plus считает размер svg по контентной области #viz, поэтому padding
-       автоматически уменьшает область укладки — сеть вписывается с отступом. */
-    #viz > svg { display: block; overflow: visible; }
+    #viz {
+      width: 100%;
+      height: 100%;
+      background: var(--panel);
+      border: 0;
+      border-radius: 0;
+      overflow: hidden;
+    }
+
+    #viz > svg { display: block; }
 
     @media (max-width: 900px) {
       .layout {
@@ -376,7 +384,9 @@
         </div>
       </aside>
 
-      <div id="viz" class="panel"></div>
+      <div class="panel viz-frame">
+        <div id="viz"></div>
+      </div>
     </div>
   </div>
 

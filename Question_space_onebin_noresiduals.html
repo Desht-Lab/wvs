@@ -1033,8 +1033,8 @@
     async function main() {
       document.getElementById("status").textContent = "Загрузка данных сети...";
 
-      const NODES_FILE = "nodes_onebin_noresid.json";
-      const EDGES_FILE = "edges_onebin_noresid.csv";
+      const NODES_FILE = "nodes_jenks603_noresid.json";
+      const EDGES_FILE = "edges_jenks603_noresid.csv";
 
       const [nodesRes, edgesRes, specRes] = await Promise.all([
         fetch(NODES_FILE, { cache: "no-store" }),

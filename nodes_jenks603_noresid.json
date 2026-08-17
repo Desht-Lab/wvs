@@ -278,14 +278,14 @@
   {
     "id": "Q76P__top",
     "label": "Confidence: Elections_3-4",
-    "color": "#CE8FB4",
+    "color": "#9FBEDC",
     "shape": "dot",
     "size": 12.358830434851132,
     "value": 12.358830434851132,
     "x": 250.0,
     "y": 190.0,
-    "title": "Confidence: Elections_3-4<br>Q76P__top | community 5 | strength 12.027<br>PCI = 0.75",
-    "cluster": "Community 5"
+    "title": "Confidence: Elections_3-4<br>Q76P__top | community 4 | strength 12.027<br>PCI = 0.75",
+    "cluster": "Community 4"
   },
   {
     "id": "Q235P__bottom",

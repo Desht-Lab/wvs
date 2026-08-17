@@ -915,9 +915,9 @@
         .links(links)
         .x("x")
         .y("y")
-        .size((d) => (d.size ? +d.size * 1.05 : 5))
-        .sizeMin(6)
-        .sizeMax(6)
+        .size((d) => (d.size ? +d.size : 5))
+        .sizeMin(4)
+        .sizeMax(16)
         .label(() => "")
         .shapeConfig({
           fill: (d) => d.displayColor || d.color,

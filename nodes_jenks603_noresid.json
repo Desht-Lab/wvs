@@ -300,18 +300,6 @@
     "cluster": "Community 2"
   },
   {
-    "id": "Q93",
-    "label": "Which of the following problems does the organization Amnesty International deal with?_Correct",
-    "color": "#C05C64",
-    "shape": "dot",
-    "size": 8.95745934267059,
-    "value": 8.95745934267059,
-    "x": 26.0,
-    "y": 291.0,
-    "title": "Which of the following problems does the organization Amnesty International deal with?_Correct<br>Q93 | community 2 | strength 3.129<br>PCI = -0.22",
-    "cluster": "Community 2"
-  },
-  {
     "id": "Q122__top",
     "label": "Effects of immigrants on the development of [your country]: Fill useful jobs in the workforce_2",
     "color": "#C05C64",
@@ -813,30 +801,6 @@
     "x": 566.0,
     "y": 115.0,
     "title": "Confidence: Charitable or humanitarian organizations_3<br>Q81P__middle | community 5 | strength 3.928<br>PCI = 1.23",
-    "cluster": "Community 5"
-  },
-  {
-    "id": "Q85P__top",
-    "label": "Confidence: International Criminal Court (ICC)_3-4",
-    "color": "#CE8FB4",
-    "shape": "dot",
-    "size": 13.549137471001774,
-    "value": 13.549137471001774,
-    "x": 474.0,
-    "y": 327.0,
-    "title": "Confidence: International Criminal Court (ICC)_3-4<br>Q85P__top | community 5 | strength 1.597<br>PCI = 1.08",
-    "cluster": "Community 5"
-  },
-  {
-    "id": "Q88P__middle",
-    "label": "Confidence: The World Health Organization (WHO)_3",
-    "color": "#CE8FB4",
-    "shape": "dot",
-    "size": 13.935443032368953,
-    "value": 13.935443032368953,
-    "x": 650.0,
-    "y": 366.0,
-    "title": "Confidence: The World Health Organization (WHO)_3<br>Q88P__middle | community 5 | strength 2.096<br>PCI = 1.19",
     "cluster": "Community 5"
   }
 ]

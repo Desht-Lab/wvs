@@ -586,14 +586,25 @@
       });
       return ids;
     }
+    function getSearchIds() {
+      // null = поиск по коду/названию не активен
+      const q = (document.getElementById("node-search").value || "").trim().toLowerCase();
+      if (!q) return null;
+      return new Set(state.allNodes
+        .filter((n) => n.id.toLowerCase().includes(q) || (n.label || "").toLowerCase().includes(q))
+        .map((n) => n.id));
+    }
     function getCombinedHighlightedIds() {
-      const countryIds = getCountryHighlightedIds(), groupIds = getGroupFilterIds(), manual = state.selectedNodeIds;
-      if (!countryIds.size && !groupIds && !manual.size) return new Set();
+      const countryIds = getCountryHighlightedIds(), groupIds = getGroupFilterIds(), searchIds = getSearchIds(), manual = state.selectedNodeIds;
+      if (!countryIds.size && !groupIds && !searchIds && !manual.size) return new Set();
       const h = new Set(countryIds); manual.forEach((id) => h.add(id));
-      if (groupIds) {
-        if (h.size) h.forEach((id) => { if (!groupIds.has(id)) h.delete(id); });
-        else groupIds.forEach((id) => h.add(id));
-      }
+      // фильтры (измерения, поиск) работают как пересечение с уже подсвеченным,
+      // а если ничего не подсвечено — сами задают набор
+      [groupIds, searchIds].forEach((f) => {
+        if (!f) return;
+        if (h.size) h.forEach((id) => { if (!f.has(id)) h.delete(id); });
+        else f.forEach((id) => h.add(id));
+      });
       return h;
     }
 
@@ -627,6 +638,7 @@
       const parts = [];
       if (state.selectedCountryId) parts.push("Страна: " + state.selectedCountryId + " | RCA≥1: " + getCountryHighlightedIds().size);
       if (state.selectedDims.size) parts.push("Измерений: " + state.selectedDims.size);
+      const sq = getSearchIds(); if (sq) parts.push("Поиск: " + sq.size);
       if (state.selectedNodeIds.size) parts.push("Вручную: " + state.selectedNodeIds.size);
       s.textContent = parts.length ? parts.join(" | ") + " → подсвечено: " + getCombinedHighlightedIds().size
                                    : "Ничего не выбрано. Узлов по поиску: " + state.visibleNodeIds.length + ".";
@@ -705,10 +717,11 @@
       cf.addEventListener("change", applyCountry);
       cf.addEventListener("input", () => { if (!cf.value.trim()) { state.selectedCountryId = ""; applySelectionColoring(); } });
       document.getElementById("clear-country-filter").addEventListener("click", () => { state.selectedCountryId = ""; syncCountryFilterInput(); applySelectionColoring(); });
-      document.getElementById("node-search").addEventListener("input", renderFilterList);
+      document.getElementById("node-search").addEventListener("input", () => { renderFilterList(); applySelectionColoring(); });
       document.getElementById("select-visible").addEventListener("click", () => { state.visibleNodeIds.forEach((id) => state.selectedNodeIds.add(id)); renderFilterList(); applySelectionColoring(); });
       document.getElementById("clear-selection").addEventListener("click", () => {
         state.selectedCountryId = ""; state.selectedNodeIds.clear(); state.selectedDims.clear(); state.selectedAxes.clear();
+        document.getElementById("node-search").value = "";
         syncCountryFilterInput(); renderChips(); renderFilterList(); applySelectionColoring();
       });
       renderFilterList(); applySelectionColoring();

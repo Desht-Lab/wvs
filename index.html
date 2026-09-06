@@ -7,7 +7,7 @@
   <style>
     :root{
       --bg:#f6f7f9; --surface:#ffffff; --ink:#171c24; --ink-soft:#4b5563;
-      --line:#e4e7ec; --onebin:#c2255c; --mst:#9467bd; --lift:#2ca02c; --nores:#1f77b4; --nores15:#17a2b8; --ward:#e07b39;
+      --line:#e4e7ec; --personal:#b8860b; --onebin:#c2255c; --mst:#9467bd; --lift:#2ca02c; --nores:#1f77b4; --nores15:#17a2b8; --ward:#e07b39;
       --sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
       --mono:ui-monospace,"SF Mono","JetBrains Mono",Menlo,Consolas,monospace;
     }
@@ -32,6 +32,7 @@
     .card:hover{transform:translateY(-3px);border-color:var(--accent);
       box-shadow:0 12px 28px -18px rgba(23,28,36,.35);}
     .card:focus-visible{outline:2px solid var(--accent);outline-offset:3px;}
+    .card--personal{--accent:var(--personal)}
     .card--onebin{--accent:var(--onebin)}
     .card--mst{--accent:var(--mst)} .card--lift{--accent:var(--lift)}
     .card--nores{--accent:var(--nores)} .card--nores15{--accent:var(--nores15)}
@@ -46,9 +47,17 @@
     .card h2{font-size:19px;font-weight:620;letter-spacing:-.01em;margin:0 0 6px;}
     .card .meta{margin:0;color:var(--ink-soft);font-size:13.5px;}
     .open{margin-top:20px;display:inline-flex;align-items:center;gap:6px;
-      font-size:14px;font-weight:560;color:var(--accent);}
+      font-size:14px;font-weight:560;color:var(--accent);text-decoration:none;}
     .open .arrow{transition:transform .18s ease}
     .card:hover .open .arrow{transform:translateX(4px)}
+    /* data files inside a card (card itself is not a link) */
+    .files{list-style:none;margin:14px 0 0;padding:12px 0 0;border-top:1px solid var(--line);
+      display:flex;flex-direction:column;gap:6px;}
+    .files a{font-family:var(--mono);font-size:12px;color:var(--ink-soft);text-decoration:none;
+      display:flex;justify-content:space-between;gap:10px;}
+    .files a:hover{color:var(--accent);text-decoration:underline}
+    .files a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+    .files .ext{opacity:.6}
     footer{margin-top:clamp(32px,5vw,52px);padding-top:20px;border-top:1px solid var(--line);
       font-family:var(--mono);font-size:12px;color:var(--ink-soft);letter-spacing:.02em;}
     @media (max-width:560px){.grid{grid-template-columns:1fr}}
@@ -60,9 +69,30 @@
     <header>
       <p class="eyebrow">World Values Survey — Proximity network</p>
       <h1>Question Network</h1>
-      <p class="lede">Six views of the WVS question space. Select a network to open it.</p>
+      <p class="lede">Seven views of the WVS question space. Select a network to open it.</p>
     </header>
     <main class="grid">
+      <div class="card card--personal">
+        <span class="chip">Personal layer</span>
+        <svg class="glyph" viewBox="0 0 200 96" aria-hidden="true" preserveAspectRatio="xMidYMid meet">
+          <line x1="100" y1="48" x2="50" y2="22"/><line x1="100" y1="48" x2="150" y2="22"/>
+          <line x1="100" y1="48" x2="44" y2="66"/><line x1="100" y1="48" x2="156" y2="66"/>
+          <line x1="100" y1="48" x2="100" y2="86"/><line x1="50" y1="22" x2="150" y2="22"/>
+          <line x1="44" y1="66" x2="100" y2="86"/><line x1="156" y1="66" x2="100" y2="86"/>
+          <circle cx="100" cy="48" r="7"/>
+          <circle cx="50" cy="22" r="5.5"/><circle cx="150" cy="22" r="5.5"/>
+          <circle cx="44" cy="66" r="5.5"/><circle cx="156" cy="66" r="5.5"/>
+          <circle cx="100" cy="86" r="5.5"/>
+        </svg>
+        <h2>Личные связи</h2>
+        <p class="meta">Сеть личного слоя: узлы, рёбра личного слоя и объединённые рёбра всех источников</p>
+        <a class="open" href="network_personal_layer/wvs_network_personal_layer.html">Open network <span class="arrow">&#8594;</span></a>
+        <ul class="files">
+          <li><a href="network_personal_layer/nodes_personal_layer.json" download>nodes_personal_layer <span class="ext">.json</span></a></li>
+          <li><a href="network_personal_layer/edges_personal_layer.csv" download>edges_personal_layer <span class="ext">.csv</span></a></li>
+          <li><a href="network_personal_layer/edges_all_sources.csv" download>edges_all_sources <span class="ext">.csv</span></a></li>
+        </ul>
+      </div>
       <a class="card card--onebin" href="Question_space_onebin_noresiduals.html">
         <span class="chip">One bin</span>
         <svg class="glyph" viewBox="0 0 200 96" aria-hidden="true" preserveAspectRatio="xMidYMid meet">
@@ -158,7 +188,7 @@
         <span class="open">Open network <span class="arrow">&#8594;</span></span>
       </a>
     </main>
-    <footer>6 networks · WVS wave 7</footer>
+    <footer>7 networks · WVS wave 7</footer>
   </div>
 </body>
 </html>

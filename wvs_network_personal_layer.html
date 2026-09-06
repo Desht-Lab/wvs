@@ -284,7 +284,7 @@
       <aside class="panel filter-panel">
         <div class="filter-header">
           <div class="filter-title">Фильтр</div>
-          <div class="filter-help">Страна подсвечивает характеристики, по которым у неё специализация (RCA ≥ 1). Измерения и оси — фильтры; вместе работают как пересечение.</div>
+          <div class="filter-help">Страна подсвечивает характеристики, по которым у неё специализация (RCA ≥ 1). Измерения — фильтр, ищутся поиском; с страной работают как пересечение.</div>
           <div id="filter-summary" class="filter-summary">Загрузка...</div>
         </div>
 
@@ -311,16 +311,11 @@
             <span>Измерение</span>
             <button id="clear-dim-filter" class="cluster-filter-clear" type="button">Сбросить</button>
           </div>
+          <input id="dim-search" class="filter-search" type="search"
+                 placeholder="Поиск измерения" style="margin-bottom:8px; flex:0 0 auto;">
           <div id="dim-chips" class="cluster-chips"></div>
         </div>
 
-        <div class="cluster-filter-section">
-          <div class="cluster-filter-title">
-            <span>Ось</span>
-            <button id="clear-axis-filter" class="cluster-filter-clear" type="button">Сбросить</button>
-          </div>
-          <div id="axis-chips" class="cluster-chips"></div>
-        </div>
       </aside>
 
       <div id="viz" class="panel"></div>
@@ -544,19 +539,19 @@
       return state.countryIndicatorMap.get(state.selectedCountryId + "|" + state.selectedYear) || new Set();
     }
 
-    function renderChips(kind) {
-      const container = document.getElementById(kind === "dim" ? "dim-chips" : "axis-chips");
-      const list = kind === "dim" ? state.dimList : state.axisList;
-      const selected = kind === "dim" ? state.selectedDims : state.selectedAxes;
+    function renderChips() {
+      const container = document.getElementById("dim-chips");
+      const list = state.dimList;
+      const selected = state.selectedDims;
+      const q = (document.getElementById("dim-search").value || "").trim().toLowerCase();
       container.innerHTML = "";
       if (!list.length) { container.innerHTML = '<div style="font-size:12px;color:var(--muted)">Нет данных</div>'; return; }
       const active = countryActiveSet();
-      // если выбраны измерения — в списке осей показываем только оси этих измерений
-      const visibleList = (kind === "axis" && state.selectedDims.size)
-        ? list.filter((a) => state.selectedDims.has(a.dim)) : list;
-      visibleList.forEach(({ name, color, dim }) => {
-        const ids = groupNodes(kind, name); const total = ids.length;
-        let right = String(total); let title = kind === "axis" && dim ? `${name} → ${dim}` : name;
+      const visibleList = q ? list.filter((d) => d.name.toLowerCase().includes(q)) : list;
+      if (!visibleList.length) { container.innerHTML = '<div style="font-size:12px;color:var(--muted)">Ничего не найдено</div>'; return; }
+      visibleList.forEach(({ name, color }) => {
+        const ids = groupNodes("dim", name); const total = ids.length;
+        let right = String(total); let title = name;
         if (active) {
           const k = ids.filter((id) => active.has(id)).length;
           right = `${k}/${total} (${total ? Math.round(100 * k / total) : 0}%)`;
@@ -569,11 +564,7 @@
           <span class="cluster-chip-name">${name}</span><span class="cluster-chip-count">${right}</span>`;
         chip.addEventListener("click", () => {
           if (selected.has(name)) selected.delete(name); else selected.add(name);
-          if (kind === "dim") {
-            // снять оси, не принадлежащие выбранным измерениям
-            if (state.selectedDims.size) state.axisList.forEach((a) => { if (!state.selectedDims.has(a.dim)) state.selectedAxes.delete(a.name); });
-          }
-          renderChips("dim"); renderChips("axis"); renderFilterList(); applySelectionColoring();
+          renderChips(); renderFilterList(); applySelectionColoring();
         });
         container.appendChild(chip);
       });
@@ -627,7 +618,7 @@
       document.getElementById("status").textContent =
         "Узлов: " + state.allNodes.length + " | Рёбер: " + state.allLinks.length +
         " | Страна: " + (state.selectedCountryId || "—") + " | RCA≥1: " + getCountryHighlightedIds().size +
-        " | Измерений: " + (state.selectedDims.size || "—") + " | Осей: " + (state.selectedAxes.size || "—") +
+        " | Измерений: " + (state.selectedDims.size || "—") +
         " | Вручную: " + (state.selectedNodeIds.size || "—");
     }
     function updateFilterSummary() {
@@ -636,7 +627,6 @@
       const parts = [];
       if (state.selectedCountryId) parts.push("Страна: " + state.selectedCountryId + " | RCA≥1: " + getCountryHighlightedIds().size);
       if (state.selectedDims.size) parts.push("Измерений: " + state.selectedDims.size);
-      if (state.selectedAxes.size) parts.push("Осей: " + state.selectedAxes.size);
       if (state.selectedNodeIds.size) parts.push("Вручную: " + state.selectedNodeIds.size);
       s.textContent = parts.length ? parts.join(" | ") + " → подсвечено: " + getCombinedHighlightedIds().size
                                    : "Ничего не выбрано. Узлов по поиску: " + state.visibleNodeIds.length + ".";
@@ -665,7 +655,7 @@
         }).render();
       updateStatus(); scheduleLabelRedraw();
     }
-    function applySelectionColoring() { renderNetwork(getDisplayNodes(), state.allLinks); renderChips("dim"); renderChips("axis"); updateFilterSummary(); }
+    function applySelectionColoring() { renderNetwork(getDisplayNodes(), state.allLinks); renderChips(); updateFilterSummary(); }
 
     function renderFilterList() {
       const q = document.getElementById("node-search").value.trim().toLowerCase();
@@ -700,10 +690,10 @@
       state.countryIndicatorMap = spec.countryIndicatorMap; state.countryNameMap = spec.countryNameMap; state.availableYears = spec.availableYears;
       state.selectedYear = SNAPSHOT_YEAR;
       nodes.forEach((n) => { if (n.dimension) state.nodeDimMap.set(n.id, n.dimension); if (n.axis) state.nodeAxisMap.set(n.id, n.axis); });
-      buildGroupLists(); populateCountryFilter(); renderChips("dim"); renderChips("axis");
+      buildGroupLists(); populateCountryFilter(); renderChips();
 
-      document.getElementById("clear-dim-filter").addEventListener("click", () => { state.selectedDims.clear(); renderChips("dim"); renderChips("axis"); renderFilterList(); applySelectionColoring(); });
-      document.getElementById("clear-axis-filter").addEventListener("click", () => { state.selectedAxes.clear(); renderChips("dim"); renderChips("axis"); renderFilterList(); applySelectionColoring(); });
+      document.getElementById("clear-dim-filter").addEventListener("click", () => { state.selectedDims.clear(); renderChips(); renderFilterList(); applySelectionColoring(); });
+      document.getElementById("dim-search").addEventListener("input", () => renderChips());
 
       const cf = document.getElementById("country-filter");
       const applyCountry = () => {
@@ -719,7 +709,7 @@
       document.getElementById("select-visible").addEventListener("click", () => { state.visibleNodeIds.forEach((id) => state.selectedNodeIds.add(id)); renderFilterList(); applySelectionColoring(); });
       document.getElementById("clear-selection").addEventListener("click", () => {
         state.selectedCountryId = ""; state.selectedNodeIds.clear(); state.selectedDims.clear(); state.selectedAxes.clear();
-        syncCountryFilterInput(); renderChips("dim"); renderChips("axis"); renderFilterList(); applySelectionColoring();
+        syncCountryFilterInput(); renderChips(); renderFilterList(); applySelectionColoring();
       });
       renderFilterList(); applySelectionColoring();
       window.addEventListener("resize", () => setTimeout(drawTopIdLabels, 120));
